@@ -11,5 +11,19 @@ module.exports = {
       use: `gridsome-plugin-typescript`,
     },
     { use: `~/plugins/eslint` },
+    { use: `~/plugins/puglint` },
+    { use: `gridsome-plugin-pug` },
   ],
+  css: {
+    loaderOptions: {
+      stylus: { preferPathResolver: `webpack` },
+      postcss: {
+        sourceMap: false,
+        plugins: [
+          require(`autoprefixer`)({ grid: `autoplace`, flexbox: `no-2009` }),
+          require(`css-mqpacker`)(),
+        ],
+      },
+    },
+  },
 }
