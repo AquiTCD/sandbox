@@ -6,6 +6,16 @@
 
 module.exports = {
   siteName: `Gridsome`,
+  transformers: {
+    remark: {
+      externalLinksTarget: `_blank`,
+      externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
+      anchorClassName: `icon icon-link`,
+      plugins: [
+        // ...global plugins
+      ],
+    },
+  },
   plugins: [
     {
       use: `gridsome-plugin-typescript`,
@@ -13,6 +23,19 @@ module.exports = {
     { use: `~/plugins/eslint` },
     { use: `~/plugins/puglint` },
     { use: `gridsome-plugin-pug` },
+    {
+      use: `@gridsome/source-filesystem`,
+      options: {
+        path: `blog/contents/posts/*.md`,
+        typeName: `Post`,
+        route: `/:slug`,
+        remark: {
+          plugins: [
+            // ...local plugins
+          ],
+        },
+      },
+    },
   ],
   css: {
     loaderOptions: {
