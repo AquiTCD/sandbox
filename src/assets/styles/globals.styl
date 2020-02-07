@@ -1,0 +1,82 @@
+@import './_basis/_variables.styl'
+@import './_basis/_mixins.styl'
+@import './layouts.styl'
+@import './datetime.styl'
+@import './tag_list.styl'
+
+:root
+  font-size: $font-size-root
+  +mq-larger()
+    font-size: $font-size-root-pc
+html
+  height: 100%
+body
+  background-color: $bg-color-base
+  color: $font-color-base
+  font-family: $font-family-base
+  font-size: $font-size-base
+  letter-spacing: $letter-spacing-base
+  link-variation: $primary-color-shade false
+  // padding-top: 100px
+  vertical-rhythm: true
+  word-wrap: break-word
+  -moz-osx-font-smoothing: unset
+  -webkit-font-smoothing: subpixel-antialiased
+@media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)
+  body
+    -moz-osx-font-smoothing: grayscale
+    -webkit-font-smoothing: antialiased
+// 
+.page,
+.hero.has-sidebar
+  padding-left: $sidebarWidth
+.footer.has-sidebar
+  padding-left: $sidebarWidth + 4px
+.sidebar-mask
+  display: none
+  height: 100vh
+  left: 0
+  position: fixed
+  top: 0
+  width: 100vw
+  z-index: 9
+.sidebar
+  background-color: #fff
+  border-right: 1px solid $borderColor
+  bottom: 0
+  box-sizing: border-box
+  font-size: 16px
+  left: 0
+  margin: 0
+  overflow-y: auto
+  position: fixed
+  top: $navbarHeight
+  width: $sidebarWidth
+  z-index: 10
+.theme-container
+  &.sidebar-open
+    .sidebar-mask
+      display: block
+  &.no-navbar
+    .content:not(.custom) > h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6
+      margin-top: 1.5rem
+      padding-top: 0
+    .sidebar
+      top: 0
+@media (min-width: ($MQMobile + 1px))
+  .theme-container.no-sidebar
+    .sidebar
+      display: none
+    .page,
+    .hero.has-sidebar
+      padding-left: 0
+    .footer.has-sidebar
+      padding-left: 32px
+
+// @import './mobile.styl'
+@import './wrapper.styl'

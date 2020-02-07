@@ -4,17 +4,26 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = {
-  siteName: `Gridsome`,
-  transformers: {
-    remark: {
-      externalLinksTarget: `_blank`,
-      externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
-      anchorClassName: `icon icon-link`,
-      plugins: [
-        // ...global plugins
+const path = require(`path`)
+
+function addStyleResource(rule) {
+  rule
+    .use([`style-resource`])
+    .loader(`style-resources-loader`)
+    .options({
+      patterns: [
+        path.resolve(__dirname, `./src/assets/styles/_basis/_variables.styl`),
+        path.resolve(__dirname, `./src/assets/styles/_basis/_mixins.styl`),
       ],
-    },
+    })
+}
+
+module.exports = {
+  siteName: `BlogPre`,
+  transformers: {},
+  metadata: {
+    logo: `~/assets/images/logo.svg`,
+    navLogo: `~/assets/images/logo_mini.svg`,
   },
   plugins: [
     {
@@ -24,19 +33,45 @@ module.exports = {
     { use: `~/plugins/puglint` },
     { use: `gridsome-plugin-pug` },
     {
-      use: `@gridsome/source-filesystem`,
+      use: `@gridsome/vue-remark`,
       options: {
-        path: `blog/contents/posts/*.md`,
+        typeName: `Tag`,
+        baseDir: `./content/tags`,
+        pathPrefix: `/tags`,
+        template: `./src/templates/Tag.vue`,
+      },
+    },
+    {
+      use: `@gridsome/vue-remark`,
+      options: {
         typeName: `Post`,
-        route: `/:slug`,
+        baseDir: `./contents/posts`,
+        // pathPrefix: `/`,
+        route: `/pages/:slug`,
+        template: `./src/templates/Post.vue`,
+        refs: {
+          tags: `Tag`,
+        },
         remark: {
+          externalLinksTarget: `_blank`,
+          externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
+          anchorClassName: `icon icon-link`,
           plugins: [
-            // ...local plugins
+            // ...global plugins
           ],
         },
+        plugins: [`@gridsome/remark-prismjs`],
       },
     },
   ],
+  chainWebpack(config) {
+    // Load variables for all vue-files
+    const types = [`vue-modules`, `vue`, `normal-modules`, `normal`]
+
+    types.forEach(type => {
+      addStyleResource(config.module.rule(`stylus`).oneOf(type))
+    })
+  },
   css: {
     loaderOptions: {
       stylus: { preferPathResolver: `webpack` },

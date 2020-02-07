@@ -17,9 +17,9 @@
       </h2>
       <dl>
         <dt>{{ item.node.date }}</dt>
-        <dd>{{ item.node.fields.tags }}</dd>
+        <!-- <dd>{{ item.node.fields.tags }}</dd> -->
       </dl>
-      <p>{{ item.node.fields.description }}</p>
+      <!-- <p>{{ item.node.fields.description }}</p> -->
       <g-link :to="item.node.path" class="continue-link">続きを読む ></g-link>
     </div>
   </Layout>
@@ -33,15 +33,15 @@
           id
           title
           date (format: "D. MMMM YYYY")
-          timeToRead
-          description
-          cover_image (width: 770, height: 380, blur: 10)
+          # timeToRead
+          # description
+          # cover_image (width: 770, height: 380, blur: 10)
           path
-          tags {
-            id
-            title
-            path
-          }
+          # tags {
+          #  id
+          #  title
+          #  path
+          # }
         }
       }
     }

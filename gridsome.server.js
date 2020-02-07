@@ -6,10 +6,26 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function(api) {
-  api.loadSource(({ addCollection }) => {
-    // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
+  // api.loadSource(({ addCollection }) => {
+  //   // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+  // })
 
+  api.loadSource(async store => {
+    store.addMetadata(
+      `siteDescription`,
+      `試行錯誤顛末記録。或いは日記的な何か。\nWeb技術寄りな雑記Blog`
+    )
+    // store.addMetadata(`nav`, [
+    //   { text: `Home`, link: `/` },
+    //   { text: `About`, link: `/about/` },
+    //   { text: `Tags`, link: `/tag/` },
+    //   // { text: 'Tags',
+    //   //   items: [
+    //   //   // { text: 'css', link: '/tag/css' },
+    //   //   ]
+    //   // },
+    // ])
+  })
   api.createPages(({ createPage }) => {
     // Use the Pages API here: https://gridsome.org/docs/pages-api/
   })
