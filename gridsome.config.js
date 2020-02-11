@@ -19,11 +19,20 @@ function addStyleResource(rule) {
 }
 
 module.exports = {
-  siteName: `BlogPre`,
+  siteName: `Trial and Spiral`,
+  siteDescription: `試行錯誤顛末記録。或いは日記的な何か。\nWeb技術寄りな雑記Blog`,
   transformers: {},
   metadata: {
-    logo: `~/assets/images/logo.svg`,
-    navLogo: `~/assets/images/logo_mini.svg`,
+    logo: `logo.svg`,
+    navLogo: `logo_mini.svg`,
+  },
+  templates: {
+    Tag: [
+      {
+        path: `/tags/:id`,
+        component: `./src/templates/Tag.vue`,
+      },
+    ],
   },
   plugins: [
     {
@@ -32,45 +41,51 @@ module.exports = {
     { use: `~/plugins/eslint` },
     { use: `~/plugins/puglint` },
     { use: `gridsome-plugin-pug` },
-    {
-      use: `@gridsome/vue-remark`,
-      options: {
-        typeName: `Tag`,
-        baseDir: `./content/tags`,
-        pathPrefix: `/tags`,
-        template: `./src/templates/Tag.vue`,
-      },
-    },
+    // {
+    //   use: `@gridsome/vue-remark`,
+    //   options: {
+    //     typeName: `Tag`,
+    //     baseDir: `./content/tags`,
+    //     pathPrefix: `/tags`,
+    //     template: `./src/templates/Tag.vue`,
+    //   },
+    // },
     {
       use: `@gridsome/vue-remark`,
       options: {
         typeName: `Post`,
         baseDir: `./contents/posts`,
-        // pathPrefix: `/`,
-        route: `/pages/:slug`,
+        pathPrefix: `/posts`,
+        // route: `/posts/:slug`,
         template: `./src/templates/Post.vue`,
         refs: {
-          tags: `Tag`,
+          tags: {
+            typeName: `Tag`,
+            create: true,
+          },
         },
         remark: {
           externalLinksTarget: `_blank`,
           externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
           anchorClassName: `icon icon-link`,
-          plugins: [
-            // ...global plugins
-          ],
+          plugins: [],
         },
-        plugins: [`@gridsome/remark-prismjs`],
+        plugins: [
+          `remark-toc`,
+          `remark-slug`,
+          `remark-breaks`,
+          `@gridsome/remark-prismjs`,
+        ],
       },
     },
   ],
   chainWebpack(config) {
     // Load variables for all vue-files
     const types = [`vue-modules`, `vue`, `normal-modules`, `normal`]
-
     types.forEach(type => {
       addStyleResource(config.module.rule(`stylus`).oneOf(type))
     })
+    config.resolve.alias.set(`@images`, `@/assets/images`)
   },
   css: {
     loaderOptions: {

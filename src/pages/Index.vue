@@ -1,47 +1,31 @@
-<template>
-  <Layout :show-logo="false">
-    <!-- Author intro -->
-    <!-- <Author :show-title="true" /> -->
-
-    <!-- List posts -->
-    <!-- <div class="posts">
-      <PostCard
-        v-for="edge in $page.posts.edges"
-        :key="edge.node.id"
-        :post="edge.node"
-      />
-    </div> -->
-    <div v-for="item in $page.posts.edges" :key="item.path" class="post">
-      <h2>
-        <g-link :to="item.node.path">{{ item.node.title }}</g-link>
-      </h2>
-      <dl>
-        <dt>{{ item.node.date }}</dt>
-        <!-- <dd>{{ item.node.fields.tags }}</dd> -->
-      </dl>
-      <!-- <p>{{ item.node.fields.description }}</p> -->
-      <g-link :to="item.node.path" class="continue-link">続きを読む ></g-link>
-    </div>
-  </Layout>
+<template lang="pug">
+  .index
+    g-link.post(v-for="post in $page.posts.edges" :key="post.id" :to="post.node.path")
+      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.image" :tags="post.node.tags" :date="post.node.date")
+    Pager(:info="$page.posts.pageInfo")
 </template>
 
 <page-query>
-  query {
-    posts: allPost {
+  query ($page: Int) {
+    posts: allPost(perPage: 10, page: $page) {
+      pageInfo {
+        totalPages
+        currentPage
+      }
       edges {
         node {
           id
           title
-          date (format: "D. MMMM YYYY")
-          # timeToRead
+          date (format: "YYYY-MM-DD")
           # description
-          # cover_image (width: 770, height: 380, blur: 10)
+          content
+          image
           path
-          # tags {
-          #  id
-          #  title
-          #  path
-          # }
+          tags {
+            id
+            title
+            path
+          }
         }
       }
     }
@@ -49,15 +33,27 @@
 </page-query>
 
 <script>
-// import Author from '~/components/Author.vue'
-// import PostCard from '~/components/PostCard.vue'
+import PostCard from '~/components/organisms/PostCard.vue'
+import { Pager } from 'gridsome'
+const SUMMARY_LENGTH = 140
 export default {
   components: {
-    // Author,
-    // PostCard,
+    PostCard,
+    Pager,
+  },
+  methods: {
+    summary(content) {
+      return content.substring(0, SUMMARY_LENGTH) + `...`
+    },
   },
   metaInfo: {
     title: `Hello, world!`,
   },
 }
 </script>
+
+<style lang="stylus" scoped>
+.post
+  display: block
+  padding-bottom: 1em
+</style>

@@ -2,7 +2,8 @@
   .app
     TheHeader.header
     TheHeaderNav.header_nav
-    router-view.main // -> layout
+    main.main(role='main')
+      router-view // -> layout
     TheSideNav.side_nav
     TheFooter.footer
 </template>
@@ -39,12 +40,12 @@ html
   height: 100%
 body
   background-color: $bg-color-base
+  // background-image: url('https://www.transparenttextures.com/patterns/rice-paper-3.png')
   color: $font-color-base
   font-family: $font-family-base
   font-size: $font-size-base
   letter-spacing: $letter-spacing-base
   link-variation: $primary-color-shade false
-  // padding-top: 100px
   vertical-rhythm: true
   word-wrap: break-word
   -moz-osx-font-smoothing: unset
@@ -57,41 +58,52 @@ body
 <style lang="stylus" scoped>
 .app
   display: grid
+  grid-gap: 0 rhythmical-space(0.25)
   grid-template-columns: auto
   grid-template-rows: auto auto auto auto auto
+  margin-left: rhythmical-space(0.25)
+  margin-right: rhythmical-space(0.25)
+  +mq-medium()
+    margin-left: rhythmical-space(0.5)
+    margin-right: rhythmical-space(0.5)
   +mq-larger()
-    grid-template-columns: auto auto
+    grid-template-columns: auto $side_nav_width
     grid-template-rows: auto auto auto auto
+    margin-left: auto
+    margin-right: auto
+    max-width: 1440px
+    padding-left: rhythmical-space(1)
+    padding-right: rhythmical-space(1)
 .header
-  background: red
   grid-column: 1
   grid-row: 2
+  margin-bottom: 3px
+  margin-top: 3px
   +mq-larger()
     grid-column: 1 / 3
     grid-row: 1
 .header_nav
-  background: pink
   grid-column: 1
   grid-row: 1
+  margin-bottom: 3px
+  margin-top: 3px
   +mq-larger()
     grid-column: 1 / 3
     grid-row: 2
 .main
-  background: green
   grid-column: 1
   grid-row: 3
   +mq-larger()
     grid-column: 1
     grid-row: 3
 .side_nav
-  background: yellow
   grid-column: 1
   grid-row: 4
   +mq-larger()
     grid-column: 2
     grid-row: 3
 .footer
-  background: red
+  border-top: 1px solid $pure-black
   grid-column: 1
   grid-row: 5
   +mq-larger()
