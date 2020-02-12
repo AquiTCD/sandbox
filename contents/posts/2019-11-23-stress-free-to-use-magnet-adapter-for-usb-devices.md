@@ -1,0 +1,106 @@
+---
+title: 手持ちのガジェットのUSB端子に全部マグネットアダプタをつけたら、ストレスがかなり軽減された
+tags:
+  - ガジェット
+  - QOL
+  - レビュー
+date: 2019-11-23T10:20:18.100Z
+image: /images/covers/2019-11-23-stress-free-to-use-magnet-adapter-for-usb-devices.jpg
+---
+いろんな電子ガジェットが普及してきて、今は一人一台どころか一人で複数のデバイスを所持することも少なくないと思います。スマホやタブレットだけでなく、Bluetoothイヤホンや入力機器などいたるところにUSB接続、充電の必要な機器があります。ところが**デバイスによってUSB端子の形状が異なってケーブルも別々に用意しないといけないのでツライ**始末。これはストレスなので楽になる方法を模索してみました。
+
+## 概要
++ USB接続する機器が多いのに端子がバラバラでツライ
++ 手持ちの付け外しの多いUSB機器全部にマグネットタイプのアダプタ噛ませた
++ ケーブルが1種類で済む、接続も楽、充電もデータ通信もすごく楽になりました
+
+ちなみに今回導入したものはこれです。
+<AdCard asin="B07WM1CLCB" title=" CAFELE マグネット 充電ケーブル iPhone/Android/Type-Cケーブル 3in1ケーブル LEDランプ付き 高耐久ナイロン編み 磁石 防塵 着脱式 MicroUSB+Lightning+Type-Cに対応 2m (ブラック) " image-url="https://images-na.ssl-images-amazon.com/images/I/61IDby9%2BUCL._SX679_.jpg" price="￥1,399" date="2019-11-23" searchWords="マグネット 充電ケーブル" />
+
+## マグネットケーブル/アダプタis何？
+イメージはちょっと前のMacの電源ケーブル（Mag Safe）に近いです。近づけると磁力でパチっと接続されます。磁力より弱い力がかかっても外れず接続状態は保持できます。逆に磁力より強い力がかかればすんなり外れます。
+
+デバイス側にそれぞれの端子（Lightning,MicroUSB,USB Type-C）に対応したミニアダプタを装着します。ケーブル側は一種類です。
+
+注意すべきはAmazonなどで探すといろいろな種類があり規格も統一されていません。
+
+## 導入した動機と期待したこと
++ 例えばiPhoneとBTイヤフォン、Kindleを使っていてケーブルを複数使いわけたくない
+  + 家ならまだしも外出先までケーブル何本も持ちたくない
+  + 接続する機器によってケーブル選ぶのがそもそもストレス
++ MicroUSBは表裏あるのですんなり接続できず、裏表気にせず接続したい
+
+## 実際にどうだったか
+### 上手くいったこと
+想定してたとおりおおむね大成功でした。僕のよく使うガジェットは
++ Lightning: iPhone x 2、MagicTrackPad
++ MicroUSB: Kindle Fire, Kindle Paperwhite, 折り畳みモバイルキーボード、BACKBEAT FIT 2100(BTイヤフォン）
+
+![](https://lh3.googleusercontent.com/bSOavYtGGCIgsEPOq8OIfRO372LwvEIWD0F_JB-yDBdfZnbqOrVlZ-f1hCKblLV-Nnf5urggoOvDHw_9Sjds4jxGyRaD664UpZitZ4OQBdoMCOlWBqG9zC9BN1aFgNnaNjZ8INyypv4l3vUxsZMISvcF1Tqbcqltx9z06ojSxTJzcfW3QmceuPjh8oCzR19aAaKhTko1iU-f5Vbn_7AoHN_CTrb-0oa0uSE8PYFnVAZd0I9aJqixKQ1xQ95cgKufWIeTakJb84H9uorHRvhxnw5UZq8txoMqYl5rQ_6ugGmYuPGu0JG24BiPYVLazrSjGruilF4tMVwc9o4w0u2629LKNk9h3hPH4mefrmiKFO_kT0xFy9_pS-1FLcVA5wXPCe7H78kpwC9OZOYosZDYmbWvP4xCCbcOVHKzzYOQv2Icmw1jxOfq8MZM8HKb2qS-_MACknpBuIC6O-NKKwCstljzN0vx9fZVdtmFjDbX3kI0DbnRQ6fOn2FkBANj_WMna8rLKiOV-q17GNhv49u-yUkzIJKvHgnyHrXtE7rfFDqM59T7yJ5Z4nIlZ9QtvpXYMK8XKk1izAZ8lus8zN0ojYRUC9ikIS3bTX_9dIRcPKoHWQCEN1Y6DhJkQASu5k6Np9n6mqO1b7IcVBO9kbVVxk3kTTRAF2WShW0TPOsvlts0B5e6ssbxrf3qyPmpLfoaLjbZOhqdNUM0Ot0CwHcsk1ASFDPPj5V7WSa6InHh9hK_oGQ=w800-h600-no)
+
+
+とあります。これら全部にアダプタを付けました。想定どおり、**ケーブル1種類に対してどのアダプタでも対応**していました。
+
+家のMacとケーブルを接続し、職場にもケーブルを置き充電できるようにしています。長時間外出するときはポータブルバッテリーとケーブルを持ち運びます。
+
+一度に複数の機器を接続しなければならないことがあまり発生しないので、基本は各場所に1本のケーブルで事足りるのが凄くいいですね。
+そして接続の際もパチっと磁力で接続してくれて、ちょっと丁寧に端子を刺すとか気にしなくて良いのがとても良いですね。特に**MicroUSBの裏表を気にしなくていい**のはとてもストレスフリー。
+
+また、予想外に良かったのアダプタ刺しっぱなしなので本体の接続部分を摩耗しないのは良いですね。他にはケーブルがファブリックコーティングしてあるので強度ありそうです。
+
+ちなみにアダプタだけでも販売してものがほとんどなので、ケーブルとデバイスの数が合わなくてもアダプタだけ追加で買うことができます。
+
+### 注意が必要なところ
+#### 磁力がやや強め
+アイデア元であろうMagSafeに比べて磁力が強いです。MagSafeの場合、少しひっかけたら外れるんですが、こちらはそこまで簡単に外れません。素直にまっすぐ引っ張ると端子ごと抜けることもあります。接続解除の際は**折り曲げるようにすると楽に外れます**。それでも引っ張らなくて良くなったので端子に負担が少ないのはだいぶ良いですね。
+
+注意すべきはデータ転送中などは無闇にさわると外れてしまうおそれがあること。磁力が多少強めなので神経質になる必要はありませんが、それでも刺しこむ接続よりは外れやすいので注意です（といっても外れやすいのが利点でもあります）。
+
+ちなみにデバイスによっては端子の穴がユルめだったりするので、アダプタの通電する端子にかからないようにセロハンテープを巻いて少し厚みを足して抜けにくくしました。
+
+#### LEDランプは接続状態と関係ない
+どれもLEDランプがついていますがMagSafeのように接続したら（充電中なら）点灯する、というわけではありません。USBケーブルが通電していれば常に点灯します。
+
+#### メーカーによってバラバラ
+出回ってるのはほとんど中華系の製造販売でしょう。アダプタ部分が円形のものもあったり、端子の部分の構造が若干違うのもあります。実はマグネットタイプを使いだしたこと自体はけっこう前ですが、同じメーカーでも端子の形状が変わったりしてます。
+
+アダプタだけ買い足す場合はメーカーや形状に注意しましょう。
+
+ちなみに円形のものは個人的にはあまり選考対象になりませんでした。アダプタサイズが大きく、ケースを使う端末に対してケースと干渉しやすいと考えられます。円形でないものでも厚さ2mm程度は出っ張りますのでそこはご注意ください。
+
+##### オススメしないもの
+以前使ったものでは、**明らかに設計ミスだった**ものもありました。
+メス側の端子の形状に問題があってケーブル自体が使用不能になるような構造のものもありました。それどころか接続機器までダメージを与えかねない（具体的には、ケーブル側の端子の歯同士がなんどか使用することによって変形し接触しあうような形状）
+
+![オススメできない](https://lh3.googleusercontent.com/CnDGb8pMA8hVpxpFH8H11kxZMbjePkiFWCnE6VHpTBbWv87V387QWMqqawHWdsw0IWh5NLQSlvGL8kt_vYmQEw-GZaOLfkiisz42SS9_xycsXxrZt7SObdbJcB6fa-R4JC48HAPjfRaJWG9XRALYuraDYzlAYIqT5zXtmV6Nh5Uv42k6Wnb-42Phspe_awiwry65VAz6jO5WCRxkoqYky_dy6TRDw0TF2RrABqPtoHcbfqIqWjsjHItpNcNntOSZb0jruvtSn4VKF2Ha6MHGgquzHbMaB3n9llU6tu6Ylpe1gHKZEZTYFPIgCIcMdutmgRZZjr-YIWZ_rs_q4HnsaJUwNUUIWUiW-4n-ggXuVqgolIKsnL5sVN7aHqVeQWdU5s95LmkNwTdtHbTy0loLQuJQ9AYR0UYmBMg8_AnTf1nyN77uqwRLdGBkaAMjUHI2Us4VMCd8-cKdz5pGhxQABA7tbD_eFj8eZsHxIStDOyre_0fAZhWxqWl9OPMN-7gSjGPSFOMT2k7RCsbgMifEOOJI3P1TKG6Fel2S27Am1TU9D2f-CRNln0iXyH2jZxPcPqPl9Ksz9-eycSK23dXTX6dU-wcNlWGU_Mft_MaUg3CpdkOjiCAV53UMY7zw0NnaGp2680JD2jpXp96Hd28j1v_gHR8ofARbsLeRM7D741CTE1o_ds1j2cNz4bvddGvi_L7SpHuIkvCRnuaFwFQsxBwzv_xkf7fU-eEDboOU-EmpRZU=w600-h515-no)
+内側にむけて斜めに端子の歯がついていて、固定されていないので内側に変形すると端子の歯どうしが接触してしまいます。Zrse(ザスイ）という品名のものが現在のところこれにあたります。
+
+
+##### オススメするもの
+参考までにオススメできるもの（現在使用中のものと以前使用して大丈夫だったもの）も画像を掲載しますね。以下のものは端子の歯同士は接触しない構造になっています。
+
+**以前大丈夫だったもの**
+
+![](https://lh3.googleusercontent.com/2fLYirZ_pIL2zHqV-_pse85PFwvaP_IZnNgZMAFgZnbcxACs0R5q9wVg8KwjN93DQjBZWAwFtVDUfoac8wRMCqZ8ciuRvMawkvGYPxdk_w-jPS5Kz4zpwlm8KxycPNNH7iKtJ3j8YTDlGcC8uRrrmOIOBKXSRRzdSR_6tInsiOT_quK8l5GHeBnVK1PjmP2A8wj6J2VZRJatXanqC4AmI9RKzo-RBVJXfCgAR-J2RM00XqVe8oSd4EfSUkjBFrxQTUyuLxs6LG_c2gbrK69qKEc7NdbYQiM34AyU8LCYArlrWguAM6pfZQAJFnl4ofXCpFWhmUI2inySIUkgNnzQEQBqQeYOTckV32lEYO4gQzlSvosMgUjJU6tsjJO7EsrRXX9rwdG1fvZuHR06J-FSVZQU8tj0crq61J65EPK_D63W0Lld4Y2iQ-_y210qfrxRbsLqJwNO8JaaDrQy62IImj7y0wHEXHdElpFSTJGq8mWMWuiHGKG7rST40JfRX6djQYKyAXd8jKjBylNuTs70nEwKo8AYwaeUeq5NBNynEZC8QAOx-yr73Ffe5Tx_eHJleC3nZpPndog86K7sLDpZUAYX-LXn28U5OevQGuKQoc_CN22EILoCJKOGtUFVwQQPyUjNfvFVPy2snbw8ZDq-oWDfEXV3vtqTlE1yrFvOahjozFXHHEEsoUm3a18Kv1oi8UtR5eC76UxEeBCc2jZVnNm1JTTrtHesaQ7dPKEo8ao_huA=w600-h190-no)
+
+こちらは今回導入する前に使用していたものです。特に問題ありませんでした。なんで今回新調したかというと気分とかケーブルの色とか端子がさらに良さそうだったから、とか贅沢な理由です。
+
+**現在使用しているもの**
+
+![](https://lh3.googleusercontent.com/ymshuu2iG-d9tkvWUf5pxB-SYMaDiF0VNniI2-uSm-3u0GW5Kext-zLzEadI6A1FPDm0Pc5AO0TU9PfEK7XKyZUu7LiaJHeBRbwJ1PftExgXaJ7chDr3RFU2GLmNrBGg5YFvTEU8ZCP8Dq__K0kKbT4kDrNCDkaao0gNKxO9M1VCgH5CXgJp-p1odV5WNd7gJCyp_9vLv5GCfu2Qf5qZkxd-X3I2_sFFgJNorVk3EGx6m7Wv3M-i8CKYLBy73dl4un6NokQIu_-thx81pCZO7Um7E3y3iA6sjSzFzZZZrm_xwmmEL4GQcXr9B9kysiHL-pmblxFtikfGfXaVilvbCno9keVtcQlMVv9IY0zS87IAha2QQ2DeBXWzDlpo0LAXsj39smp5ePdb2vtew3ozlpYaOdqpRp1vkHfm4ndIWGPC8PBiSO9h4FRvcXkAdnIGJijtt_bkVNCoMoUsKlA7LPQgr_UFnPidUw4kacuupMNh_6bApX4xQIiAixQoqdD3WyqWkQmjNRtRDwm-gtqBIF8H7g3IZ7o3WCdePLo5oEFiKmt7udNSecyvCHpt_BjbEz1BxYmPcp2srWIBGbu_mBCB2EuaLKUArrXZNdbhy7UHu4WUS-SDuRwX_Az_X33P0g9hQ3aO5iO9-C1BbbfetOZVRBDK7oht2Ku1jUHPmxtr4iEFzOsSrml29djD-_DdpoSNLeZ1OIjNAOgZHQrOzCEnkPi0NdR6ZXymkbWKYKv_oyY=w600-h249-no)
+
+今まで使ってるなかで一番良さそうな感じ。ほんの気持ち上で紹介したものに比べてアダプタサイズが大きいです。ただし、今使っているiPhoneケースと干渉もしてないので問題ないです。
+
+#### 今回試さなかったこと
+手持ちのガジェットでUSB Type-Cのものがなかったため、試しませんでした。が、USB Type-Cのアダプタもあるのでおそらく問題なく動作するはずです。ただし、PCのような電力が大きいものは難しいかもしれません。
+
+## 感想
+今回はUSB機器のほとんどにマグネットタイプのアダプタを付けたら使いやすなってストレスフリーになった、という話でした。
+
+<AdCard asin="B07WM1CLCB" title=" CAFELE マグネット 充電ケーブル iPhone/Android/Type-Cケーブル 3in1ケーブル LEDランプ付き 高耐久ナイロン編み 磁石 防塵 着脱式 MicroUSB+Lightning+Type-Cに対応 2m (ブラック) " image-url="https://images-na.ssl-images-amazon.com/images/I/61IDby9%2BUCL._SX679_.jpg" price="￥1,399" date="2019-11-23" searchWords="マグネット 充電ケーブル" />
+
+USB接続端子はいろいろあって困ってしまいますね。Type-Cも内部的には細かく規格がわかれているようで将来的に1つの端子に収束するにはまだまだ時間がかかりそうです。
+
+その中でも3股のケーブルを使ったり工夫はいろいろあると思いますが、今回は全てにアダプタを使いつつ利便性上げてみた結果、楽になりました。
+
+前述のとおり規格や形状の注意点もありますし、正式なライセンス品でもないので使用は自己責任でご注意いただきたいところですが、僕個人的にはいろんな人に勧めていきたいくらい満足度高いものになりました。
