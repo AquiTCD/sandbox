@@ -5,7 +5,7 @@ tags:
   - Hack
   - ブログ
 date: 2019-09-10T13:38:02.672Z
-image: /images/covers/2019-09-10-generate-cover-image-automatically-from-title.jpg
+image: 2019-09-10-generate-cover-image-automatically-from-title.jpg
 ---
 ブログを書いていて、アイキャッチと呼ばれる記事の見出しタイトル画像があったほうがいいとは常々思っていました。画像系のツールを使ってもいいんですが、面倒なので自動で生成するようにしました。これで良い感じに記事を書くのがかなり楽になりました。
 

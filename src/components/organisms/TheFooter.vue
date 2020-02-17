@@ -1,18 +1,24 @@
 <template lang="pug">
-  footer.footer
-    p footer
+  footer.the_footer
+    small.copyright Copyright © 2014 Aqui TCD
 </template>
 
 <script>
 export default {
-  props: {},
   components: {},
+  props: {},
   data() {
     return {}
   },
-  methods: {},
   computed: {},
+  methods: {},
 }
 </script>
 
-<style lang="stylus" scoped></style>
+<style lang="stylus" scoped>
+.the_footer
+  text-align: right
+  padding: rhythmical-space(0.125) 0
+.copyright
+  font-size: $font-size-small
+</style>

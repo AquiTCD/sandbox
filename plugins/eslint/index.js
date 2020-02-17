@@ -4,7 +4,7 @@ function EsLinterPlugin(api) {
   api.chainWebpack(config => {
     config.module
       .rule(`es-lint`)
-      .test(/\.(js|vue)$/)
+      .test(/\.([tj]s|vue)$/)
       .pre()
       .use()
       .loader(`eslint-loader`)

@@ -66,7 +66,7 @@ export default {
   padding: rhythmical-space(0.25)
 .post_card--summary
   color: $font-color-base
-  font-size: $font-size-x-small
+  font-size: $font-size-small
   grid-column: 2
   grid-row: 3 / 5
   link-fix: true

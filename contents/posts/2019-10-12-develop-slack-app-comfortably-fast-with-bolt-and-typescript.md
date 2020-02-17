@@ -6,7 +6,7 @@ tags:
   - Bolt
   - TypeScript
 date: 2019-10-12T14:16:33.891Z
-image: /images/covers/2019-10-12-develop-slack-app-comfortably-fast-with-bolt-and-typescript.jpg
+image: 2019-10-12-develop-slack-app-comfortably-fast-with-bolt-and-typescript.jpg
 ---
 
 ## 概要

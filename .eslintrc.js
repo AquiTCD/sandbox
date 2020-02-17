@@ -2,28 +2,36 @@ module.exports = {
   root: true,
   env: {
     node: true,
+    browser: true,
     es6: true,
-    jest: true,
   },
-  parser: 'vue-eslint-parser',
+  parser: "vue-eslint-parser",
   parserOptions: {
-    sourceType: 'module',
-    parser: '@typescript-eslint/parser'
+    parser: "@typescript-eslint/parser",
+    sourceType: "module",
+    ecmaVersion: 2018,
   },
   plugins: [
     '@typescript-eslint',
     'prettier',
+    'vue',
+    'gridsome',
   ],
   extends: [
-    'standard',
-    'prettier',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:vue/recommended',
+    'plugin:gridsome/recommended',
+    'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
+    'prettier/vue',
   ],
   rules: {
     'prettier/prettier': ['error',
       {
         printWidth: 80,
-        tabWidth: 2, 
+        tabWidth: 2,
         useTabs: false,
         semi: false,
         singleQuote: true,
@@ -50,6 +58,7 @@ module.exports = {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: true, variables: true }],
-    'camelcase': 'off'
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'camelcase': 'off',
   },
 }

@@ -88,20 +88,20 @@ line-marker(value, marker-color = $bg-color-emphasis)
 // Use $amount-base when setted global(33% if not)
 // ------------------------------------------------------------
 link-variation(link-color = @color, color-fix = false)
-  $amount-base ?= 33%
+  $amount-base-lesser ?= 38%
   a
-    border-bottom: 1px solid transparent
+    // border-bottom: 1px solid transparent
     color: link-color
     text-decoration: none
     &:visited
       if (color-fix)
         color: link-color
       else
-        color: shade(link-color, $amount-base)
+        color: shade(link-color, $amount-base-lesser)
       font-weight: normal
     &:hover,
     &:focus
-      border-bottom: 1px solid
+      // border-bottom: 1px solid
       text-decoration: none
     &:active
       if (color-fix)

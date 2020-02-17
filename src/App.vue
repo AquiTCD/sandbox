@@ -58,7 +58,6 @@ body
 <style lang="stylus" scoped>
 .app
   display: grid
-  grid-gap: 0 rhythmical-space(0.25)
   grid-template-columns: auto
   grid-template-rows: auto auto auto auto auto
   margin-left: rhythmical-space(0.25)
@@ -71,7 +70,7 @@ body
     grid-template-rows: auto auto auto auto
     margin-left: auto
     margin-right: auto
-    max-width: 1440px
+    max-width: 1280px
     padding-left: rhythmical-space(1)
     padding-right: rhythmical-space(1)
 .header

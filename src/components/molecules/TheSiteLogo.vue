@@ -32,6 +32,7 @@ export default {
   display: flex
   justify-content: center
 .main_logo
+  height: 100%
   padding: 5px
   width: 600px
 </style>
