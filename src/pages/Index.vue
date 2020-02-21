@@ -60,8 +60,6 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.index
-  padding-right: rhythmical-space(0.25)
 .post
   display: block
   padding-bottom: 1em

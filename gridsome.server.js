@@ -4,17 +4,20 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
-// const relatedPost = require(`./related-post`) // eslint-disable-line @typescript-eslint/no-var-requires
 const relatedPost = require(`./related-post.js`)
+const Prism = require(`prismjs`)
 
+// highlight page-query and static-query in html
+Prism.languages.html.graphql = {
+  pattern: /(<(page|static)-query[\s\S]*?>)[\s\S]*?(?=<\/(page|static)-query>)/i,
+  inside: Prism.languages.graphql,
+  lookbehind: true,
+  greedy: true,
+}
 module.exports = function(api) {
-  // api.loadSource(({ addCollection }) => {
-  //   // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  // })
-  api.loadSource(({ getCollection, addSchemaTypes, addSchemaResolvers }) => {
+  api.loadSource(({ getCollection, addSchemaResolvers }) => {
     const allPosts = getCollection(`Post`)
     allPosts.addReference(`relatedPosts`, `[Post]`)
-    // allPosts.addReference(`description`, String)
     addSchemaResolvers({
       Post: {
         relatedPosts(obj) {
@@ -26,9 +29,6 @@ module.exports = function(api) {
             )
             .slice(0, 5)
         },
-        // description(obj) {
-        //   return obj.content.slice(0, 20)
-        // },
       },
     })
   })

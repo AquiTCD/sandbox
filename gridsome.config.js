@@ -20,6 +20,7 @@ function addStyleResource(rule) {
 
 module.exports = {
   siteName: `Trial and Spiral`,
+  titleTemplate: `%s | Trial and Spiral`,
   siteDescription: `試行錯誤顛末記録。或いは日記的な何か。\nWeb技術寄りな雑記Blog`,
   siteUrl:
     process.env.NODE_ENV === `production`
@@ -27,12 +28,28 @@ module.exports = {
       : `http://localhost:8080/`,
   transformers: {},
   metadata: {
+    author: `Aqui TSUCHIDA`,
+    twitter: `AquiTCD`,
+    siteOgImage: `/ogp.png`,
+    pageOgImage: `/ogp_default.png`,
     logo: `logo.svg`,
     navLogo: `logo_mini.svg`,
     authorLogo: `aqui.svg`,
     authorName: `AquiTCD`,
     authorDescription: `アキです。\n以前、世界をフラフラしてました。\nWebエンジニア。主戦場はRailsとVue.js。`,
+    amazonAssociateId: `akicks-22`,
+    rakutenAffiliateId: `12d74d16.c27dc2b4.12d74d17.2343dd9d`,
     feedPath: `feed.xml`,
+    popularTags: [
+      `Vue.js`,
+      `Ruby`,
+      `Mac`,
+      `ガジェット`,
+      `ゲーム`,
+      `革工芸`,
+      `旅`,
+      `本`,
+    ],
   },
   templates: {
     Tag: [
@@ -45,6 +62,13 @@ module.exports = {
   plugins: [
     { use: `gridsome-plugin-typescript` },
     { use: `gridsome-plugin-pug` },
+    {
+      use: `@gridsome/plugin-google-analytics`,
+      options: {
+        id: `UA-26650812-1`,
+      },
+    },
+    { use: `~/plugins/related-posts` },
     // { use: `~/plugins/eslint` }, // does not work properly
     // { use: `~/plugins/puglint` },
     // { use: `~/plugin/stylus` },
@@ -66,6 +90,14 @@ module.exports = {
           externalLinksTarget: `_blank`,
           externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
           anchorClassName: `icon icon-link`,
+          autolinkHeadings: {
+            behavior: `append`,
+            content: {
+              type: `element`,
+              tagName: `i`,
+              properties: { className: [`fas`, `fa-link`] },
+            },
+          },
           plugins: [],
         },
         plugins: [

@@ -4,9 +4,9 @@ nav.the_header_nav
     li.list--item.is-logo
       g-link.list--link(to="/")
         g-image.logo_mini(:src="require('!!assets-loader!@images/logo_mini.svg')" width="36")
-    li.list--item
+    li.list--item.is-about
       g-link.list--link(to="/about") ABOUT
-    li.list--item
+    li.list--item.is-hot
       g-link.list--link(to="/pick-ups") PICK UPs
     li.list--item.is-search
       .search_box
@@ -38,26 +38,52 @@ export default {
   border-bottom: $narrow-border-width solid $pure-black
   border-top: $narrow-border-width solid $pure-black
   display: grid
-  grid-template-columns: $side_nav_width auto auto $side_nav_width
+  grid-template-columns: 38% 62%
   grid-template-rows: auto
   list-style-type: none
   margin: 0
   padding: 0
+  +mq-larger()
+    grid-template-columns: $side_nav_width auto auto $side_nav_width
 .list--item
   text-align: center
   height: 100%
   &:first-of-type, &:nth-of-type(2)
-    border-right: $narrow-border-width solid $pure-black
+    +mq-larger()
+      border-right: $narrow-border-width solid $pure-black
   &:last-of-type
-    border-left: $narrow-border-width solid $pure-black
+    +mq-larger()
+      border-left: $narrow-border-width solid $pure-black
   &.is-logo
     padding: rhythmical-space(0.125)
     display: flex
-    justify-content: center
+    justify-content: start
     height: 100%
+    grid-column: 1
+    grid-row: 1
+    +mq-larger()
+      justify-content: center
   &:not(.is-search)
     padding-top: rhythmical-space(0.25)
     font-weight: bold
+  &.is-about
+    display: none
+    +mq-larger()
+      display: initial
+      grid-column: 2
+      grid-row: 1
+  &.is-hot
+    display: none
+    +mq-larger()
+      display: initial
+      grid-column: 3
+      grid-row: 1
+  &.is-search
+    grid-column: 2
+    grid-row: 1
+    +mq-larger()
+      grid-column: 4
+      grid-row: 1
 .list--link
   align-self: end
 .logo_mini

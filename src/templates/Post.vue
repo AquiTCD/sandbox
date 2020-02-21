@@ -1,17 +1,9 @@
 <template lang="pug">
 .post
   article.article
-    header.article--header
-      h1.article--title {{ $page.post.title }}
-      g-image.article--cover(:src="require('!!assets-loader!@images/covers/' + $page.post.image)" width="1200")
-      .article--date(v-show="$page.post.date")
-        i.fas.fa-clock
-        time.article--time(:datetime="$page.post.date") {{ $page.post.date }}
-      ul.article--tag_list
-        i.fas.fa-tags
-        g-link.article--tag_item(v-for="tag in $page.post.tags" :key="tag.id" :to="tag.path")
-          li.article--tag {{ tag.title }}
+    ArticleHeader.article-header(:post="$page.post")
     VueRemarkContent.article--body
+    RelatedPostList(:posts="$page.post.relatedPosts")
     //- footer.page-edit
     //-   .edit-link(v-if="editLink")
     //-     a(:href="editLink"
@@ -22,8 +14,7 @@
     //-   .last-updated(v-if="lastUpdated")
     //-     span.prefix {{ lastUpdatedText }}:
     //-     span.time {{ lastUpdated }}
-    slot(name="bottom")
-    //- RelatedPosts
+    //- slot(name="bottom")
   //- ul.page_nav.is-permalink(v-if="prev || next")
     li.page_nav--item(v-if="prev")
       router-link.is-link.prev(:to="prev.path")
@@ -48,12 +39,26 @@ query Post ($id: ID!) {
     }
     content
     image
+    relatedPosts {
+      id
+      title
+      path
+      date (format: "YYYY-MM-DD")
+      image
+      tags {
+        id
+        title
+        path
+      }
+    }
   }
 }
 </page-query>
 <script>
+import RelatedPostList from '~/components/molecules/RelatedPostList'
+import ArticleHeader from '~/components/molecules/ArticleHeader'
 export default {
-  components: {},
+  components: { RelatedPostList, ArticleHeader },
   metaInfo() {
     return {
       title: this.$page.post.title,
@@ -69,12 +74,6 @@ export default {
 </script>
 
 <style lang="stylus">
-.post-comments
-  padding: calc((var(--space) / 2))
-  &:empty
-    display: none
-.post-author
-  margin-top: calc((var(--space) / 2))
 .article--header
   display: grid
   grid-template-columns: auto
@@ -619,6 +618,9 @@ export default {
   compile: true
   ---
   */
+  pre[class*="language-"]
+    max-width: 900px
+    overflow-x: scroll
   code:not([class]),
   var:not([class]),
   samp:not([class]),

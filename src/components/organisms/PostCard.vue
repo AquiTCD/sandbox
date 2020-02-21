@@ -13,8 +13,8 @@
 
 <script>
 export default {
-  props: [`title`, `summary`, `cover`, `date`, `tags`],
   components: {},
+  props: [`title`, `summary`, `cover`, `date`, `tags`],
   methods: {},
   metaInfo: {
     title: `Hello, world!`,

@@ -17,14 +17,15 @@
           data-lang="ja"
         )
           i.fab.fa-get-pocket
-      li.share_button
+      li.share_button.is-image
         a.pocket-btn(:href="'https://b.hatena.ne.jp/entry/panel/?url=' + $static.metadata.siteUrl + '&btitle=' + $static.metadata.siteName")
-          span B!
+          //- span B!
+          g-image.hateb(:src="require('!!assets-loader!@images/hateb.svg')" width="21")
       li.share_button
         a.rss-button(:href="'/' + $static.metadata.feedPath")
           i.fas.fa-rss-square
     ul.site_tag_list
-      li.site_tag_item(v-for="tag in state.mainTags" :key="tag") {{ tag }}
+      li.site_tag_item(v-for="tag in $static.metadata.popularTags" :key="tag") {{ tag }}
 </template>
 <static-query>
 query {
@@ -33,28 +34,29 @@ query {
     siteUrl
     feedPath
     siteDescription
+    popularTags
   }
 }
 </static-query>
 <script lang="ts">
-import { createComponent, reactive } from '@vue/composition-api'
+import { createComponent } from '@vue/composition-api'
 export default createComponent({
   setup() {
-    const state: any = reactive({
-      mainTags: [
-        `Vue.js`,
-        `Ruby`,
-        `Mac`,
-        `ガジェット`,
-        `ゲーム`,
-        `革工芸`,
-        `旅`,
-        `本`,
-      ],
-    })
-    return {
-      state,
-    }
+    // const state: any = reactive({
+    //   mainTags: [
+    //     `Vue.js`,
+    //     `Ruby`,
+    //     `Mac`,
+    //     `ガジェット`,
+    //     `ゲーム`,
+    //     `革工芸`,
+    //     `旅`,
+    //     `本`,
+    //   ],
+    // })
+    // return {
+    //   state,
+    // }
   },
 })
 </script>
@@ -112,6 +114,9 @@ export default createComponent({
   display: inline-block
   &:not(:first-of-type)
     margin-left: rhythmical-space(0.25)
+.hateb
+  width: 21px
+  color: $font-color-base
 .site_tag_list
   font-size: $font-size-x-small
   grid-column: 1

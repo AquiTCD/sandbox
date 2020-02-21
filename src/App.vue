@@ -92,9 +92,11 @@ body
 .main
   grid-column: 1
   grid-row: 3
+  margin-bottom: rhythmical-space(0.25)
   +mq-larger()
     grid-column: 1
     grid-row: 3
+    padding-right: rhythmical-space(0.25)
 .side_nav
   grid-column: 1
   grid-row: 4
