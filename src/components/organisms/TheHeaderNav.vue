@@ -57,7 +57,7 @@ export default {
   &.is-logo
     padding: rhythmical-space(0.125)
     display: flex
-    justify-content: start
+    justify-content: flex-start
     height: 100%
     grid-column: 1
     grid-row: 1

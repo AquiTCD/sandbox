@@ -1,5 +1,5 @@
 <template lang="pug">
-header.article--header(:class="type")
+header.article--header
   h1.article--title {{ post.title }}
   g-image.article--cover(:src="require('!!assets-loader!@images/covers/' + post.image)" width="1200")
   .article--date(v-show="post.date")

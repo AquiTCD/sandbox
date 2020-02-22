@@ -27,11 +27,11 @@ export default {
 
 <style lang="stylus" scoped>
 .the_header
-  border-bottom: $narrow-border-width solid $pure-black
+  border-bottom: $wide-border-width solid $pure-black
   border-top: $wide-border-width solid $pure-black
   display: grid
   grid-template-columns: auto
-  grid-template-rows: auto auto
+  grid-template-rows: auto
   +mq-larger()
     grid-template-columns: $side_nav_width auto $side_nav_width
     grid-template-rows: 173px
@@ -48,9 +48,9 @@ export default {
     grid-column: 2
     grid-row: 1
 .the_site_author
-  grid-column: 1
-  grid-row: 2
+  display: none
   +mq-larger()
+    display: initial
     grid-column: 3
     grid-row: 1
 </style>

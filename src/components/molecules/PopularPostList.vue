@@ -16,24 +16,24 @@ nav.post_list
           time.post--time(:datetime="post.node.date") {{post.node.date}}
 </template>
 <static-query>
-  query {
-    recentPosts: allPost(limit: 5) {
-      edges {
-        node {
-          id
-          title
-          date(format: "YYYY-MM-DD")
-          image
-          path
-          tags {
-            id
-            title
-            path
-          }
-        }
-      }
-    }
-  }
+  # query {
+  #   recentPosts: allPost(limit: 5) {
+  #     edges {
+  #       node {
+  #         id
+  #         title
+  #         date(format: "YYYY-MM-DD")
+  #         image
+  #         path
+  #         tags {
+  #           id
+  #           title
+  #           path
+  #         }
+  #       }
+  #     }
+  #   }
+  # }
 </static-query>
 <script>
 export default {
@@ -54,7 +54,6 @@ export default {
 .list-title
   border-bottom: 4px solid $font-color-base
   border-top: 4px solid $font-color-base
-  margin-bottom: rhythmical-space(0.125)
   margin-top: 0
   padding-bottom: rhythmical-space(0.125)
   padding-left: rhythmical-space(0.25)

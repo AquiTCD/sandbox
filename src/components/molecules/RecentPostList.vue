@@ -36,11 +36,10 @@ export default createComponent({
 
 <style lang="stylus" scoped>
 .post_list
-  margin-bottom: rhythmical-space(0.75)
+  margin-bottom: rhythmical-space(0.5)
 .list-title
   border-bottom: 4px solid $font-color-base
   border-top: 4px solid $font-color-base
-  margin-bottom: rhythmical-space(0.125)
   margin-top: 0
   padding-bottom: rhythmical-space(0.125)
   padding-left: rhythmical-space(0.25)

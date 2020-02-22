@@ -4,6 +4,7 @@
     ArticleHeader.article-header(:post="$page.post")
     VueRemarkContent.article--body
     RelatedPostList(:posts="$page.post.relatedPosts")
+    //- NextAndPrevious(:id="$page.post.id")
     //- footer.page-edit
     //-   .edit-link(v-if="editLink")
     //-     a(:href="editLink"
@@ -180,10 +181,10 @@ export default {
   h4,
   h5,
   h6
-    .header-anchor
+    .heading-anchor
       visibility: hidden
     &:hover
-      .header-anchor
+      .heading-anchor
         visibility: visible
   h1:not([class])
     @extend .article--body $h1h2

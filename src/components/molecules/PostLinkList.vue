@@ -31,9 +31,7 @@ export default createComponent({
   margin: 0
   padding: 0
 .post_link_list--item
-  // border: 1px solid $font-color-base
   display: block
   width: 100%
-  &:not(:first-of-type)
-    margin-top: rhythmical-space(0.5)
+  margin-top: rhythmical-space(0.25)
 </style>

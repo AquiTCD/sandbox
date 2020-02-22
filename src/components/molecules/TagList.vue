@@ -40,11 +40,10 @@ export default {
 
 <style lang="stylus" scoped>
 .tag_list
-  padding-bottom: rhythmical-space(0.5)
+  padding-bottom: rhythmical-space(0.25)
 .list-title
   border-bottom: 4px solid $font-color-base
   border-top: 4px solid $font-color-base
-  margin-bottom: rhythmical-space(0.125)
   margin-top: 0
   padding-bottom: rhythmical-space(0.125)
   padding-left: rhythmical-space(0.25)

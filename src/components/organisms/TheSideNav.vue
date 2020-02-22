@@ -1,20 +1,20 @@
 <template lang="pug">
 section.the_side_nav
-  AuthorInfo.auther-info
+  TheSiteAuthor.the_site_author
   //- PopularPostList
   RecentPostList
   TagList
 </template>
 
 <script>
-import AuthorInfo from '~/components/molecules/AuthorInfo.vue'
-import PopularPostList from '~/components/molecules/PopularPostList.vue'
+import TheSiteAuthor from '~/components/molecules/TheSiteAuthor.vue'
+// import PopularPostList from '~/components/molecules/PopularPostList.vue'
 import RecentPostList from '~/components/molecules/RecentPostList.vue'
 import TagList from '~/components/molecules/TagList.vue'
 export default {
   components: {
-    AuthorInfo,
-    PopularPostList,
+    TheSiteAuthor,
+    // PopularPostList,
     RecentPostList,
     TagList,
   },
@@ -31,11 +31,12 @@ export default {
 .the_side_nav
   display: flex
   flex-flow: column nowrap
-  padding: 0 0 rhythmical-space(0.25) rhythmical-space(0.25)
+  padding: 0 0 rhythmical-space(0.25) 0
   margin-bottom: rhythmical-space(0.25)
   +mq-larger()
+    padding-left: rhythmical-space(0.25)
     border-left: $narrow-border-width solid $pure-black
-.auther-info
+.the_site_author
   +mq-larger()
     display: none
 </style>

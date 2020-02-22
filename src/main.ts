@@ -5,6 +5,10 @@ import DefaultLayout from '~/layouts/Default.vue'
 import 'cssremedy/css/remedy.css' // css reset
 import 'prismjs/themes/prism-okaidia.css' // prism for syntax highlight
 
+// global components
+import AdCard from './components/globals/AdCard.vue'
+import LinkCard from './components/globals/LinkCard.vue'
+
 export default function(
   Vue: Vue.VueConstructor,
   {
@@ -42,4 +46,6 @@ export default function(
   Vue.use(VueCompositionApi)
   // Set default layout as a global component
   Vue.component(`Layout`, DefaultLayout)
+  Vue.component(`AdCard`, AdCard)
+  Vue.component(`LinkCard`, LinkCard)
 }
