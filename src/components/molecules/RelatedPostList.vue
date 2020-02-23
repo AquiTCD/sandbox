@@ -6,7 +6,7 @@ nav.related_post_list
   ul.list
     li.post(v-for="post in posts" :key="post.id")
       g-link.post_link(:to="post.path")
-        g-image.post_link--cover(:src="require('!!assets-loader!@images/covers/' + post.image)" width="280")
+        g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
         div.post_link--title {{post.title}}
         ul.post_link--tag-list
           g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path" )
@@ -58,38 +58,37 @@ export default createComponent({
     grid-template-rows: 62% 38%
 .post_link--cover
   background: $font-color-base
+  border-radius: 0
   grid-column: 1
   grid-row: 2
-  border-radius: 0
   padding: 1px
   +mq-medium()
-    padding: $narrow-border-width 0 $narrow-border-width $narrow-border-width
-    border-right: 1px solid $font-color-base
     border-radius: 2px 0 0 2px
+    border-right: 1px solid $font-color-base
     grid-column: 1
     grid-row: 1 / 3
+    padding: $narrow-border-width 0 $narrow-border-width $narrow-border-width
 .post_link--title
-  grid-column: 2
-  grid-row: 1
-  overflow: hidden
   background: $font-color-base
   border-radius: 2px 2px 0 0
   color: $pure-white
   font-size: $font-size-small
   font-weight: bold
+  grid-column: 2
+  grid-column: 1
+  grid-row: 1
+  grid-row: 1
   line-height: 1.2
   link-fix: true
   margin: 0
+  overflow: hidden
   padding: rhythmical-space(0.25)
-  grid-column: 1
-  grid-row: 1
   +mq-medium()
     border-radius: 0 2px 0 0
     grid-column: 2
     grid-row: 1
 .post_link--tag-list
   background: $pure-white
-  overflow: hidden
   border-bottom: 1px solid $font-color-base
   border-left: 1px solid $font-color-base
   border-radius: 0 0 2px 2px
@@ -99,6 +98,7 @@ export default createComponent({
   grid-row: 3
   list-style-type: none
   margin: 0
+  overflow: hidden
   padding: 0 rhythmical-space(0.25)
   +mq-medium()
     border-radius: 0 0 2px 0
@@ -127,12 +127,12 @@ export default createComponent({
   grid-row: 2
   justify-self: end
   line-height: 1
-  padding: rhythmical-space(0.125)
   margin-top: 1px
+  padding: rhythmical-space(0.125)
   +mq-medium()
-    margin-top: $narrow-border-width
     grid-column: 1
     grid-row: 1
+    margin-top: $narrow-border-width
 .post_link--time
   margin-left: rhythmical-space(0.125)
 </style>

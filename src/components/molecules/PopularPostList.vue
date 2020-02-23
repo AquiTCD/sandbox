@@ -6,7 +6,7 @@ nav.post_list
   ul.list
     li.list--item(v-for="post in $static.recentPosts.edges" :key="post.id")
       g-link.post(:to="post.node.path")
-        g-image.post--cover(:src="require('!!assets-loader!@images/covers/' + post.node.image)" width="280")
+        g-image.post--cover(:src="require('!!assets-loader!@images/' + post.node.cover)" width="280")
         h2.post--title {{post.node.title}}
         ul.post--tag-list
           g-link.post--tag_item(v-for="tag in post.node.tags" :key="tag.id" :to="tag.path" )

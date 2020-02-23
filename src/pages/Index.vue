@@ -1,7 +1,7 @@
 <template lang="pug">
   .index
     g-link.post(v-for="post in $page.posts.edges" :key="post.id" :to="post.node.path")
-      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.image" :tags="post.node.tags" :date="post.node.date")
+      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
     Pager.pager(
       :info="$page.posts.pageInfo"
       linkClass="pager-item"
@@ -26,7 +26,7 @@
           date (format: "YYYY-MM-DD")
           # description
           content
-          image
+          cover
           path
           tags {
             id

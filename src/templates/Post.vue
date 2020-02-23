@@ -39,13 +39,13 @@ query Post ($id: ID!) {
       path
     }
     content
-    image
+    cover
     relatedPosts {
       id
       title
       path
       date (format: "YYYY-MM-DD")
-      image
+      cover
       tags {
         id
         title

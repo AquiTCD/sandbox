@@ -13,7 +13,7 @@ nav.post_list
           id
           title
           date(format: "YYYY-MM-DD")
-          image
+          cover
           path
           tags {
             id

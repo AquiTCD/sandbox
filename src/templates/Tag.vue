@@ -31,7 +31,7 @@ query($id: ID!, $page: Int) {
               path
             }
             content
-            image
+            cover
           }
         }
       }
