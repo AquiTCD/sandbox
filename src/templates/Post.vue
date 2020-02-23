@@ -619,8 +619,10 @@ export default {
   compile: true
   ---
   */
-  pre[class*="language-"]
-    max-width: 900px
+  pre[class*='language-']
+    border: 2px $black-base solid
+    font-size: $font-size-small
+    max-width: 100%
     overflow-x: scroll
   code:not([class]),
   var:not([class]),

@@ -237,8 +237,10 @@ module.exports = async (filePath, newFrontMatter) => { //対象のファイル�
 }
 ```
 
-で、それらをくっつけて一気に全部処理する`all_covers.js`
-```js
+で、それらをくっつけて一気に全部処理する
+
+`all_covers.js`
+```javascript test
 const fs = require('fs')
 const path = require('path')
 const generateImage = require('./modules/generateImage')

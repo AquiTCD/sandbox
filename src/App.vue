@@ -58,7 +58,7 @@ body
 <style lang="stylus" scoped>
 .app
   display: grid
-  grid-template-columns: auto
+  grid-template-columns: 100%
   grid-template-rows: auto auto auto auto auto
   margin-left: rhythmical-space(0.25)
   margin-right: rhythmical-space(0.25)
@@ -66,7 +66,7 @@ body
     margin-left: rhythmical-space(0.5)
     margin-right: rhythmical-space(0.5)
   +mq-larger()
-    grid-template-columns: auto $side_nav_width
+    grid-template-columns: 'calc(100% - %s)' % $side_nav_width $side_nav_width
     grid-template-rows: auto auto auto auto
     margin-left: auto
     margin-right: auto

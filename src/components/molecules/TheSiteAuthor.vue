@@ -102,7 +102,7 @@ query {
   align-self: center
   padding-left: rhythmical-space(0.25)
   +mq-medium()
-    font-size: $font-size-small
+    // font-size: $font-size-small
   +mq-larger()
     font-size: $font-size-x-small
     grid-column: 1

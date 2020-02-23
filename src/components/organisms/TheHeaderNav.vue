@@ -9,14 +9,13 @@ nav.the_header_nav
     li.list--item.is-hot
       g-link.list--link(to="/pick-ups") PICK UPs
     li.list--item.is-search
-      .search_box
-        input(type="text" placeholder="search")
-        i.fas.fa-search
+      SearchBox
 </template>
 
 <script>
+import SearchBox from '~/components/atoms/SearchBox.vue'
 export default {
-  components: {},
+  components: { SearchBox },
   props: {},
   data() {
     return {}
@@ -88,21 +87,4 @@ export default {
   align-self: end
 .logo_mini
   width: 100px
-.search_box
-  position: relative
-  display: block
-  margin: rhythmical-space(0.125) 0 rhythmical-space(0.125) rhythmical-space(0.25)
-  border: 2px solid $grey-base
-  border-radius: 20px
-  overflow: hidden
-  background: $bg-color-light
-  input[type="text"]
-    border: none
-    width: calc(100% - 3em)
-    font-size: $font-size-small
-    background: $bg-color-light
-    &:focus
-      outline: 0
-  ::-webkit-input-placeholder
-    color: $bg-color-light
 </style>

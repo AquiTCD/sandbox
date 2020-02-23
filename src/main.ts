@@ -41,6 +41,7 @@ export default function(
   head.script.push({
     src: `https://kit.fontawesome.com/2c0574300d.js`,
     crossorigin: `anonymous`,
+    SameSite: `none Secure`,
   })
   // Set to use libraries
   Vue.use(VueCompositionApi)

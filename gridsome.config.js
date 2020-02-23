@@ -68,6 +68,48 @@ module.exports = {
         id: `UA-26650812-1`,
       },
     },
+    {
+      use: `gridsome-plugin-feed`,
+      options: {
+        contentTypes: [`Post`],
+        feedOptions: {
+          title: `Trial and Spiral`,
+          description: `試行錯誤顛末記録。或いは日記的な何か。\nWeb技術寄りな雑記Blog`,
+        },
+        rss: {
+          enabled: true,
+          output: `/feed.xml`,
+        },
+        // maxItems: 25,
+        // filterNodes: node => true,
+        // nodeToFeedItem: node => ({
+        //   title: node.title,
+        //   date: node.date || node.fields.date,
+        //   content: node.content,
+        // }),
+      },
+    },
+    {
+      use: `@gridsome/plugin-sitemap`,
+      options: {
+        cacheTime: 600000, // default
+        exclude: [``],
+        config: {
+          '/posts/*': {
+            changefreq: `weekly`,
+            priority: 0.5,
+          },
+          '/tags/*': {
+            changefreq: `weekly`,
+            priority: 0.5,
+          },
+          '/about': {
+            changefreq: `monthly`,
+            priority: 0.7,
+          },
+        },
+      },
+    },
     { use: `~/plugins/related-posts` },
     // { use: `~/plugins/eslint` }, // does not work properly
     // { use: `~/plugins/puglint` },
