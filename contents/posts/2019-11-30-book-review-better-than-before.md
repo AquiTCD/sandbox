@@ -1,11 +1,12 @@
 ---
 title: マインドマップ読書感想文 - 人生を変える習慣のつくり方
+slug: book-review-better-than-before
 tags:
   - review
   - book
   - mindmap
 date: 2019-11-30T15:04:46.943Z
-image: 2019-11-30-book-review-better-than-before.jpg
+cover: posts/2019-11-30-book-review-better-than-before/cover.jpg
 ---
 以前やったマインドマップ読書感想文が強力なインプットになったので、今回もやってみます。今回の本は
 『人生を変える習慣のつくり方』。原題は『Better than before』。人生を変えていくのは習慣の力だ、としたうえで習慣の設定のしかた、継続のコツに関する知見です。

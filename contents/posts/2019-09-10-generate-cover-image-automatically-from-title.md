@@ -1,11 +1,12 @@
 ---
 title: アイキャッチ画像をタイトルから自動生成するようにしてやった
+slug: generate-cover-image-automatically-from-title
 tags:
   - 開発
   - Hack
   - ブログ
 date: 2019-09-10T13:38:02.672Z
-image: 2019-09-10-generate-cover-image-automatically-from-title.jpg
+cover: posts/2019-09-10-generate-cover-image-automatically-from-title/cover.jpg
 ---
 ブログを書いていて、アイキャッチと呼ばれる記事の見出しタイトル画像があったほうがいいとは常々思っていました。画像系のツールを使ってもいいんですが、面倒なので自動で生成するようにしました。これで良い感じに記事を書くのがかなり楽になりました。
 

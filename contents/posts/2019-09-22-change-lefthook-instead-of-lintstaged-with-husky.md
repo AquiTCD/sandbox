@@ -1,12 +1,13 @@
 ---
 title: Git HooksマネージャーのLefthookを試してHusky(+lint-staged)と比較した結果、乗りかえました
+slug: change-lefthook-instead-of-lintstaged-with-husky
 tags:
   - 開発
   - Git
   - Node.js
   - Ruby
 date: 2019-09-22T04:03:56.110Z
-image: 2019-09-22-change-lefthook-instead-of-lintstaged-with-husky.jpg
+cover: posts/2019-09-22-change-lefthook-instead-of-lintstaged-with-husky/cover.jpg
 ---
 Gitにはコミット時やプッシュ後に特定のコマンドを自動実行するGit Hooksという仕組みがありますが、これを設定管理するためにLefthookというライブラリがあることを知りました。
 今まではlint-stagedとHuskyを組み合わせて使っていましたが、試しにつかってみたらなかなか良かったので乗りかえてみました、という話。

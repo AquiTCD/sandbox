@@ -1,5 +1,6 @@
 ---
 title: SlackApp快速開発 - Firestoreでデータ保持したり読み出したりする
+slug: develop-slack-app-comfortably-fast-with-firestore
 tags:
   - 開発
   - Slack
@@ -7,7 +8,7 @@ tags:
   - GoogleAppEngine
   - Firestore
 date: 2019-11-02T08:15:53.289Z
-image: 2019-11-02-develop-slack-app-comfortably-fast-with-firestore.jpg
+cover: posts/2019-11-02-develop-slack-app-comfortably-fast-with-firestore/cover.jpg
 ---
 SlackAppを作っていて少々込みいったことやChatOps的なことをやりたくなってくると、DBのように保持しておく必要のあるデータを持ちたくなります。今回はデータ保持しておく際の保存先としてCloud Firestoreを使って組みこんでみます。
 

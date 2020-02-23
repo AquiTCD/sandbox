@@ -1,11 +1,12 @@
 ---
 title: 'My ChangeLog[0.38.3] & Next Roadmap'
+slug: changelog-and-roadmap-0_38_03
 tags:
   - 雑記
   - 生活
   - ふりかえり
 date: 2020-01-01T09:49:40.330Z
-image: 2020-01-01-changelog-and-roadmap-0_39_03.jpg
+cover: posts/2020-01-01-changelog-and-roadmap-0_38_03/cover.jpg
 ---
 あけましておめでとうございます。
 年が明けようと、正月だろうと、1年は1日が365回の積み重ねだし、1月の12回の積み重ねなので、ふりかえりと次の目標設定を欠かしちゃぁいけませんね。

@@ -1,5 +1,6 @@
 ---
 title: SlackApp快速開発 - BoltでHTTPリクエストを受け、Cronで定時実行
+slug: develop-slack-app-comfortably-fast-receive-http-request-for-cron
 tags:
   - 開発
   - Slack
@@ -7,7 +8,8 @@ tags:
   - GoogleAppEngine
   - Cron
 date: 2019-10-22T04:30:24.710Z
-image: 2019-10-22-develop-slack-app-comfortably-fast-receive-http-request-for-cron.jpg
+cover: >-
+  posts/2019-10-22-develop-slack-app-comfortably-fast-receive-http-request-for-cron/cover.jpg
 ---
 ## 概要
 前々回、BoltベースのSlackAppを開発しはじめました。BoltはSlackAppに特化したサーバーフレームワークで、スラッシュコマンドやSlackイベントをトリガーに動作するアクションが非常に書き易いのが特徴です。今回は公式ドキュメントにはないHTTPリクエストを受ける方法を実装して、HTTPリクエスト経由のCronによる定時実行を実現します。

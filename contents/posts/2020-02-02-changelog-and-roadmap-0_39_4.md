@@ -1,11 +1,12 @@
 ---
 title: 'My ChangeLog[0.38.4] & Next Roadmap'
+slug: changelog-and-roadmap-0_39_4
 tags:
   - 雑記
   - 生活
   - ふりかえり
 date: 2020-02-02T05:39:38.516Z
-image: 2020-02-02-changelog-and-roadmap-0_39_4.jpg
+cover: posts/2020-02-02-changelog-and-roadmap-0_39_4/cover.jpg
 ---
 自分リリースノートならぬ、自分ChangeLogと今月のRoadmap。前月のふりかえりと今月の目標。
 

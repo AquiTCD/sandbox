@@ -1,11 +1,12 @@
 ---
 title: マインドマップ読書感想文 - やり抜く人の9つの習慣 コロンビア大学の成功の科学
+slug: book-review-yarinukuhitono9tsunosyuukan
 tags:
   - review
   - book
   - mindmap
 date: 2019-09-28T14:04:15.967Z
-image: 2019-09-28-book-review-yarinukuhitono9tsunosyuukan.jpg
+cover: posts/2019-09-28-book-review-yarinukuhitono9tsunosyuukan/cover.jpg
 ---
 最近なぜかインプットが捗っていて、良い本に出会うことが多いのもあってせっかくだからマインドマップで読書感想文を書くことに挑戦してみました。まずは『やり抜く人の9つの習慣コロンビア大学の成功の科学』。習慣というか、目標とかタスクの設定方法、実行、心がまえに関する知見です。
 

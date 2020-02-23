@@ -1,11 +1,12 @@
 ---
 title: 手持ちのガジェットのUSB端子に全部マグネットアダプタをつけたら、ストレスがかなり軽減された
+slug: stress-free-to-use-magnet-adapter-for-usb-devices
 tags:
   - ガジェット
   - QOL
   - レビュー
 date: 2019-11-23T10:20:18.100Z
-image: 2019-11-23-stress-free-to-use-magnet-adapter-for-usb-devices.jpg
+cover: posts/2019-11-23-stress-free-to-use-magnet-adapter-for-usb-devices/cover.jpg
 ---
 いろんな電子ガジェットが普及してきて、今は一人一台どころか一人で複数のデバイスを所持することも少なくないと思います。スマホやタブレットだけでなく、Bluetoothイヤホンや入力機器などいたるところにUSB接続、充電の必要な機器があります。ところが**デバイスによってUSB端子の形状が異なってケーブルも別々に用意しないといけないのでツライ**始末。これはストレスなので楽になる方法を模索してみました。
 

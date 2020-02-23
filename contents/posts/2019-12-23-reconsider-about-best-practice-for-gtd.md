@@ -1,11 +1,12 @@
 ---
 title: 最高のGTDを再考する レビューとHorizonLevel
+slug: reconsider-about-best-practice-for-gtd
 tags:
   - GTD
   - LifeHack
   - 雑記
 date: 2019-12-23T13:54:57.672Z
-image: 2019-12-23-reconsider-about-best-practice-for-gtd.jpg
+cover: posts/2019-12-23-reconsider-about-best-practice-for-gtd/cover.jpg
 ---
 この記事は[Challenge Every Month アドベントカレンダー 2019](https://adventar.org/calendars/3926)、23日目の記事です。
 前回、チャレンジしつづける技術として目標を立てて実行していく方法をまとめたましたが、それをGTDにも応用してみました。何年も続けていたにもかからわず、上手く使いこなせてなかったGTDですが、初心に戻って妥協しないでにもう一度トライしてみたところ、今度は過去最高にまわっています。

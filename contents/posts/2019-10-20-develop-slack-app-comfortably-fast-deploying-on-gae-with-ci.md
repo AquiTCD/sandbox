@@ -1,12 +1,14 @@
 ---
 title: SlackApp快速開発 - デプロイ(GAE with CircleCI)
+slug: develop-slack-app-comfortably-fast-deploying-on-gae-with-ci
 tags:
   - Slack
   - Bolt
   - GoogleAppEngine
   - CircleCI
 date: 2019-10-20T11:42:00.678Z
-image: 2019-10-20-develop-slack-app-comfortably-fast-deploying-on-gae-with-ci.jpg
+cover: >-
+  posts/2019-10-20-develop-slack-app-comfortably-fast-deploying-on-gae-with-ci/cover.jpg
 ---
 ## 概要
 前回、BoltベースのSlackAppを開発するためのローカル環境を作りました。今回はそれを実際に使えるようにデプロイします。デプロイ先はGoogleAppEngine(以下GAE)で、最終的にCircleCIを利用して自動的にデプロイされることを目指します。SlackAppと快速開発と言いながらほとんどはGAEとCircleCIの話なのでSlackApp以外にも簡単に応用できます。
