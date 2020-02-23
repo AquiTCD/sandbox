@@ -66,7 +66,7 @@ export const config = {
   amazonAssociateId: `akicks-22`,
   rakutenAffiliateId: `12d74d16.c27dc2b4.12d74d17.2343dd9d`,
   popularTags: [
-    // 'Rails',
+    `Rails`,
     `Vue.js`,
     `Mac`,
     `ガジェット`,

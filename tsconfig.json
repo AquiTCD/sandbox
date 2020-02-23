@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es2015",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "outDir": "./built/",
@@ -15,6 +15,7 @@
     }
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./tasks/**/*"
   ]
 }
