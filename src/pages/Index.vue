@@ -53,8 +53,10 @@ export default {
       return content.substring(0, SUMMARY_LENGTH) + `...`
     },
   },
-  metaInfo: {
-    title: `Hello, world!`,
+  metaInfo() {
+    return {
+      titleTemplate: `Trial and Spiral`,
+    }
   },
 }
 </script>

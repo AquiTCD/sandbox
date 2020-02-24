@@ -10,8 +10,8 @@ g-link.post_link(:to="post.path")
     time.post_link--time(:datetime="post.date") {{post.date}}
 </template>
 <script>
-import { createComponent } from '@vue/composition-api'
-export default createComponent({
+import { defineComponent } from '@vue/composition-api'
+export default defineComponent({
   props: {
     post: {
       type: Object,

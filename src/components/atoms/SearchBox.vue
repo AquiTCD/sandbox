@@ -26,7 +26,7 @@ query Posts {
 </static-query>
 <script>
 import Flexsearch from 'flexsearch'
-import Kuromoji from 'kuromoji'
+// import Kuromoji from 'kuromoji'
 const SUMMARY_LENGTH = 70
 export default {
   data() {

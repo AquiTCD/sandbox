@@ -16,9 +16,9 @@ nav.related_post_list
           time.post_link--time(:datetime="post.date") {{post.date}}
 </template>
 <script>
-import { createComponent } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 // import PostLink from '~/components/molecules/PostLink'
-export default createComponent({
+export default defineComponent({
   // components: { PostLink },
   props: {
     posts: {
@@ -31,7 +31,7 @@ export default createComponent({
 
 <style lang="stylus" scoped>
 .related_post_list
-  // margin-bottom: rhythmical-space(0.75)
+  margin-top: rhythmical-space(0.25)
 .list-title
   border-bottom: 4px solid $font-color-base
   border-top: 4px solid $font-color-base

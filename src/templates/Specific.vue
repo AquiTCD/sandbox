@@ -3,35 +3,16 @@
   article.article
     ArticleHeader.article-header(:post="$page.post")
     VueRemarkContent.article--body
-    PostPager(:id="$page.post.id")
-    RelatedPostList(:posts="$page.post.relatedPosts")
 </template>
 <page-query>
-query Post ($id: ID!) {
-  post: post (id: $id) {
+query Specific ($id: ID!) {
+  post: specific (id: $id) {
     id
     title
     path
-    date (format: "YYYY-MM-DD")
-    tags {
-      id
-      title
-      path
-    }
-    content
     cover
-    relatedPosts {
-      id
-      title
-      path
-      date (format: "YYYY-MM-DD")
-      cover
-      tags {
-        id
-        title
-        path
-      }
-    }
+    date (format: "YYYY-MM-DD")
+    content
   }
   metadata {
     siteName
@@ -46,52 +27,12 @@ query Post ($id: ID!) {
 }
 </page-query>
 <script>
-import RelatedPostList from '~/components/molecules/RelatedPostList'
 import ArticleHeader from '~/components/molecules/ArticleHeader'
-import PostPager from '~/components/molecules/PostPager'
 export default {
-  components: { RelatedPostList, ArticleHeader, PostPager },
+  components: { ArticleHeader },
   metaInfo() {
     return {
       title: this.$page.post.title,
-      meta: [
-        { property: `og:type`, content: `article` },
-        { property: `og:site_name`, content: this.$page.metadata.siteName },
-        {
-          name: `twitter:title`,
-          content: `${this.$page.post.title} | ${this.$page.metadata.siteName}`,
-        },
-        {
-          name: `description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
-        },
-        {
-          property: `og:description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
-        },
-        {
-          name: `twitter:description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
-        },
-        {
-          property: `og:image`,
-          content: this.$page.post.cover
-            ? this.$page.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$page.post.cover}`).src
-            : this.$static.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
-                .src,
-        },
-        {
-          name: `twitter:image`,
-          content: this.$page.post.cover
-            ? this.$page.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$page.post.cover}`).src
-            : this.$static.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
-                .src,
-        },
-      ],
     }
   },
 }

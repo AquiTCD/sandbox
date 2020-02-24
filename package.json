@@ -11,7 +11,7 @@
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/remark-prismjs": "^0.3.0",
     "@gridsome/vue-remark": "^0.1.9",
-    "@vue/composition-api": "^0.3.4",
+    "@vue/composition-api": "^0.4.0",
     "cssremedy": "^0.1.0-beta.2",
     "flexsearch": "^0.6.32",
     "gridsome": "^0.7.0",

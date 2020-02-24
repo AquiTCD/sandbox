@@ -7,7 +7,19 @@
     TheSideNav.side_nav
     TheFooter.footer
 </template>
-
+<static-query>
+query {
+  metadata {
+    siteName
+    siteDescription
+    siteUrl
+    siteOgImage
+    authorLogo
+    authorName
+    authorDescription
+  }
+}
+</static-query>
 <script>
 import TheHeader from '~/components/organisms/TheHeader.vue'
 import TheHeaderNav from '~/components/organisms/TheHeaderNav.vue'
@@ -27,6 +39,44 @@ export default {
     }
   },
   methods: {},
+  metaInfo() {
+    return {
+      htmlAttrs: { lang: `ja` },
+      meta: [
+        { property: `og:locale`, content: `ja_JP` },
+        { property: `og:type`, content: `website` },
+        { property: `og:site_name`, content: this.$static.metadata.siteName },
+        { name: `twitter:title`, content: this.$static.metadata.siteName },
+        { name: `description`, content: this.$static.metadata.siteDescription },
+        {
+          property: `og:description`,
+          content: this.$static.metadata.siteDescription,
+        },
+        {
+          name: `twitter:description`,
+          content: this.$static.metadata.siteDescription,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary_large_image`,
+        },
+        {
+          property: `og:image`,
+          content:
+            this.$static.metadata.siteUrl +
+            require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
+              .src,
+        },
+        {
+          name: `twitter:image`,
+          content:
+            this.$static.metadata.siteUrl +
+            require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
+              .src,
+        },
+      ],
+    }
+  },
 }
 </script>
 

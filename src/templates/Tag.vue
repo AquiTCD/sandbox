@@ -5,7 +5,7 @@
       span に関する記事
       span {{ `（${$page.tag.belongsTo.pageInfo.currentPage}/${$page.tag.belongsTo.pageInfo.totalPages}ページ：${$page.tag.belongsTo.totalCount}件）`}}
     g-link.post(v-for="post in $page.tag.belongsTo.edges" :key="post.id" :to="post.node.path")
-      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.image" :tags="post.node.tags" :date="post.node.date")
+      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
     Pager(:info="$page.tag.belongsTo.pageInfo")
 </template>
 
@@ -38,7 +38,6 @@ query($id: ID!, $page: Int) {
     }
   }
 }
-
 </page-query>
 
 <script>
@@ -55,8 +54,10 @@ export default {
       return content.substring(0, SUMMARY_LENGTH) + `...`
     },
   },
-  metaInfo: {
-    title: `Hello, world!`,
+  metaInfo() {
+    return {
+      title: `Tag:${this.$page.tag.title}`,
+    }
   },
 }
 </script>

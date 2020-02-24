@@ -16,9 +16,6 @@ export default {
   components: {},
   props: [`title`, `summary`, `cover`, `date`, `tags`],
   methods: {},
-  metaInfo: {
-    title: `Hello, world!`,
-  },
 }
 </script>
 

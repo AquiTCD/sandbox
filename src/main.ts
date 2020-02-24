@@ -17,6 +17,9 @@ export default function(
   }: // isClient
   any
 ) {
+  // head.prefix.push(
+  //   `og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#`
+  // )
   head.link.push({ rel: `icon`, type: `image/png`, href: `/favicon.ico` })
   head.meta.push({ 'http-equiv': `X-UA-Compatible`, content: `IE=edge` })
   head.meta.push({
@@ -32,16 +35,9 @@ export default function(
     content: `telephone=no,address=no,email=no`,
   })
   head.meta.push({ name: `apple-mobile-web-app-capable`, content: `yes` })
-  head.meta.push({
-    key: `og:url`,
-    name: `og:url`,
-    // content: process.env.GRIDSOME_BASE_PATH + to.path,
-  })
-  head.meta.push({ property: `og:locale`, content: `ja_JP` })
   head.script.push({
     src: `https://kit.fontawesome.com/2c0574300d.js`,
     crossorigin: `anonymous`,
-    SameSite: `none Secure`,
   })
   // Set to use libraries
   Vue.use(VueCompositionApi)

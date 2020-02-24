@@ -4,9 +4,9 @@ ul.post_link_list
     PostLink.post_link(:post="post.node")
 </template>
 <script>
-import { createComponent } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 import PostLink from '~/components/molecules/PostLink'
-export default createComponent({
+export default defineComponent({
   components: { PostLink },
   props: {
     posts: {
@@ -32,6 +32,6 @@ export default createComponent({
   padding: 0
 .post_link_list--item
   display: block
-  width: 100%
   margin-top: rhythmical-space(0.25)
+  width: 100%
 </style>

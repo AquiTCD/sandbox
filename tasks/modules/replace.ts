@@ -45,7 +45,7 @@ module.exports = (fileName: string): string => {
       slug: slug,
       tags: file.data.tags,
       date: targetDate,
-      cover: `posts/${title}/cover.jpg`,
+      cover: file.data.image ? `posts/${title}/cover.jpg` : ``,
     }
     const text: string = matter.stringify(file.content, newFrontmatter) // replace
     // ファイル作成

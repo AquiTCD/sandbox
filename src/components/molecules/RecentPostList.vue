@@ -26,9 +26,9 @@ nav.post_list
   }
 </static-query>
 <script>
-import { createComponent } from '@vue/composition-api'
+import { defineComponent } from '@vue/composition-api'
 import PostLinkList from '~/components/molecules/PostLinkList'
-export default createComponent({
+export default defineComponent({
   components: { PostLinkList },
   props: {},
 })

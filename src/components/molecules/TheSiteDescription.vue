@@ -39,8 +39,8 @@ query {
 }
 </static-query>
 <script lang="ts">
-import { createComponent } from '@vue/composition-api'
-export default createComponent({
+import { defineComponent } from '@vue/composition-api'
+export default defineComponent({
   setup() {},
 })
 </script>
@@ -63,30 +63,30 @@ export default createComponent({
   white-space: pre-wrap
   width: 100%
   +mq-larger()
+    border-right: $narrow-border-width solid $font-color-base
     grid-template-columns: auto
     grid-template-rows: auto auto auto auto
-    border-right: $narrow-border-width solid $font-color-base
 .byline
   display: none
   +mq-larger()
-    display: initial
     border-bottom: 1px solid $font-color-base
+    display: initial
+    font-weight: bold
     grid-column: 1
     grid-row: 1
     margin: 0
-    font-weight: bold
     text-align: center
     text-transform: uppercase
 .site_description
+  border-top: 3px solid $font-color-base
+  font-size: $font-size-small
+  grid-column: 1
+  grid-row: 3
   line-height: 1.2
   margin: 0
   padding: rhythmical-space(0.25) 0
   text-align: center
   white-space: no-wrap
-  grid-column: 1
-  grid-row: 3
-  font-size: $font-size-small
-  border-top: 3px solid $font-color-base
   +mq-larger()
     border-top: 0
     font-size: $font-size-x-small
@@ -94,36 +94,36 @@ export default createComponent({
     grid-row: 2
 .site_share
   font-size: $font-size-large
-  line-height: 1.2
-  margin: 0
-  padding-top: 0
-  padding-left: 0
-  padding-right: 0
-  padding-bottom: rhythmical-space(0.125)
-  text-align: center
   grid-column: 1
   grid-row: 2
+  line-height: 1.2
+  margin: 0
+  padding-bottom: rhythmical-space(0.125)
+  padding-left: 0
+  padding-right: 0
+  padding-top: 0
+  text-align: center
   +mq-larger()
     grid-column: 1
     grid-row: 3
 .share_button
-  link-fix: true
   color: $black-base
   display: inline-block
+  link-fix: true
   &:not(:first-of-type)
     margin-left: rhythmical-space(0.25)
 .hateb
-  width: 0.9em
   color: $font-color-base
   vertical-align: bottom
+  width: 0.9em
 .site_tag_list
   font-size: $font-size-x-small
+  grid-column: 1
+  grid-row: 1
   line-height: 1.2
   margin: 0
   padding: 0
   text-align: center
-  grid-column: 1
-  grid-row: 1
   +mq-larger()
     grid-column: 1
     grid-row: 4

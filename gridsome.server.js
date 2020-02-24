@@ -18,6 +18,8 @@ module.exports = function(api) {
   api.loadSource(({ getCollection, addSchemaResolvers }) => {
     const allPosts = getCollection(`Post`)
     allPosts.addReference(`relatedPosts`, `[Post]`)
+    // allPosts.addReference(`newerPost`, `Post`)
+    // allPosts.addReference(`olderPost`, `Post`)
     addSchemaResolvers({
       Post: {
         relatedPosts(obj) {

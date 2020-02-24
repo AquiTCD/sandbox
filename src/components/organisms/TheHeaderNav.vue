@@ -5,9 +5,9 @@ nav.the_header_nav
       g-link.list--link(to="/")
         g-image.logo_mini(:src="require('!!assets-loader!@images/logo_mini.svg')" width="36")
     li.list--item.is-about
-      g-link.list--link(to="/about") ABOUT
+      g-link.list--link(to="/about") About
     li.list--item.is-hot
-      g-link.list--link(to="/pick-ups") PICK UPs
+      g-link.list--link(to="/hot-topics") Hot Topics
     li.list--item.is-search
       SearchBox
 </template>
@@ -33,7 +33,6 @@ export default {
   position: sticky
   top: 0
 .list
-  width: 100%
   border-bottom: $narrow-border-width solid $pure-black
   border-top: $narrow-border-width solid $pure-black
   display: grid
@@ -42,29 +41,31 @@ export default {
   list-style-type: none
   margin: 0
   padding: 0
+  width: 100%
   +mq-larger()
     grid-template-columns: $side_nav_width auto auto $side_nav_width
 .list--item
-  text-align: center
   height: 100%
-  &:first-of-type, &:nth-of-type(2)
+  text-align: center
+  &:first-of-type,
+  &:nth-of-type(2)
     +mq-larger()
       border-right: $narrow-border-width solid $pure-black
   &:last-of-type
     +mq-larger()
       border-left: $narrow-border-width solid $pure-black
   &.is-logo
-    padding: rhythmical-space(0.125)
     display: flex
-    justify-content: flex-start
-    height: 100%
     grid-column: 1
     grid-row: 1
+    height: 100%
+    justify-content: flex-start
+    padding: rhythmical-space(0.125)
     +mq-larger()
       justify-content: center
   &:not(.is-search)
-    padding-top: rhythmical-space(0.25)
     font-weight: bold
+    padding-top: rhythmical-space(0.25)
   &.is-about
     display: none
     +mq-larger()

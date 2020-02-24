@@ -24,14 +24,14 @@ module.exports = {
   siteDescription: `試行錯誤顛末記録。或いは日記的な何か。\nWeb技術寄りな雑記Blog`,
   siteUrl:
     process.env.NODE_ENV === `production`
-      ? `https://blog.solunita.net/`
-      : `http://localhost:8080/`,
+      ? `https://blog.solunita.net`
+      : `http://localhost:8080`,
   transformers: {},
   metadata: {
     author: `Aqui TSUCHIDA`,
     twitter: `AquiTCD`,
-    siteOgImage: `/ogp.png`,
-    pageOgImage: `/ogp_default.png`,
+    siteOgImage: `ogp.png`,
+    pageOgImage: `ogp_default.png`,
     logo: `logo.svg`,
     navLogo: `logo_mini.svg`,
     authorLogo: `aqui.svg`,
@@ -80,6 +80,7 @@ module.exports = {
           enabled: true,
           output: `/feed.xml`,
         },
+        htmlFields: [`content`],
         // maxItems: 25,
         // filterNodes: node => true,
         // nodeToFeedItem: node => ({
@@ -119,8 +120,7 @@ module.exports = {
       options: {
         typeName: `Post`,
         baseDir: `./contents/posts`,
-        pathPrefix: `/posts`,
-        // route: `/posts/:slug`,
+        route: `/posts/:slug`,
         template: `./src/templates/Post.vue`,
         refs: {
           tags: {
@@ -128,6 +128,35 @@ module.exports = {
             create: true,
           },
         },
+        remark: {
+          externalLinksTarget: `_blank`,
+          externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
+          anchorClassName: `icon icon-link`,
+          autolinkHeadings: {
+            behavior: `append`,
+            content: {
+              type: `element`,
+              tagName: `i`,
+              properties: { className: [`heading-anchor`, `fas`, `fa-link`] },
+            },
+          },
+          plugins: [],
+        },
+        plugins: [
+          `remark-toc`,
+          `remark-slug`,
+          `remark-breaks`,
+          `@gridsome/remark-prismjs`,
+        ],
+      },
+    },
+    {
+      use: `@gridsome/vue-remark`,
+      options: {
+        typeName: `Specific`,
+        baseDir: `./contents/specifics`,
+        route: `/:slug`,
+        template: `./src/templates/Specific.vue`,
         remark: {
           externalLinksTarget: `_blank`,
           externalLinksRel: [`nofollow`, `noopener`, `noreferrer`],
