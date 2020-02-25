@@ -1,19 +1,19 @@
 <template lang="pug">
-nav.related_post_list
-  .list-title(v-if="posts.length")
-    span.list-title--strong 関連
-    span する記事
-  ul.list
-    li.post(v-for="post in posts" :key="post.id")
-      g-link.post_link(:to="post.path")
-        g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
-        div.post_link--title {{post.title}}
-        ul.post_link--tag-list
-          g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path" )
-            li {{ tag.title }}
-        .post_link--date
-          i.fas.fa-clock
-          time.post_link--time(:datetime="post.date") {{post.date}}
+  nav.related_post_list
+    .list-title(v-if="posts.length")
+      span.list-title--strong 関連
+      span する記事
+    ul.list
+      li.post(v-for="post in posts" :key="post.id")
+        g-link.post_link(:to="post.path")
+          g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
+          div.post_link--title {{post.title}}
+          ul.post_link--tag-list
+            g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path" )
+              li {{ tag.title }}
+          .post_link--date
+            i.fas.fa-clock
+            time.post_link--time(:datetime="post.date") {{post.date}}
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'

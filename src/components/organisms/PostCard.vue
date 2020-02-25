@@ -1,14 +1,14 @@
 <template lang="pug">
-.post_card
-  h2.post_card--title {{ title }} 
-  g-image.post_card--cover(width="200" :src="require('!!assets-loader!@images/' + cover)")
-  ul.post_card--tag_list
-    g-link.post_card--tag_item(:to="tag.path" v-for="tag in tags" :key="tag.id")
-      li {{ tag.title }}
-  p.post_card--summary {{ summary }}
-  .post_card--date
-    i.fas.fa-clock
-    time.post_card--time(:datetime="date") {{ date }}
+  .post_card
+    h2.post_card--title {{ title }}
+    g-image.post_card--cover(width="200" :src="require('!!assets-loader!@images/' + cover)")
+    ul.post_card--tag_list
+      g-link.post_card--tag_item(:to="tag.path" v-for="tag in tags" :key="tag.id")
+        li {{ tag.title }}
+    p.post_card--summary {{ summary }}
+    .post_card--date
+      i.fas.fa-clock
+      time.post_card--time(:datetime="date") {{ date }}
 </template>
 
 <script>

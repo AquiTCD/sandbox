@@ -54,6 +54,12 @@ export default {
   metaInfo() {
     return {
       title: this.$page.post.title,
+      link: [
+        {
+          rel: `canonical`,
+          href: this.$static.metadata.siteUrl + this.$page.post.path,
+        },
+      ],
       meta: [
         { property: `og:type`, content: `article` },
         { property: `og:site_name`, content: this.$page.metadata.siteName },

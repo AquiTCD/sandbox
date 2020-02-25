@@ -1,11 +1,11 @@
 <template lang="pug">
-.post_pager
-  g-link.post_pager--newer(v-if="currentPost.previous" :to="currentPost.previous.path")
-    i.fas.fa-angle-left.icon
-    span.title {{ currentPost.previous.title }}
-  g-link.post_pager--older(v-if="currentPost.next" :to="currentPost.next.path")
-    span.title {{ currentPost.next.title }}
-    i.fas.fa-angle-right.icon
+  .post_pager
+    g-link.post_pager--newer(v-if="currentPost.previous" :to="currentPost.previous.path")
+      i.fas.fa-angle-left.icon
+      span.title {{ currentPost.previous.title }}
+    g-link.post_pager--older(v-if="currentPost.next" :to="currentPost.next.path")
+      span.title {{ currentPost.next.title }}
+      i.fas.fa-angle-right.icon
 </template>
 <static-query>
   query {

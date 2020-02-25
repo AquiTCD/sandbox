@@ -1,19 +1,19 @@
 <template lang="pug">
-nav.post_list
-  .list-title
-    span.list-title--strong 人気
-    span の記事
-  ul.list
-    li.list--item(v-for="post in $static.recentPosts.edges" :key="post.id")
-      g-link.post(:to="post.node.path")
-        g-image.post--cover(:src="require('!!assets-loader!@images/' + post.node.cover)" width="280")
-        h2.post--title {{post.node.title}}
-        ul.post--tag-list
-          g-link.post--tag_item(v-for="tag in post.node.tags" :key="tag.id" :to="tag.path" )
-            li {{ tag.title }}
-        .post--date
-          i.fas.fa-clock
-          time.post--time(:datetime="post.node.date") {{post.node.date}}
+  nav.post_list
+    .list-title
+      span.list-title--strong 人気
+      span の記事
+    ul.list
+      li.list--item(v-for="post in $static.recentPosts.edges" :key="post.id")
+        g-link.post(:to="post.node.path")
+          g-image.post--cover(:src="require('!!assets-loader!@images/' + post.node.cover)" width="280")
+          h2.post--title {{post.node.title}}
+          ul.post--tag-list
+            g-link.post--tag_item(v-for="tag in post.node.tags" :key="tag.id" :to="tag.path" )
+              li {{ tag.title }}
+          .post--date
+            i.fas.fa-clock
+            time.post--time(:datetime="post.node.date") {{post.node.date}}
 </template>
 <static-query>
   # query {

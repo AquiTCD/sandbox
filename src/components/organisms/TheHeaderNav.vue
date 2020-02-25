@@ -1,15 +1,15 @@
 <template lang="pug">
-nav.the_header_nav
-  ul.list
-    li.list--item.is-logo
-      g-link.list--link(to="/")
-        g-image.logo_mini(:src="require('!!assets-loader!@images/logo_mini.svg')" width="36")
-    li.list--item.is-about
-      g-link.list--link(to="/about") About
-    li.list--item.is-hot
-      g-link.list--link(to="/hot-topics") Hot Topics
-    li.list--item.is-search
-      SearchBox
+  nav.the_header_nav
+    ul.list
+      li.list--item.is-logo
+        g-link.list--link(to="/")
+          img.logo_mini(:src="require('!!assets-loader!@images/logo_mini.svg').src" width="36")
+      li.list--item.is-about
+        g-link.list--link(to="/about") About
+      li.list--item.is-hot
+        g-link.list--link(to="/hot-topics") Hot Topics
+      li.list--item.is-search
+        SearchBox
 </template>
 
 <script>

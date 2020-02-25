@@ -4,7 +4,7 @@
     i.fas.fa-times-circle(v-if="searchTerm" @click="deleteInput")
     i.fas.fa-search(v-else)
     ul.search_result(v-if="searchResults.length")
-      g-link.result-link(v-for="result in searchResults" :key="result.id")
+      g-link.result-link(v-for="result in searchResults" :key="result.id" :to="result.path" @click="deleteInput")
         li.result--item
           .item--title {{ result.title }}
           .item--content {{ summary(result.content) }}

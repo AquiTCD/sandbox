@@ -1,9 +1,9 @@
 <template lang="pug">
-section.the_side_nav
-  TheSiteAuthor.the_site_author
-  //- PopularPostList
-  RecentPostList
-  TagList
+  section.the_side_nav
+    TheSiteAuthor.the_site_author
+    //- PopularPostList
+    RecentPostList
+    TagList
 </template>
 
 <script>
@@ -31,11 +31,11 @@ export default {
 .the_side_nav
   display: flex
   flex-flow: column nowrap
-  padding: 0 0 rhythmical-space(0.25) 0
   margin-bottom: rhythmical-space(0.25)
+  padding: 0 0 rhythmical-space(0.25)
   +mq-larger()
-    padding-left: rhythmical-space(0.25)
     border-left: $narrow-border-width solid $pure-black
+    padding-left: rhythmical-space(0.25)
 .the_site_author
   +mq-larger()
     display: none

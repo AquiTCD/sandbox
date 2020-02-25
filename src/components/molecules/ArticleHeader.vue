@@ -1,14 +1,14 @@
 <template lang="pug">
-header.article--header
-  h1.article--title {{ post.title }}
-  g-image.article--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="1200")
-  .article--date(v-show="post.date")
-    i.fas.fa-clock
-    time.article--time(:datetime="post.date") {{ post.date }}
-  ul.article--tag_list
-    i.fas.fa-tags
-    g-link.article--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path")
-      li.article--tag {{ tag.title }}
+  header.article--header
+    h1.article--title {{ post.title }}
+    g-image.article--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="1200")
+    .article--date(v-show="post.date")
+      i.fas.fa-clock
+      time.article--time(:datetime="post.date") {{ post.date }}
+    ul.article--tag_list
+      i.fas.fa-tags
+      g-link.article--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path")
+        li.article--tag {{ tag.title }}
 </template>
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'

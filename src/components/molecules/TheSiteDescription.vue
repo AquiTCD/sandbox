@@ -1,31 +1,31 @@
 <template lang="pug">
-.the_site_description
-  .content
-    span.byline {{ $static.metadata.siteName }}
-    p.site_description {{ ($static.metadata.siteDescription).replace('。', '。\n') }}
-    ul.site_share
-      li.share_button
-        a.twitter-share-button(:href="'https://twitter.com/share?url=' + $static.metadata.siteUrl + '&text=' + $static.metadata.siteName"
-          :data-text="$static.metadata.siteName"
-          :data-url="$static.metadata.siteUrl"
-          data-lang="ja"
-        )
-          i.fab.fa-twitter-square
-      li.share_button
-        a.pocket-btn(:href="'https://getpocket.com/edit?url=' + $static.metadata.siteUrl + '&title=' + $static.metadata.siteName"
-          :data-save-url="$static.metadata.siteUrl"
-          data-lang="ja"
-        )
-          i.fab.fa-get-pocket
-      li.share_button.is-image
-        a.pocket-btn(:href="'https://b.hatena.ne.jp/entry/panel/?url=' + $static.metadata.siteUrl + '&btitle=' + $static.metadata.siteName")
-          //- span B!
-          g-image.hateb(:src="require('!!assets-loader!@images/hateb.svg')" width="21")
-      li.share_button
-        a.rss-button(:href="'/' + $static.metadata.feedPath")
-          i.fas.fa-rss-square
-    ul.site_tag_list
-      li.site_tag_item(v-for="tag in $static.metadata.popularTags" :key="tag") {{ tag }}
+  .the_site_description
+    .content
+      span.byline {{ $static.metadata.siteName }}
+      p.site_description {{ ($static.metadata.siteDescription).replace('。', '。\n') }}
+      ul.site_share
+        li.share_button
+          a.twitter-share-button(:href="'https://twitter.com/share?url=' + $static.metadata.siteUrl + '&text=' + $static.metadata.siteName"
+            :data-text="$static.metadata.siteName"
+            :data-url="$static.metadata.siteUrl"
+            data-lang="ja"
+          )
+            i.fab.fa-twitter-square
+        li.share_button
+          a.pocket-btn(:href="'https://getpocket.com/edit?url=' + $static.metadata.siteUrl + '&title=' + $static.metadata.siteName"
+            :data-save-url="$static.metadata.siteUrl"
+            data-lang="ja"
+          )
+            i.fab.fa-get-pocket
+        li.share_button.is-image
+          a.pocket-btn(:href="'https://b.hatena.ne.jp/entry/panel/?url=' + $static.metadata.siteUrl + '&btitle=' + $static.metadata.siteName")
+            //- span B!
+            g-image.hateb(:src="require('!!assets-loader!@images/hateb.svg')" width="21")
+        li.share_button
+          a.rss-button(:href="'/' + $static.metadata.feedPath")
+            i.fas.fa-rss-square
+      ul.site_tag_list
+        li.site_tag_item(v-for="tag in $static.metadata.popularTags" :key="tag") {{ tag }}
 </template>
 <static-query>
 query {

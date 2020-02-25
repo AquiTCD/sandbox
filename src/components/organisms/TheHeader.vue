@@ -1,8 +1,8 @@
 <template lang="pug">
-header.the_header
-  TheSiteDescription.the_site_description
-  TheSiteLogo.the_site_logo
-  TheSiteAuthor.the_site_author
+  header.the_header
+    TheSiteDescription.the_site_description
+    TheSiteLogo.the_site_logo
+    TheSiteAuthor.the_site_author
 </template>
 
 <script>

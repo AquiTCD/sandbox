@@ -42,6 +42,7 @@ export default {
   metaInfo() {
     return {
       htmlAttrs: { lang: `ja` },
+      link: [{ rel: `canonical`, href: this.$static.metadata.siteUrl }],
       meta: [
         { property: `og:locale`, content: `ja_JP` },
         { property: `og:type`, content: `website` },

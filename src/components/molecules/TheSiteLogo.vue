@@ -1,8 +1,8 @@
 <template lang="pug">
 .the_site_logo
   g-link(to="/")
-    g-image.main_logo(
-      :src="require(`!!assets-loader!@images/${$static.metadata.logo}`)"
+    img.main_logo(
+      :src="require(`!!assets-loader!@images/${$static.metadata.logo}`).src"
       :alt="$static.metadata.siteName"
       width="1200"
     )
@@ -17,13 +17,13 @@ query {
 </static-query>
 <script>
 export default {
-  props: {},
   components: {},
+  props: {},
   data() {
     return {}
   },
-  methods: {},
   computed: {},
+  methods: {},
 }
 </script>
 

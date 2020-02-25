@@ -1,13 +1,13 @@
 <template lang="pug">
-nav.tag_list
-  .list-title
-    span.list-title--strong タグ
-    span 一覧
-  ul.list
-    g-link.list--item(v-for="tag in $static.tags.edges" :key="tag.node.id" :to="tag.node.path")
-      li
-        span.tag {{ tag.node.title }}
-        span.tag-count ({{ tag.node.belongsTo.totalCount}})
+  nav.tag_list
+    .list-title
+      span.list-title--strong タグ
+      span 一覧
+    ul.list
+      g-link.list--item(v-for="tag in $static.tags.edges" :key="tag.node.id" :to="tag.node.path")
+        li
+          span.tag {{ tag.node.title }}
+          span.tag-count ({{ tag.node.belongsTo.totalCount}})
 </template>
 <static-query>
 query {
@@ -61,11 +61,11 @@ export default {
 .list--item
   background: $font-color-base
   border: 1px solid $font-color-base
-  margin-bottom: rhythmical-space(0.25)
   border-radius: 2px
   color: $white-base
   display: inline-block
   line-height: 1
+  margin-bottom: rhythmical-space(0.25)
   padding: 5px 3px
   &:not(:last-of-type)
     margin-right: rhythmical-space(0.25)

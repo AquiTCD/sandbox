@@ -1,7 +1,7 @@
 <template lang="pug">
-ul.post_link_list
-  li.post_link_list--item(v-for="post in posts" :key="post.node.id")
-    PostLink.post_link(:post="post.node")
+  ul.post_link_list
+    li.post_link_list--item(v-for="post in posts" :key="post.node.id")
+      PostLink.post_link(:post="post.node")
 </template>
 <script>
 import { defineComponent } from '@vue/composition-api'

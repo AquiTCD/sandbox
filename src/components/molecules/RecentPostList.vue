@@ -1,9 +1,9 @@
 <template lang="pug">
-nav.post_list
-  .list-title
-    span.list-title--strong 最近
-    span の記事
-  PostLinkList(:posts="$static.recentPosts.edges")
+  nav.post_list
+    .list-title
+      span.list-title--strong 最近
+      span の記事
+    PostLinkList(:posts="$static.recentPosts.edges")
 </template>
 <static-query>
   query {
