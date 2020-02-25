@@ -57,7 +57,7 @@ export default {
       link: [
         {
           rel: `canonical`,
-          href: this.$static.metadata.siteUrl + this.$page.post.path,
+          href: this.$page.metadata.siteUrl + this.$page.post.path,
         },
       ],
       meta: [
