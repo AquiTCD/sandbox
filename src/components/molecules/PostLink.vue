@@ -1,10 +1,9 @@
 <template lang="pug">
-  .post_link
-    g-link.post_link--cover(:to="post.path")
-      g-image(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
-      div.post_link--title {{post.title}}
+  g-link.post_link(:to="post.path")
+    g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
+    div.post_link--title {{post.title}}
     ul.post_link--tag-list
-      g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path")
+      g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path" )
         li {{ tag.title }}
     .post_link--date
       i.fas.fa-clock
