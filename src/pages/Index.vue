@@ -48,6 +48,13 @@ export default {
     PostCard,
     Pager,
   },
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
+  },
   methods: {
     summary(content) {
       return content.substring(0, SUMMARY_LENGTH) + `...`

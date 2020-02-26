@@ -11,7 +11,7 @@
           g-link.post_link--title(:to="post.path") {{post.title}}
           TagList.post_link--tag-list(:tags="post.tags")
 </template>
-<script>
+<script lang="ts">
 import TagList from '~/components/molecules/TagList'
 import PostImage from '~/components/atoms/PostImage'
 import { defineComponent } from '@vue/composition-api'

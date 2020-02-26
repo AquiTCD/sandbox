@@ -32,7 +32,7 @@ module.exports = {
     twitter: `AquiTCD`,
     siteOgImage: `ogp.png`,
     pageOgImage: `ogp_default.png`,
-    logo: `logo.svg`,
+    siteLogo: `logo.svg`,
     navLogo: `logo_mini.svg`,
     authorLogo: `aqui.svg`,
     authorName: `AquiTCD`,

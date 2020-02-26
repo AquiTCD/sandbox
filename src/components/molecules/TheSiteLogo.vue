@@ -1,32 +1,25 @@
 <template lang="pug">
-.the_site_logo
-  g-link(to="/")
-    img.main_logo(
-      :src="require(`!!assets-loader!@images/${$static.metadata.logo}`).src"
-      :alt="$static.metadata.siteName"
-      width="1200"
-    )
+  .the_site_logo
+    g-link(to="/")
+      img.main_logo(
+        v-if="metadata.siteLogo"
+        :src="require(`!!assets-loader!@images/${metadata.siteLogo}`).src"
+        :alt="metadata.siteName"
+        width="1200"
+      )
 </template>
-<static-query>
-query {
-  metadata {
-    siteName
-    logo
-  }
-}
-</static-query>
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {}
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
+export default defineComponent({
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
   },
-  computed: {},
-  methods: {},
-}
+})
 </script>
-
 <style lang="stylus" scoped>
 .the_site_logo
   display: flex

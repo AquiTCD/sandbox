@@ -1,10 +1,10 @@
 <template lang="pug">
-.post
-  article.article
-    ArticleHeader.article-header(:post="$page.post")
-    VueRemarkContent.article--body
-    PostPager(:id="$page.post.id")
-    RelatedPostList(:posts="$page.post.relatedPosts")
+  .post
+    article.article
+      ArticleHeader.article-header(:post="$page.post")
+      VueRemarkContent.article--body
+      PostPager(:id="$page.post.id")
+      RelatedPostList(:posts="$page.post.relatedPosts")
 </template>
 <page-query>
 query Post ($id: ID!) {
@@ -33,16 +33,6 @@ query Post ($id: ID!) {
       }
     }
   }
-  metadata {
-    siteName
-    siteDescription
-    siteUrl
-    siteOgImage
-    pageOgImage
-    authorLogo
-    authorName
-    authorDescription
-  }
 }
 </page-query>
 <script>
@@ -51,6 +41,13 @@ import ArticleHeader from '~/components/molecules/ArticleHeader'
 import PostPager from '~/components/molecules/PostPager'
 export default {
   components: { RelatedPostList, ArticleHeader, PostPager },
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
+  },
   metaInfo() {
     return {
       title: this.$page.post.title,

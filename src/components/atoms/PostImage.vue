@@ -5,7 +5,7 @@
       i.fas.fa-clock
       time.post-image--time(:datetime="date") {{date}}
 </template>
-<script>
+<script lang="ts">
 import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
   props: {

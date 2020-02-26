@@ -1,10 +1,10 @@
 <template lang="pug">
   .app
-    TheHeader.header
+    TheHeader.header(:metadata="$static.metadata")
     TheHeaderNav.header_nav
     main.main(role='main')
       router-view // -> layout
-    TheSideNav.side_nav
+    TheSideNav.side_nav(:metadata="$static.metadata")
     TheFooter.footer
 </template>
 <static-query>
@@ -13,10 +13,12 @@ query {
     siteName
     siteDescription
     siteUrl
+    siteLogo
     siteOgImage
     authorLogo
     authorName
     authorDescription
+    popularTags
   }
 }
 </static-query>
@@ -33,12 +35,6 @@ export default {
     TheSideNav,
     TheFooter,
   },
-  data() {
-    return {
-      pageClasses: [`posts`],
-    }
-  },
-  methods: {},
   metaInfo() {
     return {
       htmlAttrs: { lang: `ja` },

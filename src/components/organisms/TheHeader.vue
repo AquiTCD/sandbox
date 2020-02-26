@@ -1,28 +1,29 @@
 <template lang="pug">
   header.the_header
-    TheSiteDescription.the_site_description
-    TheSiteLogo.the_site_logo
-    TheSiteAuthor.the_site_author
+    TheSiteDescription.the_site_description(:metadata="metadata")
+    TheSiteLogo.the_site_logo(:metadata="metadata")
+    TheSiteAuthor.the_site_author(:metadata="metadata")
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
 import TheSiteDescription from '~/components/molecules/TheSiteDescription.vue'
 import TheSiteLogo from '~/components/molecules/TheSiteLogo.vue'
 import TheSiteAuthor from '~/components/molecules/TheSiteAuthor.vue'
-
-export default {
+export default defineComponent({
   components: {
     TheSiteDescription,
     TheSiteLogo,
     TheSiteAuthor,
   },
-  props: {},
-  data() {
-    return {}
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
   },
-  computed: {},
-  methods: {},
-}
+})
 </script>
 
 <style lang="stylus" scoped>

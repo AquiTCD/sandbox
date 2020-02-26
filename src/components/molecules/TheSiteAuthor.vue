@@ -7,24 +7,26 @@
       span.byline written by
       a.author(href="https://aquitcd.github.io")
         img.author_logo(
-          :src="require(`!!assets-loader!@images/${$static.metadata.authorLogo}`).src"
-          :alt="$static.metadata.siteName"
+          v-if="metadata.authorLogo"
+          :src="require(`!!assets-loader!@images/${metadata.authorLogo}`).src"
+          :alt="metadata.siteName"
           width="128"
         )
-        span.author_name {{ $static.metadata.authorName }}
-      p.author_description {{ $static.metadata.authorDescription }}
+        span.author_name {{ metadata.authorName }}
+      p.author_description {{ metadata.authorDescription }}
 </template>
-<static-query>
-query {
-  metadata {
-    siteDescription
-    authorLogo
-    authorName
-    authorDescription
-  }
-}
-</static-query>
-<script lang="ts"></script>
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
+export default defineComponent({
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
+  },
+})
+</script>
 
 <style lang="stylus" scoped>
 .the_site_author

@@ -1,30 +1,29 @@
 <template lang="pug">
   section.the_side_nav
-    TheSiteAuthor.the_site_author
-    //- PopularPostList
+    TheSiteAuthor.the_site_author(:metadata="metadata")
     RecentPostList
     AllTagList
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
 import TheSiteAuthor from '~/components/molecules/TheSiteAuthor.vue'
-// import PopularPostList from '~/components/molecules/PopularPostList.vue'
 import RecentPostList from '~/components/molecules/RecentPostList.vue'
 import AllTagList from '~/components/molecules/AllTagList.vue'
-export default {
+export default defineComponent({
   components: {
     TheSiteAuthor,
-    // PopularPostList,
     RecentPostList,
     AllTagList,
   },
-  props: {},
-  data() {
-    return {}
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
   },
-  computed: {},
-  methods: {},
-}
+})
 </script>
 
 <style lang="stylus" scoped>

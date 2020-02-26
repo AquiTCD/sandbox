@@ -14,16 +14,6 @@ query Specific ($id: ID!) {
     date (format: "YYYY-MM-DD")
     content
   }
-  metadata {
-    siteName
-    siteDescription
-    siteUrl
-    siteOgImage
-    pageOgImage
-    authorLogo
-    authorName
-    authorDescription
-  }
 }
 </page-query>
 <script>

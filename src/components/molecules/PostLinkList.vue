@@ -3,7 +3,7 @@
     li.post_link_list--item(v-for="post in posts" :key="post.node.id")
       PostLink.post_link(:post="post.node")
 </template>
-<script>
+<script lang="ts">
 import { defineComponent } from '@vue/composition-api'
 import PostLink from '~/components/molecules/PostLink'
 export default defineComponent({

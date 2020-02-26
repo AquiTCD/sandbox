@@ -3,16 +3,9 @@
     small.copyright Copyright © 2014 Aqui TCD
 </template>
 
-<script>
-export default {
-  components: {},
-  props: {},
-  data() {
-    return {}
-  },
-  computed: {},
-  methods: {},
-}
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
+export default defineComponent({})
 </script>
 
 <style lang="stylus" scoped>

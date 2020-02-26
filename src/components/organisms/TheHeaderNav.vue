@@ -12,17 +12,19 @@
         SearchBox
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api'
 import SearchBox from '~/components/atoms/SearchBox.vue'
-export default {
+export default defineComponent({
   components: { SearchBox },
-  props: {},
-  data() {
-    return {}
+  props: {
+    metadata: {
+      type: Object,
+      require: true,
+      default: () => ({}),
+    },
   },
-  computed: {},
-  methods: {},
-}
+})
 </script>
 
 <style lang="stylus" scoped>

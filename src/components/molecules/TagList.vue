@@ -30,6 +30,4 @@ export default defineComponent({
   list-style-type: none
   margin: 0
   overflow: hidden
-  // padding: rhythmical-space(0.25)
-  // padding: rhythmical-space(0.25) 0 0
 </style>
