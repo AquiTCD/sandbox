@@ -26,7 +26,7 @@ export default defineComponent({
 <style lang="stylus" scoped>
 .post_link_list
   display: flex
-  flex-flow: column nowrap
+  flex-flow: column wrap
   list-style-type: none
   margin: 0
   padding: 0

@@ -1,17 +1,16 @@
 <template lang="pug">
-  g-link.post_link(:to="post.path")
-    g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
-    div.post_link--title {{post.title}}
+  .post_link
+    g-link.post_link--image(:to="post.path")
+      PostImage(:src="post.cover" :date="post.date")
+    g-link.post_link--title(:to="post.path") {{post.title}}
     TagList.post_link--tag-list(:tags="post.tags")
-    .post_link--date
-      i.fas.fa-clock
-      time.post_link--time(:datetime="post.date") {{post.date}}
 </template>
 <script>
 import TagList from '~/components/molecules/TagList'
+import PostImage from '~/components/atoms/PostImage'
 import { defineComponent } from '@vue/composition-api'
 export default defineComponent({
-  components: { TagList },
+  components: { PostImage, TagList },
   props: {
     post: {
       type: Object,
@@ -31,95 +30,53 @@ export default defineComponent({
 .post_link
   display: grid
   grid-template-columns: auto
-  grid-template-rows: auto auto auto auto
+  grid-template-rows: auto auto auto
   +mq-medium()
+    border-radius: 2px
+    border-right: $narrow-border-width solid $font-color-base
     grid-template-columns: 30% auto
     grid-template-rows: 62% 38%
   +mq-larger()
-    grid-template-columns: auto
-    grid-template-rows: auto auto auto auto
-.post_link--cover
-  background: $font-color-base
-  border-radius: 0
-  grid-column: 1
-  grid-row: 2
-  padding: 1px
-  +mq-medium()
-    border-radius: 2px 0 0 2px
-    border-right: 1px solid $font-color-base
-    grid-column: 1
-    grid-row: 1 / 3
-    padding: $narrow-border-width 0 $narrow-border-width $narrow-border-width
-  +mq-larger()
-    border-radius: 0
     border-right: 0
-    grid-column: 1
-    grid-row: 2
-    padding: 1px
-.post_link--title
-  background: $font-color-base
-  border-radius: 2px 2px 0 0
-  color: $pure-white
-  font-size: $font-size-small
-  font-weight: bold
+    grid-template-columns: auto
+    grid-template-rows: auto auto
+.post_link--image
   grid-column: 1
   grid-row: 1
+  +mq-medium()
+    grid-column: 1
+    grid-row: 1 / 3
+  +mq-larger()
+    grid-column: 1
+    grid-row: 1
+.post_link--title
+  font-size: $font-size-base
+  font-weight: bold
+  grid-column: 1
+  grid-row: 2
   line-height: 1.2
   link-fix: true
   margin: 0
-  padding: rhythmical-space(0.25)
+  padding: rhythmical-space(0.25) rhythmical-space(0.25) rhythmical-space(0.125)
   +mq-medium()
-    border-radius: 0 2px 0 0
-    font-size: $font-size-base
+    border-top: $narrow-border-width solid $font-color-base
     grid-column: 2
     grid-row: 1
   +mq-larger()
-    border-radius: 2px 2px 0 0
+    border-top: 0
     font-size: $font-size-small
     grid-column: 1
-    grid-row: 1
+    grid-row: 2
 .post_link--tag-list
-  background: $pure-white
-  border-bottom: 1px solid $font-color-base
-  border-left: 1px solid $font-color-base
-  border-radius: 0 0 2px 2px
-  border-right: 1px solid $font-color-base
+  border-bottom: $narrow-border-width solid $font-color-base
   grid-column: 1
   grid-row: 3
   overflow: hidden
-  padding: rhythmical-space(0.125) rhythmical-space(0.25)
+  padding: 0 rhythmical-space(0.25) rhythmical-space(0.125)
   +mq-medium()
-    border-radius: 0 0 2px 0
     grid-column: 2
     grid-row: 2
   +mq-larger()
-    border-radius: 0 0 2px 2px
     grid-column: 1
     grid-row: 3
-.post_link--date
-  align-self: start
-  background: $white-base
-  border-bottom: 1px solid $font-color-base
-  border-left: 1px solid $font-color-base
-  border-radius: 0 0 0 2px
-  border-right: 1px solid $font-color-base
-  color: $font-color-base
-  display: flex
-  font-size: $font-size-x-small
-  grid-column: 1
-  grid-row: 2
-  justify-self: end
-  line-height: 1
-  margin-top: 1px
-  padding: rhythmical-space(0.125)
-  +mq-medium()
-    grid-column: 1
-    grid-row: 1
-    margin-top: $narrow-border-width
-  +mq-larger()
-    grid-column: 1
-    grid-row: 2
-    margin-top: 1px
-.post_link--time
-  margin-left: rhythmical-space(0.125)
 </style>
