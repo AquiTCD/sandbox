@@ -8,18 +8,17 @@
         g-link.post_link(:to="post.path")
           g-image.post_link--cover(:src="require('!!assets-loader!@images/' + post.cover)" width="280")
           div.post_link--title {{post.title}}
-          ul.post_link--tag-list
-            g-link.post_link--tag_item(v-for="tag in post.tags" :key="tag.id" :to="tag.path" )
-              li {{ tag.title }}
+          TagList.post_link--tag-list(:tags="post.tags")
           .post_link--date
             i.fas.fa-clock
             time.post_link--time(:datetime="post.date") {{post.date}}
 </template>
 <script>
+import TagList from '~/components/molecules/TagList'
 import { defineComponent } from '@vue/composition-api'
 // import PostLink from '~/components/molecules/PostLink'
 export default defineComponent({
-  // components: { PostLink },
+  components: { TagList },
   props: {
     posts: {
       type: Array,
@@ -93,26 +92,14 @@ export default defineComponent({
   border-left: 1px solid $font-color-base
   border-radius: 0 0 2px 2px
   border-right: 1px solid $font-color-base
-  font-size: $font-size-x-small
   grid-column: 1
   grid-row: 3
-  list-style-type: none
-  margin: 0
   overflow: hidden
-  padding: 0 rhythmical-space(0.25)
+  padding: rhythmical-space(0.125) rhythmical-space(0.25)
   +mq-medium()
     border-radius: 0 0 2px 0
     grid-column: 2
     grid-row: 2
-.post_link--tag_item
-  background: $font-color-base
-  border-radius: 2px
-  color: $pure-white
-  display: inline-block
-  line-height: 1
-  padding: 5px 3px
-  &:not(:first-of-type)
-    margin-left: rhythmical-space(0.25)
 .post_link--date
   align-self: start
   background: $white-base

@@ -2,9 +2,7 @@
   .post_card
     h2.post_card--title {{ title }}
     g-image.post_card--cover(width="200" :src="require('!!assets-loader!@images/' + cover)")
-    ul.post_card--tag_list
-      g-link.post_card--tag_item(:to="tag.path" v-for="tag in tags" :key="tag.id")
-        li {{ tag.title }}
+    TagList.post_card--tag_list(:tags="tags")
     p.post_card--summary {{ summary }}
     .post_card--date
       i.fas.fa-clock
@@ -12,8 +10,9 @@
 </template>
 
 <script>
+import TagList from '~/components/molecules/TagList'
 export default {
-  components: {},
+  components: { TagList },
   props: [`title`, `summary`, `cover`, `date`, `tags`],
   methods: {},
 }
@@ -54,27 +53,14 @@ export default {
     grid-column: 1
     grid-row: 2 / 5
 .post_card--tag_list
-  display: flex
-  flex-flow: row nowrap
-  font-size: $font-size-x-small
   grid-column: 1
   grid-row: 3
   list-style-type: none
   margin: 0
-  padding: rhythmical-space(0.25) rhythmical-space(0.25) 0
+  padding: rhythmical-space(0.125) rhythmical-space(0.25) 0
   +mq-medium()
     grid-column: 2
     grid-row: 2
-.post_card--tag_item
-  background: $font-color-base
-  border: 1px solid $font-color-base
-  border-radius: 2px
-  color: $white-base
-  display: inline-block
-  line-height: 1
-  padding: 5px 3px
-  &:not(:first-of-type)
-    margin-left: rhythmical-space(0.25)
 .post_card--summary
   color: $font-color-base
   font-size: $font-size-small

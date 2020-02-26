@@ -6,7 +6,7 @@
     SearchResult(v-if="searchTerm.length" :searchTerm="searchTerm")
 </template>
 <script>
-import SearchResult from '~/components/atoms/SearchResult'
+import SearchResult from '~/components/atoms/functions/SearchResult'
 export default {
   components: { SearchResult },
   data() {
