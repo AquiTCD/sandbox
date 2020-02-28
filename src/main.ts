@@ -2,8 +2,12 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 import VueCompositionApi from '@vue/composition-api'
 import DefaultLayout from '~/layouts/Default.vue'
-import 'cssremedy/css/remedy.css' // css reset
-import 'prismjs/themes/prism-okaidia.css' // prism for syntax highlight
+// css reset
+import 'cssremedy/css/remedy.css'
+// prism for syntax highlight
+// import 'prismjs/themes/prism-okaidia.css'
+// import '~/assets/styles/gruvbox-dark.styl'
+import '~/assets/styles/pojoaque.css'
 
 // global components
 import AdCard from './components/globals/AdCard.vue'
