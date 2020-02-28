@@ -18,8 +18,10 @@
     "gridsome-plugin-feed": "^1.0.2",
     "kuromoji": "^0.1.2",
     "lodash": "^4.17.15",
+    "remark": "^11.0.2",
     "remark-breaks": "^1.0.3",
-    "remark-toc": "^7.0.0"
+    "remark-toc": "^7.0.0",
+    "strip-markdown": "^3.1.1"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.0",
