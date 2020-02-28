@@ -54,15 +54,15 @@ export default {
       link: [
         {
           rel: `canonical`,
-          href: this.$page.metadata.siteUrl + this.$page.post.path,
+          href: this.metadata.siteUrl + this.$page.post.path,
         },
       ],
       meta: [
         { property: `og:type`, content: `article` },
-        { property: `og:site_name`, content: this.$page.metadata.siteName },
+        { property: `og:site_name`, content: this.metadata.siteName },
         {
           name: `twitter:title`,
-          content: `${this.$page.post.title} | ${this.$page.metadata.siteName}`,
+          content: `${this.$page.post.title} | ${this.metadata.siteName}`,
         },
         {
           name: `description`,
@@ -79,7 +79,7 @@ export default {
         {
           property: `og:image`,
           content: this.$page.post.cover
-            ? this.$page.metadata.siteUrl +
+            ? this.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$page.post.cover}`).src
             : this.$static.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
@@ -88,7 +88,7 @@ export default {
         {
           name: `twitter:image`,
           content: this.$page.post.cover
-            ? this.$page.metadata.siteUrl +
+            ? this.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$page.post.cover}`).src
             : this.$static.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
