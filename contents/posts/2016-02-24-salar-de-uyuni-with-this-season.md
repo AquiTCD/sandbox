@@ -1,0 +1,76 @@
+---
+title: この時期のウユニ塩湖ってやつは
+date: 2016-02-24 00:00:00
+tags:
+  # - お知らせ
+  # - アプリ
+  # - 本
+  # - 配信
+  # - 革工芸
+  # - カスタマイズ
+  # - 開発
+  # - 装備
+  # - ガジェット
+  # - ゲーム
+  # - Hack
+  - 旅
+  # - 生活
+  # - Mac
+  - 雑記
+  # - 音楽
+  # - レビュー
+---
+なんかウユニ塩湖が話題になってたので行ってた実体験を元にした話を明かしてみたいと思った今日この頃。
+
+![ウユニ1](https://lh3.googleusercontent.com/CMLSnLhKcEAH-GNPCCZv7FoJe20sONMh0KGqTfBuM1Kc84773j1Q3Li8iR_tXwypCmbf9FmNlegtUM428UygbO9mWHNQuitImxMGd27_vvmoJQokAVpV76qZLzgiA-GwXE2yAlydXVgXKY8TJxgBDD6tBEWksEkDNrw9SVG_VcxBPE60qy_oSkIvXDa2gjZVWVosM7hVIU-hcyOw8GgPtHuDNUNSr02qNWuCxLKpsIvvERP9XCPyTMxIAcgzOHsBCgBcm4_F25PiVRByabyVjj_8iVAhdaFSsAy7NYH60BfOF044FEXTISFO2keBo0rN0UclZ9uCA5zh45h9rGhqHA_yiXHuotsw9IDgLzGCj53imrJ3BE0lfj2ngiL2l6g9dt2SS41tFm8VfgAu1PQcy7R6ssoCDUBuzsrWDnE2vr_3VIMfunQzhNbIewFNGxwX5SF7GT_1zgZmyXo3s0fEpZug9tzUMS6X5ZCrYdxDjvfgY-lABIiAeSIjPGqGoOMuMz0L0sAacHzLy8FDykXLpN2GwfEowQpP8PtDtumcm2MMbQQYSpY1G2YL627ca0U46_Z3 "ウユニ1")
+
+## ウユニ塩湖
+### どんなところ？
+鏡張りで知られる、南米はボリビアにある高地、ウユニにある塩湖一帯。2月ごろが鏡張りのシーズンで、雨季によって降った雨がまっ平らな、視界いっぱいに広がる塩湖にたまって、風の少ないシーズンだから波が立たずそれが鏡のようになる、という、日本人には絶景で有名な場所。
+### そう、日本人には有名な場所
+そして**このシーズンは大学生の卒業旅行シーズンと重なる**。この時期、南米ペルーのリマあたりから、ボリビアのウユニを中心に、チリのサンティアゴやアルゼンチンのブエノスアイレスぐらいまで日本人、特に大学生がかなり多い。特にマチュピチュへの足がかりとなる、ペルーのクスコ、ボリビアの首都ラパス、そしてその中でもウユニの町にはめっちゃ多い。さらに言うとウユニの町はちっちゃいのですげー多い。**犬も歩けば日本人大学生に当たるレベル**で多いよ。
+
+## 僕の個人的な思い出
+### キャピキャピ感に対するアウェー感
+宿で大学生ばかり、ウユニ塩湖のツアーに参加しても周りはみんな大学生。もう30オーバーの僕としちゃ、アウェー感ハンパなかったよ。ちょっとおじさん、ついていけなかったよ。しかも**なんだその合コンムード的なやつは。日本でやれ**よ。本当かどうかは知らないが、ウユニはヤれる、との噂もあるとかないとか。日本でヤれよ。
+### 僕らがアウェーなんですよ
+僕ば少しシーズン遅めでウユニに行ったわけなんだけど、初見では宿の人になんか日本人は嫌われてる感じ。最初はすげー嫌そうに対応された。でも僕はフレンドリーにボゴタで修行したスペイン語で話してたら次第に態度は軟化して、最終的に普通に仲良くなった。きっと**推測するに、シーズンで大量に来る言葉の通じない来訪者に疲れちゃった**んじゃないかと。しかも「なんだよ、英語も通じないのかよ」という態度で来られたらね、もう。そう言う奴に限って英語すらろく喋れないのは滑稽なのはこの際置いておこう。
+### それでもウユニはキレイだよ
+そうは言ってもウユニ塩湖はやっぱりキレイだったよ。あれはあそこにしかない光景だし。あとすげー寒い。特に鏡張りエリア。あれは**鏡じゃなくて大きな水溜り**だ。昼間でも寒いのに、長靴でずっと水溜りに入っててごらんなさいよ。クソ寒いって。あとすげー空気乾燥してる。もう1つ言っておきたいのは、鏡張りに映る星空は、実際はそこまで映ってないという話。一眼レフを知ってる人はわかると思うけど、**シャッタースピードを落とすと肉眼よりも圧倒的に星は写せる**ってこと。
+
+![ウユニ2](https://lh3.googleusercontent.com/0mdyth2txu_R6eZdno9kxospjzdHDsE0Q3Lm0fMr1Cs8WHN3s7BueSSprLJl9NGJGbLb75ZTA6boS4IFhYjSTIhohMM_aE30wXFTU2c8VaxcKYhLPNkM0kl6FHj3587YtScOeTiT-wKQMar8QcQnGI0vw-rx9mjNrFHZdGvPbOkEelXe3fxSZywmayi2UXIVqZLNRNo6eIJD4-Gs3O0sTrxHpAxwxRA8Dyt6xNoOalLKjxJdXZE8C2HHTyuIt2SyX6UELzOzC-QXLI3F8KXqE1kvTvpWZpsqQj-9SAPmOrehnwW-z44OTHAdzSlMUgyHHBgVeN-fAQkPkOj1VajJQg2I0NZGTzfbbgwGuuDUzZoc7WF6rinluCe9Xz23ledqInFwNsucce9lj7703s9e7ssWqAH4fMhYcdIi5pC8h1cKi_fU2hLoDrtu5pSM4PXblgGLgWvQ6j-Tq2jJVGCgay1TwUz9P3HJQ1PwijIYMjRih7YwXuVzjuP_UiE32LIFy3Y9fpsvS7BVAgs8UXiOoB_6boZTOdaQQWOB4zA9n6hUGm4WsifLEKmUxd5CKcT__ixo "ウユニ2")
+
+## そんなこんなですが
+大学生を批判するつもりもないし、ウユニなんて下らねえと言いたいわけでもない。言いたいことがあるとすれば、現実はこんな感じだ、ってのと、行きたいやつはとっとと行ってこいよ、大して難しいとこでもないから。って感じです。
+
+![ウユニ3](https://lh3.googleusercontent.com/ZeC3q-H94tEftbliwKAz__OuBIsGPf0B7BZzbyfG57PH_2S42g-nhalKvcfqnApSpSukYxUOaDv7a4W2agVv2-f7uSjLWgtAGcOoWnWYK0wRDs22tFVhNGyo8UFUfqx-PJ2zmJoPdVbYQDg3Q5vMXUc3VAnPBBoR3n0SsmEVM82rI596IH3AOT7_oiLPmQL6lNG82n3y5Rq8QIgKXIvN6r6jCuEBqz0YXbrdVtUQ-U2h2pPQw5BwGvdWBbm5uVXlQiIJP8_1NJAHL34sQ8dWfDBAebrUuUaAL5BsLk0MakXWmtqH5IeTHny3WojdpN251RvBLLNkRPn86L1jw0_bpKi3L7sg1tRCwnW84CZLYOAL3CohDz3kEmpLoCRt8g8KBFUt71zvP0hL6-tPMbPV_s05nwITjBqAyeHWXIRXZcMI38T2ICwDm63N-Yi4j82IvDB55uOkM22klJbGhmT7vQd0F0Bw3OFJSrVHIM2OUzBImVquMEpIbnp_8LLa7bFANEdJeIuYYaFjDdKdDJAPwEwfxfdrvNchsRMRFeWB9gVg01wOjYyf_ekF4s1bs_lRz8tY "ウユニ3")
+</string>
+	<key>custom_fields</key>
+	<array/>
+	<key>dateCreated</key>
+	<date>2016-02-24T13:34:01Z</date>
+	<key>description</key>
+	<string>なんかウユニ塩湖が話題になってたので行ってた実体験を元にした話を明かしてみたいと思った今日この頃。
+
+![ウユニ1](https://lh3.googleusercontent.com/CMLSnLhKcEAH-GNPCCZv7FoJe20sONMh0KGqTfBuM1Kc84773j1Q3Li8iR_tXwypCmbf9FmNlegtUM428UygbO9mWHNQuitImxMGd27_vvmoJQokAVpV76qZLzgiA-GwXE2yAlydXVgXKY8TJxgBDD6tBEWksEkDNrw9SVG_VcxBPE60qy_oSkIvXDa2gjZVWVosM7hVIU-hcyOw8GgPtHuDNUNSr02qNWuCxLKpsIvvERP9XCPyTMxIAcgzOHsBCgBcm4_F25PiVRByabyVjj_8iVAhdaFSsAy7NYH60BfOF044FEXTISFO2keBo0rN0UclZ9uCA5zh45h9rGhqHA_yiXHuotsw9IDgLzGCj53imrJ3BE0lfj2ngiL2l6g9dt2SS41tFm8VfgAu1PQcy7R6ssoCDUBuzsrWDnE2vr_3VIMfunQzhNbIewFNGxwX5SF7GT_1zgZmyXo3s0fEpZug9tzUMS6X5ZCrYdxDjvfgY-lABIiAeSIjPGqGoOMuMz0L0sAacHzLy8FDykXLpN2GwfEowQpP8PtDtumcm2MMbQQYSpY1G2YL627ca0U46_Z3 "ウユニ1")
+
+## ウユニ塩湖
+### どんなところ？
+鏡張りで知られる、南米はボリビアにある高地、ウユニにある塩湖一帯。2月ごろが鏡張りのシーズンで、雨季によって降った雨がまっ平らな、視界いっぱいに広がる塩湖にたまって、風の少ないシーズンだから波が立たずそれが鏡のようになる、という、日本人には絶景で有名な場所。
+### そう、日本人には有名な場所
+そして**このシーズンは大学生の卒業旅行シーズンと重なる**。この時期、南米ペルーのリマあたりから、ボリビアのウユニを中心に、チリのサンティアゴやアルゼンチンのブエノスアイレスぐらいまで日本人、特に大学生がかなり多い。特にマチュピチュへの足がかりとなる、ペルーのクスコ、ボリビアの首都ラパス、そしてその中でもウユニの町にはめっちゃ多い。さらに言うとウユニの町はちっちゃいのですげー多い。**犬も歩けば日本人大学生に当たるレベル**で多いよ。
+
+## 僕の個人的な思い出
+### キャピキャピ感に対するアウェー感
+宿で大学生ばかり、ウユニ塩湖のツアーに参加しても周りはみんな大学生。もう30オーバーの僕としちゃ、アウェー感ハンパなかったよ。ちょっとおじさん、ついていけなかったよ。しかも**なんだその合コンムード的なやつは。日本でやれ**よ。本当かどうかは知らないが、ウユニはヤれる、との噂もあるとかないとか。日本でヤれよ。
+### 僕らがアウェーなんですよ
+僕ば少しシーズン遅めでウユニに行ったわけなんだけど、初見では宿の人になんか日本人は嫌われてる感じ。最初はすげー嫌そうに対応された。でも僕はフレンドリーにボゴタで修行したスペイン語で話してたら次第に態度は軟化して、最終的に普通に仲良くなった。きっと**推測するに、シーズンで大量に来る言葉の通じない来訪者に疲れちゃった**んじゃないかと。しかも「なんだよ、英語も通じないのかよ」という態度で来られたらね、もう。そう言う奴に限って英語すらろく喋れないのは滑稽なのはこの際置いておこう。
+### それでもウユニはキレイだよ
+そうは言ってもウユニ塩湖はやっぱりキレイだったよ。あれはあそこにしかない光景だし。あとすげー寒い。特に鏡張りエリア。あれは**鏡じゃなくて大きな水溜り**だ。昼間でも寒いのに、長靴でずっと水溜りに入っててごらんなさいよ。クソ寒いって。あとすげー空気乾燥してる。もう1つ言っておきたいのは、鏡張りに映る星空は、実際はそこまで映ってないという話。一眼レフを知ってる人はわかると思うけど、**シャッタースピードを落とすと肉眼よりも圧倒的に星は写せる**ってこと。
+
+![ウユニ2](https://lh3.googleusercontent.com/0mdyth2txu_R6eZdno9kxospjzdHDsE0Q3Lm0fMr1Cs8WHN3s7BueSSprLJl9NGJGbLb75ZTA6boS4IFhYjSTIhohMM_aE30wXFTU2c8VaxcKYhLPNkM0kl6FHj3587YtScOeTiT-wKQMar8QcQnGI0vw-rx9mjNrFHZdGvPbOkEelXe3fxSZywmayi2UXIVqZLNRNo6eIJD4-Gs3O0sTrxHpAxwxRA8Dyt6xNoOalLKjxJdXZE8C2HHTyuIt2SyX6UELzOzC-QXLI3F8KXqE1kvTvpWZpsqQj-9SAPmOrehnwW-z44OTHAdzSlMUgyHHBgVeN-fAQkPkOj1VajJQg2I0NZGTzfbbgwGuuDUzZoc7WF6rinluCe9Xz23ledqInFwNsucce9lj7703s9e7ssWqAH4fMhYcdIi5pC8h1cKi_fU2hLoDrtu5pSM4PXblgGLgWvQ6j-Tq2jJVGCgay1TwUz9P3HJQ1PwijIYMjRih7YwXuVzjuP_UiE32LIFy3Y9fpsvS7BVAgs8UXiOoB_6boZTOdaQQWOB4zA9n6hUGm4WsifLEKmUxd5CKcT__ixo "ウユニ2")
+
+## そんなこんなですが
+大学生を批判するつもりもないし、ウユニなんて下らねえと言いたいわけでもない。言いたいことがあるとすれば、現実はこんな感じだ、ってのと、行きたいやつはとっとと行ってこいよ、大して難しいとこでもないから。って感じです。
+
+![ウユニ3](https://lh3.googleusercontent.com/ZeC3q-H94tEftbliwKAz__OuBIsGPf0B7BZzbyfG57PH_2S42g-nhalKvcfqnApSpSukYxUOaDv7a4W2agVv2-f7uSjLWgtAGcOoWnWYK0wRDs22tFVhNGyo8UFUfqx-PJ2zmJoPdVbYQDg3Q5vMXUc3VAnPBBoR3n0SsmEVM82rI596IH3AOT7_oiLPmQL6lNG82n3y5Rq8QIgKXIvN6r6jCuEBqz0YXbrdVtUQ-U2h2pPQw5BwGvdWBbm5uVXlQiIJP8_1NJAHL34sQ8dWfDBAebrUuUaAL5BsLk0MakXWmtqH5IeTHny3WojdpN251RvBLLNkRPn86L1jw0_bpKi3L7sg1tRCwnW84CZLYOAL3CohDz3kEmpLoCRt8g8KBFUt71zvP0hL6-tPMbPV_s05nwITjBqAyeHWXIRXZcMI38T2ICwDm63N-Yi4j82IvDB55uOkM22klJbGhmT7vQd0F0Bw3OFJSrVHIM2OUzBImVquMEpIbnp_8LLa7bFANEdJeIuYYaFjDdKdDJAPwEwfxfdrvNchsRMRFeWB9gVg01wOjYyf_ekF4s1bs_lRz8tY "ウユニ3")
