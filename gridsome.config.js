@@ -5,7 +5,18 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 const path = require(`path`)
-
+const remark = require(`remark`)
+const html = require(`remark-html`)
+function markdownToHtml(text) {
+  let result
+  remark()
+    .use(html)
+    .process(text, (err, file) => {
+      if (err) throw err
+      result = file.contents
+    })
+  return result
+}
 function addStyleResource(rule) {
   rule
     .use([`style-resource`])
@@ -83,11 +94,11 @@ module.exports = {
         htmlFields: [`content`],
         // maxItems: 25,
         // filterNodes: node => true,
-        // nodeToFeedItem: node => ({
-        //   title: node.title,
-        //   date: node.date || node.fields.date,
-        //   content: node.content,
-        // }),
+        nodeToFeedItem: node => ({
+          title: node.title,
+          date: node.date || node.fields.date,
+          content: markdownToHtml(node.content),
+        }),
       },
     },
     {
@@ -111,7 +122,7 @@ module.exports = {
         },
       },
     },
-    { use: `~/plugins/related-posts` },
+    // { use: `~/plugins/related-posts` },
     // { use: `~/plugins/eslint` }, // does not work properly
     // { use: `~/plugins/puglint` },
     // { use: `~/plugin/stylus` },
@@ -119,7 +130,10 @@ module.exports = {
       use: `@gridsome/vue-remark`,
       options: {
         typeName: `Post`,
-        baseDir: `./contents/posts`,
+        baseDir:
+          process.env.NODE_ENV === `production`
+            ? `./contents/posts`
+            : `./contents/drafts`,
         route: `/posts/:slug`,
         template: `./src/templates/Post.vue`,
         refs: {

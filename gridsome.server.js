@@ -4,8 +4,14 @@
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
+const fs = require(`fs`)
+const path = require(`path`)
 const relatedPost = require(`./related-post.js`)
+const autoDescription = require(`./auto-description.js`)
+const feedContent = require(`./feed-content.js`)
 const Prism = require(`prismjs`)
+
+const assetDir = path.join(`src`, `assets`, `images`)
 
 // highlight page-query and static-query in html
 Prism.languages.html.graphql = {
@@ -30,6 +36,42 @@ module.exports = function(api) {
               relatedPost.defaultConfig
             )
             .slice(0, 5)
+        },
+        description: {
+          type: `String`,
+          resolve(node) {
+            if (node.description) {
+              return node.description
+            } else {
+              return autoDescription.generate(node.content)
+            }
+          },
+        },
+        cover: {
+          type: `String`,
+          resolve(node) {
+            if (node.cover) {
+              return node.cover
+            } else if (
+              fs.existsSync(
+                path.join(assetDir, `posts`, node.fileInfo.name, `cover.jpg`)
+              )
+            ) {
+              return path.join(`posts`, node.fileInfo.name, `cover.jpg`)
+            } else {
+              return `ogp_default.png`
+            }
+          },
+        },
+        feed: {
+          type: `String`,
+          resolve(node) {
+            if (!node.content) {
+              return ``
+            } else {
+              return feedContent.generate(node.content)
+            }
+          },
         },
       },
     })
