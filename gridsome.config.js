@@ -97,7 +97,10 @@ module.exports = {
         nodeToFeedItem: node => ({
           title: node.title,
           date: node.date || node.fields.date,
-          content: markdownToHtml(node.content),
+          content:
+            process.env.NODE_ENV === `production`
+              ? markdownToHtml(node.content)
+              : node.content,
         }),
       },
     },
@@ -131,7 +134,7 @@ module.exports = {
       options: {
         typeName: `Post`,
         baseDir:
-          process.env.NODE_ENV === `production`
+          process.env.NODE_ENV === `production` || process.env.NODE_PREVIEW
             ? `./contents/posts`
             : `./contents/drafts`,
         route: `/posts/:slug`,
