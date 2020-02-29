@@ -40,7 +40,7 @@ lint-stagedは`git add`した対象に対して特定のコマンドを走らせ
 
 ## インストール
 npmに慣れてる人には言うまでもないだろうけど
-```shell
+```shellell
 $ yarn add -D husky lint-staged
 # or npm install -D husky lint-staged
 ```

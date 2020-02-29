@@ -28,17 +28,17 @@ date: 2019-06-23T00:26:28.000Z
 [jest\-puppeteer puppeteer jest](https://github.com/smooth-code/jest-puppeteer)
 
 READMEにあるように関連ライブラリも一緒に入れます。
-```sh
+```shell
 $ yarn add -D jest-puppeteer puppeteer jest
 ```
 
 さらにTSとGulpでやっているので必要なものを入れます。
-```sh
+```shell
 $ yarn add -D gulp-jest ts-jest
 ```
 
 そして関係する型も入れます
-```sh
+```shell
 $ @types/expect-puppeteer @types/jest @types/jest-environment-puppeteer @types/puppeteer
 ```
 
@@ -120,7 +120,7 @@ describe(`Google`, () => {
 そうしてあらかじめ待ち受けていたダイアログの文字列取得が動いて、`value`に入るので、それを`expect`でアサーションにかける、という流れですね。
 
 さあ、ここまでできたら
-```sh
+```shell
 $ jest
 ```
 とテストを走らせてみましょう。2つのテストがパスすればOKです。

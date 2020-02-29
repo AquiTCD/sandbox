@@ -22,7 +22,7 @@ PugはHTMLのメタ言語であり、CSSに対してのSassやStylusなどと同
 また、同じようなHTMLテンプレートにSlimというRubyで実装されたものがありますが、このSlimの記法と酷似しているため、すでにSlimを使ってる方は学習コストがぜんぜんかからずに導入できるのも魅力です。
 
 たとえばHTMLで書くと
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -43,7 +43,7 @@ PugはHTMLのメタ言語であり、CSSに対してのSassやStylusなどと同
 
 のような文書を、Pugで書くと
 
-```Pug
+```pug
 doctype html
 html(lang="en")
   head
@@ -96,7 +96,7 @@ odule.exports = {
 ```
 
 実際Pugで書きたいVueのSFC（シングルファイルコンポーネント）のファイルで`<template lang="pug">`と記述するだけです。
-```vue
+```markup
 <template lang="pug">
   Layout
     h1 About us
@@ -167,7 +167,7 @@ Gridsomeの場合、App.vueが一番大きな外側のレイヤーになりま�
 <LinkCard url="https://gridsome.org/docs/overriding-app/#overriding-appvue" title="Overriding App.vue - Gridsome" description="Gridsome is a free &amp; open source Vue.js-powered framework for building websites &amp; apps that are fast by default 🚀." />
 
 作ったら以下のように書いてみます。
-```vue
+```markup
 <template lang="pug">
   router-view
 </template>
@@ -244,7 +244,7 @@ module.exports = {
 ```
 そうすると、SFCを以下のように書いても、そのスタイルが適用されます。
 
-```vue
+```markup
 <template lang="pug">
   router-view
 </template>

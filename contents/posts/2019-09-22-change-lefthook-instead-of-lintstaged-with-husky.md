@@ -49,7 +49,7 @@ HuskyはNode.js実装のみですが、LefthookはNode.js,Ruby実装のほかGo�
 
 インストールはパッケージマネージャーどおりで
 
-```sh
+```shell
 # ruby
 $ gem install lefthook
 
@@ -71,7 +71,7 @@ $ yarn add --dev @arkweid/lefthook
 
 そしたら`lefthook`コマンドが使えるので、
 
-```sh
+```shell
 $ lefthook install
 ```
 
@@ -152,7 +152,7 @@ pre-push:
 
 みたいにして、`/.lefthook/pre-push/protect-branch`に下記のようなシェルスクリプトを書きます。
 
-```sh
+```shell
 #!/bin/bash
 
 while read local_ref local_sha1 remote_ref remote_sha1

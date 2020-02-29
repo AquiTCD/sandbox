@@ -38,35 +38,35 @@ Gulp。ちょっと前に大流行したタスクランナー的なやつです�
 
 ## セットアップ
 まず今回の仕様に合わせてセットアップしていきます。ここではNode.jsとyarnが入っている前提です。
-```sh
+```shell
 $ yarn init
 ```
 して適当に対話的に設定をします。
 
 gulpに依存するものを入れていきます。
-```sh
+```shell
 $ yarn add -D gulp gulp-eslint gulp-replace gulp-typescript gulp-uglify
 ```
 ただこれだけでは全然足りないのでどんどん入れます。
 次はTypeScriptまわり
 
-```sh
+```shell
 $ yarn add -D typescript typescript-require ts-node
 ```
 `typescript-require`を入れるとGulpfileをTSで書くことが可能になります。
 
 型定義ファイルも入れます。
-```sh
+```shell
 $ yarn add -D @types/gulp @types/gulp-replace @types/gulp-uglify @types/jquery @types/node
 ```
 jQueryは迷ったんですが、ブックマークレットでjQueryを使う方法もあるので入れておきます。
 
 続いてESlint(+Prettier)まわり。今回はESlintの中でPrettierをかけます（最近それが良いのか分離したほうが良いのか悩んでますが、今回はこれで
-```sh
+```shell
 $ yarn add -D eslint eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 多分最小構成だとこれなんですが、standardとかに寄せたいのでさらに
-```sh
+```shell
 $ yarn add -D eslint-config-standard eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard
 ```
 
@@ -125,7 +125,7 @@ module.exports = {
 
 ## tsconfig
 TypeScript用の設定として`tsconfig.json`を用意する必要があります。通常は
-```sh
+```shell
 $ tsc --init
 ```
 を実行することで作られます。今回はこんな感じにしました。
@@ -200,7 +200,7 @@ export default () => {
 ちなみに最初の行の`;(() => {`ってなんだ？　と思うかもしれませんが、アロー関数で即時関数を作っています。
 
 そしたらコマンドで
-```sh
+```shell
 $ gulp
 ```
 を叩きます。デフォルトタスクが走りますので`gulpfile`に書いたとおり

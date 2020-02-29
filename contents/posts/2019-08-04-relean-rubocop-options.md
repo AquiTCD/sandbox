@@ -143,7 +143,7 @@ Metrics/CyclomaticComplexity:
 
 ## オプションを考慮してまさしくRuboCopをかける
 結論からいえば
-```sh
+```shell
 $ rubocop -DES -a --force-exclusion --fail-level E
 ```
 のようにかけることにしました。それぞれ解説すると

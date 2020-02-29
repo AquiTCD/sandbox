@@ -46,7 +46,7 @@ GAEのNode.js環境に関するドキュメントはこちら
 
 です。が、macOSの場合は非公式のbrew cask経由でもインストール可能です。
 
-```sh
+```shell
 $ brew cask install google-cloud-sdk
 ```
 
@@ -148,7 +148,7 @@ env_variables:
 ```
 
 ### デプロイしてみる
-```sh
+```shell
 $ gcloud app deploy app.yaml
 ```
 

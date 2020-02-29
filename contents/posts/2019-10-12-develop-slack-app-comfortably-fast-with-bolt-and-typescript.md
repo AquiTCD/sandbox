@@ -55,7 +55,7 @@ BoltはSlackが公式で開発しているNode.js用SlackApp用のフレーム�
 
 ## ディレクトリ構成
 基本のディレクトリ構造はこんな感じ
-```sh
+```shell
 .
 ├── .env # 環境変数格納ファイル
 ├── package.json # プロジェクトやライブラリの設定
@@ -76,7 +76,7 @@ Gitまわりのファイル、ESLintやテストに関する設定は省略し�
 
 ## TypeScript環境を構築する
 まず
-```sh
+```shell
 npm install typescript # or yarn add typescript
 ```
 
@@ -84,7 +84,7 @@ npm install typescript # or yarn add typescript
 
 そのコンパイルには`tsconfig`という設定ファイルが必要なので
 
-```sh
+```shell
 npx tsc init
 ```
 で`tsconfig`ファイルが設定できます。
@@ -193,7 +193,7 @@ const app = new App(config)
 
 設定後、CLI上で
 
-```sh
+```shell
 npm run start # or yarn start
 ```
 
@@ -203,7 +203,7 @@ npm run start # or yarn start
 ## 開発環境をTypeScriptそのままで動かす
 開発中に変更の度にコンパイルしなおすのは手間なので、TypeScriptそのままで動かします。そのために`tsnode`というライブラリを使います。
 
-```sh
+```shell
 npm install --save-dev tsnode
 ```
 
@@ -221,7 +221,7 @@ npm install --save-dev tsnode
 
 これで、
 
-```sh
+```shell
 npm run dev # or yarn dev
 ```
 
@@ -283,7 +283,7 @@ echo()
 そしたらこれをServeoというlocalhostとトンネリングする仕組みで公開します。
 Bolt起動中とは別のCLIを開いて
 
-```sh
+```shell
 ssh -R 80:localhost:3000 serveo.net
 ```
 
@@ -295,13 +295,13 @@ ssh -R 80:localhost:3000 serveo.net
 serveoとのsshは切れたりするので、autossh経由でつないできれたら自動で再接続するようにします。
 macOSなら
 
-```sh
+```shell
 brew install autossh
 ```
 
 でインストールできるはずです。serveoにautossh経由でつなぐなら
 
-```sh
+```shell
 autossh -M -0 -R 80:localhost:3000 serveo.net
 ```
 
@@ -313,7 +313,7 @@ autossh -M -0 -R 80:localhost:3000 serveo.net
 <LinkCard url="https://github.com/remy/nodemon" site-name="GitHub" title="remy/nodemon" description="Monitor for any changes in your node.js application and automatically restart the server - perfect for development - remy/nodemon" image-url="https://repository-images.githubusercontent.com/958314/195c4a80-7da7-11e9-9a33-54d9fffac84f" />
 
 
-```sh
+```shell
 npm install --save-dev nodemon
 ```
 

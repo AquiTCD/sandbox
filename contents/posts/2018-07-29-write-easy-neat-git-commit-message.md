@@ -96,14 +96,14 @@ fix(SomeClass): 正しく動作するようにsome-functionを追加
 
 ### 使い方
 グローバルに設定してプロジェクト問わず使うとしたら
-```sh
+```shell
 $ yarn global add cz-cli cz-conventional-changelog-ja
 # or npm i -g cz-cli cz-conventional-changelog-ja
 ```
 
 とインストールしたら、ユーザー直下に
 
-```JSON ~/.czrc
+```json ~/.czrc
 {
   "パス": "cz-conventional-changelog-ja"
 }
@@ -111,7 +111,7 @@ $ yarn global add cz-cli cz-conventional-changelog-ja
 
 としてやる。そうすると
 
-```sh
+```shell
 $ git cz
 ```
 とやったときにデフォルトの`cz-conventional-changelog`ではなく`cz-conventional-changelog-ja`を参照するので、日本語で表示されるようになるはず。
@@ -131,19 +131,19 @@ $ git cz
 ### 使い方
 
 運用としては、上の`-ja`のようにグローバルに設定してプロジェクト問わず使うとしたら
-```sh
+```shell
 $ yarn global add cz-cli cz-customizable
 # or npm i -g cz-cli cz-customizable
 ```
 とインストールしたら、ユーザー直下に
-```JSON ~/.czrc
+```json ~/.czrc
 {
   "パス": "cz-customizable"
 }
 ```
 と`cz-cli`が参照するのを`cz-customizable`にする。で、`cz-customizable`はデフォルトでは`.cz-config.js`を参照するので、下記のようにファイルを作って置く、と。
 
-```JavaScript ~/.cz-config.js
+```js ~/.cz-config.js
 'use strict';
 module.exports = {
   types: [

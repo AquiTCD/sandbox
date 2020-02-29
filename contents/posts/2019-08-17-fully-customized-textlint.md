@@ -29,7 +29,7 @@ textlintのインストール方法というか、NPMのライブラリのイン
 ということもあってプロジェクトをまたぐようGlobalにインストールしたほうが都合が良いためです。
 なので
 
-```sh
+```shell
 $ yarn global add textlint
 ```
 でインストールします。
@@ -55,7 +55,7 @@ $ yarn global add textlint
 textlintをグローバルに入れてるので、ルールも同様にグローバルに入れます。
 
 最終的には今回やったのはこんな感じ
-```sh
+```shell
 $ yarn global add textlint-rule-preset-ja-technical-writing textlint-rule-preset-jtf-style textlint-rule-preset-ja-spacing textlint-filter-rule-comments textlint-filter-rule-whitelist textlint-rule-spellcheck-tech-word textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet textlint-rule-ja-hiragana-keishikimeishi textlint-rule-ja-hiragana-fukushi textlint-rule-ja-hiragana-hojodoushi textlint-rule-ja-unnatural-alphabet @textlint-ja/textlint-rule-no-insert-dropping-sa textlint-rule-prefer-tari-tari textlint-rule-general-novel-style-ja textlint-rule-period-in-list-item textlint-rule-footnote-order textlint-rule-ng-word textlint-rule-prh textlint-rule-abbr-within-parentheses
 ```
 ## 設定
@@ -241,13 +241,13 @@ rules:
 
 ## CLI（コマンドライン）から使う
 以上までやったらあとはtextlintのドキュメントにしたがうだけです。具体的には
-```sh
+```shell
 $ textlint オプション 対象ファイル
 ```
 という感じ。
 
 今回、すでに書いた自分のブログ記事全てを校正しなおしたかったので
-```sh
+```shell
 $ textlint --fix docs/_posts/*.md
 ```
 という感じでかけました。`--fix`で自動修正を`docs/_posts/`以下にある全てのMarkdownファイルにかけています。globが使えるのでとても楽ですね。

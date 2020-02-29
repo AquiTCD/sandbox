@@ -31,7 +31,7 @@ Starterと呼ばれるScaffoldingは便利な反面、ものによっては更�
 に従って進めます。
 
 事前にNode.jsをインストールしておいたとこから
-```sh
+```shell
 $ npm install --global @gridsome/cli #グローバルにCLIをインストール
 $ gridsome create blog-sample # blog-sampleがプロジェクトの名前
 $ cd blog-sample # 生成されたプロジェクトに移動
@@ -251,7 +251,7 @@ export default function(Vue, { router, head, isClient }) {
 
 これで`*.vue`内で使えるようになりますので例として`src/pages/About.vue`で試してみます。
 以下のように変更します。
-```vue
+```markup
 <template>
   <Layout>
     <h1>About us</h1>

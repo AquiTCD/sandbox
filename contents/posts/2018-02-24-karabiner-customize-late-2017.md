@@ -62,7 +62,7 @@ ErgoDoxには<kbd>b</kbd>,<kbd>g</kbd>キーの右側に特殊キーがある。
 ### JSON設定ファイル
 上記までの設定が全部かかれたJSONファイル。ちなみに生成されるのファイルのインデントは4スペースだけど、個人的に見辛いので2スペースにしている。で、つまるところJSONなので、これをGitとかGitHub Gistで管理したりDropboxとSymlinkで同期させたりすると複数端末でも使い勝手が良いよね。
 
-```JSON karabiner.json
+```json karabiner.json
 {
   "global": {
     "check_for_updates_on_startup": true,

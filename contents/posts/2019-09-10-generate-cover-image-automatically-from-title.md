@@ -262,7 +262,7 @@ fileList.forEach((file, i) => {
 ```
 
 であとは
-```sh
+```shell
 node tasks/all_covers.js
 ```
 
