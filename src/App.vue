@@ -19,6 +19,7 @@ query {
     authorName
     authorDescription
     popularTags
+    feedPath
   }
 }
 </static-query>
