@@ -8,7 +8,6 @@ const fs = require(`fs`)
 const path = require(`path`)
 const relatedPost = require(`./related-post.js`)
 const autoDescription = require(`./auto-description.js`)
-const feedContent = require(`./feed-content.js`)
 const Prism = require(`prismjs`)
 
 const assetDir = path.join(`src`, `assets`, `images`)
@@ -60,16 +59,6 @@ module.exports = function(api) {
               return path.join(`posts`, node.fileInfo.name, `cover.jpg`)
             } else {
               return `ogp_default.png`
-            }
-          },
-        },
-        feed: {
-          type: `String`,
-          resolve(node) {
-            if (!node.content) {
-              return ``
-            } else {
-              return feedContent.generate(node.content)
             }
           },
         },

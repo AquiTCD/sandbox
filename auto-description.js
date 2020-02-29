@@ -7,7 +7,13 @@ function generate(content) {
   if (!content) {
     return ``
   }
-  const excerpt = content.match(/(.*?)(\n\n#|\n\n---)/s)[1]
+  const matched = content.match(/(.*?)(\n\n#|\n\n---)/s)
+  let excerpt
+  if (matched) {
+    excerpt = content.match(/(.*?)(\n\n#|\n\n---)/s)[1]
+  } else {
+    excerpt = content
+  }
   let striped
   remark()
     .use(strip)

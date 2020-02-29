@@ -3,7 +3,7 @@
     h2.post_card--title {{ title }}
     g-image.post_card--cover(width="200" :src="require('!!assets-loader!@images/' + cover)")
     TagList.post_card--tag_list(:tags="tags")
-    p.post_card--summary {{ summary }}
+    p.post_card--description {{ description }}
     .post_card--date
       i.fas.fa-clock
       time.post_card--time(:datetime="date") {{ date }}
@@ -13,7 +13,7 @@
 import TagList from '~/components/molecules/TagList'
 export default {
   components: { TagList },
-  props: [`title`, `summary`, `cover`, `date`, `tags`],
+  props: [`title`, `description`, `cover`, `date`, `tags`],
   methods: {},
 }
 </script>
@@ -61,7 +61,7 @@ export default {
   +mq-medium()
     grid-column: 2
     grid-row: 2
-.post_card--summary
+.post_card--description
   color: $font-color-base
   font-size: $font-size-small
   grid-column: 1

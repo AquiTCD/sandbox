@@ -3,7 +3,7 @@
     g-link.result-link(v-for="result in searchResults" :key="result.id" :to="result.path")
       li.result--item
         .item--title {{ result.title }}
-        .item--content {{ summary(result.content) }}
+        .item--content {{ result.description }}
 </template>
 <static-query>
 query Posts {
@@ -13,7 +13,7 @@ query Posts {
         id
         path
         title
-        # description
+        description
         content
       }
     }
@@ -23,7 +23,6 @@ query Posts {
 <script>
 import Flexsearch from 'flexsearch'
 // import Kuromoji from 'kuromoji'
-const SUMMARY_LENGTH = 70
 export default {
   props: {
     searchTerm: {
@@ -92,11 +91,6 @@ export default {
       },
     })
     this.index.add(this.$static.posts.edges.map(e => e.node))
-  },
-  methods: {
-    summary(content) {
-      return content.substring(0, SUMMARY_LENGTH) + `...`
-    },
   },
 }
 </script>

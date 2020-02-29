@@ -18,6 +18,7 @@ query Post ($id: ID!) {
       title
       path
     }
+    description
     content
     cover
     relatedPosts {
@@ -66,23 +67,23 @@ export default {
         },
         {
           name: `description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
+          content: this.$page.post.description,
         },
         {
           property: `og:description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
+          content: this.$page.post.description,
         },
         {
           name: `twitter:description`,
-          content: `${this.$page.post.content.substring(0, 140)}...`,
+          content: this.$page.post.description,
         },
         {
           property: `og:image`,
           content: this.$page.post.cover
             ? this.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$page.post.cover}`).src
-            : this.$static.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
+            : this.metadata.siteUrl +
+              require(`!!assets-loader!@images/${this.metadata.siteOgImage}`)
                 .src,
         },
         {
@@ -90,8 +91,8 @@ export default {
           content: this.$page.post.cover
             ? this.metadata.siteUrl +
               require(`!!assets-loader!@images/${this.$page.post.cover}`).src
-            : this.$static.metadata.siteUrl +
-              require(`!!assets-loader!@images/${this.$static.metadata.siteOgImage}`)
+            : this.metadata.siteUrl +
+              require(`!!assets-loader!@images/${this.metadata.siteOgImage}`)
                 .src,
         },
       ],

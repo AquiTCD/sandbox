@@ -1,7 +1,7 @@
 <template lang="pug">
   .index
     g-link.post(v-for="post in $page.posts.edges" :key="post.id" :to="post.node.path")
-      PostCard(:title="post.node.title" :summary="summary(post.node.content)" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
+      PostCard(:title="post.node.title" :description="post.node.description" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
     Pager.pager(
       :info="$page.posts.pageInfo"
       linkClass="pager-item"
@@ -24,7 +24,7 @@
           id
           title
           date (format: "YYYY-MM-DD")
-          # description
+          description
           content
           cover
           path
@@ -53,11 +53,6 @@ export default {
       type: Object,
       require: true,
       default: () => ({}),
-    },
-  },
-  methods: {
-    summary(content) {
-      return content.substring(0, SUMMARY_LENGTH) + `...`
     },
   },
   metaInfo() {
