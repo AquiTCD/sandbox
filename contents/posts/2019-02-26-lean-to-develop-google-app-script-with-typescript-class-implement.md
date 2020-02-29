@@ -65,8 +65,8 @@ GASのAPIでSpreadSheetのデータを範囲でとってきた場合、2次元�
 シートのデータをカラム名をキーに持つオブジェクトに変換して格納することにしました。
 
 とりあえず`new GasSheet(sheet)`な感じでシートを受けとって処理できるようにしてみます。
-
-```ts 01_GasSheet.ts
+`01_GasSheet.ts`
+```ts
 export default class GasSheet {
   sheet: any // SheetClass from GAS
   columns: { columnNum: number; name: string }[]
@@ -118,8 +118,8 @@ console.log(gasSheet.data[0])
 + `findWhere`: 引数で指定したキーの値が合致した最初のオブジェクトを返すメソッド
 
 の2つを実装してみます。なお、本来なら見つからなかった場合など中でエラーハンドリングすべきですが、今回は省略します。
-
-```ts 00_GasSheet.ts
+`00_GasSheet.ts`
+```ts
 const _ = Underscore.load() // Underscoreライブラリのロード
 export default class GasSheet {
   sheet: any // SheetClass from GAS
@@ -158,7 +158,8 @@ GasSheetクラスができたので、これを利用した別のクラスを作
 
 方針として、GasSheetクラスを継承させてMembersSheetクラスとRepositoriesSheetクラスを作っていきます。MembersSheetクラスは単純に任意の値から該当するデータを取得すればいいのでシンプルに継承したもの、Repositoriesクラスにはnotifyというメソッドを作って通知できるように実装します。
 
-```ts 01_MembersSheet.ts
+`01_MembersSheet.ts`
+```ts
 import GasSheet from './00_GasSheet'
 const SHEETS = SpreadsheetApp.openById(ここにスプレッドシートのID)
 const MEMBERS_SHEET = SHEETS.getSheetByName(`名簿`)
@@ -186,7 +187,8 @@ console.log(gasSheet.findWhere({name: '坂本 竜司'}))
 とするだけでOKになります。
 
 次にRepositoriseSheetクラスを作ります。前半はMemberslSheetと同様です。
-```ts 02_RepositoriesSheet.ts
+`02_RepositoriesSheet.ts`
+```ts
 import GasSheet from './00_GasSheet'
 const SHEETS = SpreadsheetApp.openById(ここにスプレッドシートのID)
 const REPOSITORIES_SHEET = SHEETS.getSheetByName(`repositories`)
@@ -228,7 +230,8 @@ CWトークンはコード内にベタで書くよりはPropertiesServiceなど�
 今回はサンプルとしてあるプルリクエストがマージされたときに通知するとしてみましょう。
 
 GASの仕様でWebhookとしてリクエストが飛んできたものは`doPost()`関数で受けることができて、その時のbodyに入ってくる内容は引数に渡せます（今回は`e`として扱う）それをいったんパースして、そのあとで使いやすくしています。
-```ts doPost.ts
+`doPost.ts`
+```ts
 import MembersSheet from './01_MembersSheet'
 import RepositoriesSheet from './02_RepositoriesSheet'
 export function doPost(e) {
@@ -278,13 +281,16 @@ import {
 つまり`import/export`は使えないが結果的に同じことは実現できている、という状況です。
 
 またimportがすべてコメントアウトされるためimportによる定義もできてません。なので、通常は自由な名前で定義できるところをClass名と厳密同じ名前でimportするようにします。
-```ts GasSheet.ts(export側)
+
+`GasSheet.ts(export側)`
+```ts
 export class GasSheet {
   // 略...
 }
 ```
 
-```ts import側
+`import側`
+```ts
 // ◯ 良い
 import GasSheet from './GasSheet'
 
@@ -305,7 +311,7 @@ export function doPost(e) {
 
 #### デプロイと本番化
 ClaspとGASの連携の話になりますが、通常Clasp経由でGASのコードを更新するには
-```
+```shell
 $ clasp push
 ```
 とします。これでGASのスクリプトエディタで開くコードが更新されます。もし開いたままだったらリロードしてください。
@@ -315,7 +321,7 @@ $ clasp push
 ここでの注意点はなんか上手く反映されないときがあるので、リロードしたあと一度スクリプトエディタ上で保存すると上手くいくことがあるようです。このへんの挙動は謎です。
 
 単純にGASにコードを追いて手動実行したりする場合はこれだけでいいんですが、Webhookを受けとるような場合ではWebアプリケーションとして公開する必要があります。また、公開するには版（バージョン）としてデプロイされていることが必要です。このため
-```
+```shell
 $ clasp deploy
 ```
 を実行します。この時引数をつけないで実行すると新しい版としてデプロイされます。

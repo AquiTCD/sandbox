@@ -32,7 +32,8 @@ Vertical InRitsuの仕組み
 -------------------------------------------------------------
 
 ### コード
-```sass vertical-inritsu.sass
+`vertical-inritsu.sass`
+```sass
   =vertical-inritsu($in-scale: 0, $with-margin-top: 1, $with-margin-bottom: 1, $with-padding-top: 0, $with-padding-bottom: 0)
     $base-font-size: 1rem !default
     $base-ratio: 1.414 !default

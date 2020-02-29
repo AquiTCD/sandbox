@@ -41,7 +41,7 @@ ErgoDox以前はKinesisユーザだったので、簡単に思い出せる範囲
 
 #### ErgoDoxのキーカスタム
 ここでようやく本題。とりあえずソースを。
-```
+```c
 // Netable differences vs. the default firmware for the ErgoDox EZ:
 // 1. The Cmd key is now on the right side, making Cmd+Space easier.
 // 2. The media keys work on OSX (But not on Windows).

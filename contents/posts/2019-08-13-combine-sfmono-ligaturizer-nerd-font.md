@@ -38,7 +38,7 @@ Finderから`MacintoshHD/Applications/Utilities/`に`Terminal.app`があるの�
 
 この素敵なリガチャ対応記号を他のフォントに合成してしまおうというプロジェクトとして[Ligaturizer](https://github.com/ToxicFrog/Ligaturizer)というのがあります。
 これを動作させるには`fontforge`というライブラリが必要なので
-```
+```shell
 $ brew install fontforge
 ```
 で入れます。
@@ -48,7 +48,7 @@ $ brew install fontforge
 <LinkCard url="https://github.com/rojiani/Ligaturizer-2.0" site-name="GitHub" title="rojiani/Ligaturizer-2.0" description="Add ligatures to any coding font! Contribute to rojiani/Ligaturizer-2.0 development by creating an account on GitHub." image-url="https://avatars0.githubusercontent.com/u/2679686?s=400&v=4" />
 
 なお、もしかしたら
-```
+```shell
 $ brew link fontforge
 ```
 が必要かもしれません。
@@ -67,7 +67,7 @@ Ligaturizerの使い方は適宜READMEを参照してください。
 ちなみに、ちょっと面倒ですが1フォントづつ処理する必要があるので、ウェイトそれぞれにあてていく必要があります。
 
 具体的には
-```
+```shell
 $ fontforge -script ./font-patcher -c fonts/LigaSFMono-Regular.otf
 ```
 みたいな感じです。fontforgeにスクリプトとしてfontpacherを指定します。`-c`オプションはとにかく全部のアイコンフォントをぶっこみます。

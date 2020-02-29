@@ -102,10 +102,10 @@ $ yarn global add cz-cli cz-conventional-changelog-ja
 ```
 
 とインストールしたら、ユーザー直下に
-
-```json ~/.czrc
+`~/.czrc`
+```json
 {
-  "パス": "cz-conventional-changelog-ja"
+  "path": "cz-conventional-changelog-ja"
 }
 ```
 
@@ -136,14 +136,16 @@ $ yarn global add cz-cli cz-customizable
 # or npm i -g cz-cli cz-customizable
 ```
 とインストールしたら、ユーザー直下に
-```json ~/.czrc
+`~/.czrc`
+```json
 {
-  "パス": "cz-customizable"
+  "path": "cz-customizable"
 }
 ```
 と`cz-cli`が参照するのを`cz-customizable`にする。で、`cz-customizable`はデフォルトでは`.cz-config.js`を参照するので、下記のようにファイルを作って置く、と。
 
-```js ~/.cz-config.js
+`~/.cz-config.js`
+```js
 'use strict';
 module.exports = {
   types: [

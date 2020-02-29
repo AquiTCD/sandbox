@@ -153,7 +153,7 @@ AppをSlackにインストールしたら、`Sigining Secret`と`Bot Token`の�
 
 次にBoltをイントールします
 
-```
+```shell
 npm install @slack/bolt
 ```
 
@@ -416,8 +416,8 @@ Serv: autossh -M -0 -R ${SERVEO}:80:localhost:3000 serveo.net
 
 ここまで設定ができたら、いったん全てのサーバーを終了させ、
 
-```
-npm run dev
+```shell
+$ npm run dev
 ```
 
 を実行すると、Boltが立ち上がり同時にServeoとつなげて公開されます。ここまでやると、サーバー立ち上げ、接続はコマンド一発でおこなえて、毎回固定のURLでローカルサーバーとSlackを接続でき、さらにコードを変更しても保存するとすぐにSlack側から使うことができるようになります。

@@ -82,16 +82,16 @@ $ yarn add -D pug gridsome-plugin-pug
 
 そうしたら`gridsome.config.js`に以下のように追記し、
 ```js
-odule.exports = {
-    plugins: [
-        {
-            use: 'gridsome-plugin-pug',
-            options: {
-                pug: { /* `pug-plain-loader` のオプション */ },
-                pugLoader: { /* `pug-loader` のオプション */ }
-            }
-        }
-    ]
+module.exports = {
+  plugins: [
+    {
+      use: 'gridsome-plugin-pug',
+      options: {
+        pug: { /* `pug-plain-loader` のオプション */ },
+        pugLoader: { /* `pug-loader` のオプション */ }
+      }
+    }
+  ]
 };
 ```
 

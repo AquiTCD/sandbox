@@ -122,7 +122,7 @@ StylusにはStylintというlinterライブラリがあります。他のCSS用l
 ### 修正例
 前述のとおり、StylusはSCSS的な書き方もできればSASS的な書き方もできます。試しにSCSS的に書いたものを上記設定に基いて変換してみた例を紹介します。
 
-```
+```scss
 $font-stack: Helvetica
 $primary-color: #333
 
@@ -161,7 +161,7 @@ body {
 ```
 
 これをStylint, Supremacyを効かせたStylusにすると
-```
+```stylus
 $font-stack: Helvetica
 $primary-color: #333
 body

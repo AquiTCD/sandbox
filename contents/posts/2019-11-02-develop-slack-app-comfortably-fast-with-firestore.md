@@ -29,7 +29,7 @@ FirestoreはGoogleの提供するNoSQL系のデータストアです。データ
 <LinkCard url="https://firebase.google.com/docs/firestore/quickstart?hl=ja" site-name="Firebase" title="Cloud Firestore を使ってみる | Firebase" />
 
 そして、プロジェクトに`firebase-admin`を追加します。
-``` sh
+```shell
 $ npm install firebase-admin
 ```
 

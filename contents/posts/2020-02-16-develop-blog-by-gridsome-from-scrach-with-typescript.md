@@ -84,12 +84,12 @@ $ cd blog-sample # 生成されたプロジェクトに移動
 [gridsome\-plugin\-typescript \- Gridsome](https://gridsome.org/plugins/gridsome-plugin-typescript)
 に書いてあるとおりでOKです。
 
-```
+```shell
 $ yarn -D typescript ts-loader gridsome-plugin-typescript
 ```
 
 次にconfigにpluginを使うのを追記します。
-```
+```js
 module.exports = {
   plugins: [
     {
@@ -133,7 +133,7 @@ tsconfigというTypeScriptのコンパイルオプションを設定します�
 
 最後に型定義ファイルを設定します
 `src`ディレクトリ直下に`vue-shims.d.ts`というファイルで以下のように書きます。
-```
+```js
 declare module "*.vue" {
     import Vue from "vue";
     export default Vue;
@@ -148,7 +148,7 @@ Linter（静的構文解析）のないプログラミングなんて現代で�
 
 まず必要なライブラリをガっと入れてしまいましょう。
 
-```
+```shell
 $ yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue gridsome-plugin-typescript prettier
 ```
 
@@ -156,7 +156,7 @@ ESLintの細かい設定は複雑で、解説するとそれだけで1冊本が�
 
 ライブラリのインストールが終わったら忘れないうちに除外設定を入れます。
 `.eslintignore`というファイルをプロジェクトルートに作り
-```
+```shell
 # don't ever lint node_modules
 node_modules
 # don't lint build output (make sure it's set to your correct build folder name)

@@ -20,7 +20,7 @@ date: 2018-12-25T22:47:03.000Z
 もともとはVuexFireだったのがVueファミリーに組みこまれたのかな？
 
 それで、注意すべきは入れかたは
-```
+```shell
 npm install vuexfire@next --save
 # or yarn add -D vuexfire@next
 ```

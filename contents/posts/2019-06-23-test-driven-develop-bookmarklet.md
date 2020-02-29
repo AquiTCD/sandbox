@@ -46,7 +46,8 @@ $ @types/expect-puppeteer @types/jest @types/jest-environment-puppeteer @types/p
 jestの設定は`package.json`に書いてもいいんですが、見通しを良くするため、今回はファイルを別に分けてみます。ファイルはルートディレクトリに`jest.config.js`を作って以下を書きます。
 
 また、jsonではなくjsファイルなのでコメントアウトやJS式が使える利点もありますね。
-```js jest.config.js
+`jest.config.js`
+```js
 module.exports = {
   preset: `jest-puppeteer`,
   moduleNameMapper: {
@@ -67,7 +68,8 @@ module.exports = {
 一番重要なのは最初の`preset: 'jest-puppeteer'`と`globals`の指定ですね。それ以外はお好みです。
 
 あとはオプショナルとして、puppeteerの設定も可能です。設定なしのデフォルトでも問題なく動いてくれますのでなくても大丈夫ですが、言及しておくと同じくルートディレクトリに`jest-puppeteer.config.js`を作って設定できます、たとえば
-```js jest-puppeteer.config.js
+`jest-puppeteer.config.js`
+```js
 module.exports = {
   launch: {
     dumpio: true,
@@ -82,7 +84,8 @@ module.exports = {
 設定ファイルに指定したようにテスト用のファイルは`__tests__`というディレクトリの中に作っていきます。前回にサンプルとして「見てるページのタイトルをプロンプトに表示する」というブックマークレットを作りました。まずはそのテストを書いてみます。
 
 `__tests__`の中に`sample.test.ts`というファイルを作って以下のようにテストを書いてみます。
-```ts sample.test.ts
+`sample.test.ts`
+```ts
 describe(`Google`, () => {
   beforeAll(async () => {
     await page.goto(`https://google.com`)
@@ -129,7 +132,8 @@ $ jest
 せっかくビルド作業をGulpで扱っているのだからテストもGulpで扱うようにしてみます。というのもテストする対象がJSのなのでテスト前に都度都度ビルドする必要がある事情もありますので。
 
 先にファイルから載せてしまうと
-```ts gulpfile.ts
+`gulpfile.ts`
+```ts
 import gulp from 'gulp'
 import eslint from 'gulp-eslint'
 import ts from 'gulp-typescript'
@@ -200,7 +204,8 @@ export const dev = done => {
 
 あとは、一応yarnやNPM経由でも実行しすいようにしておきましょうか。
 `package.json`に
-```json package.json
+`package.json`
+```json
 {
   "scripts": {
     "build": "gulp build",

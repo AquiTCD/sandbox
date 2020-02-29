@@ -88,7 +88,8 @@ $ yarn add -D eslint-config-standard eslint-plugin-import eslint-plugin-node esl
 
 ## ESlint設定
 とりあえず一例ですが、ESlintの設定です。さきほど入れたものからわかるように、ESlint経由でTypeScriptも対応させ、Prettierも中で動かします。
-```js eslintrc.js
+`eslintrc.js`
+```js
 module.exports = {
   env: {
     browser: true,
@@ -129,7 +130,9 @@ TypeScript用の設定として`tsconfig.json`を用意する必要がありま�
 $ tsc --init
 ```
 を実行することで作られます。今回はこんな感じにしました。
-```json tsconfig.json
+
+`tsconfig.json`
+```json
 {
   "compilerOptions": {
     "target": "es5",
@@ -152,7 +155,9 @@ $ tsc --init
 
 ## gulpfile
 Gulpは`gulpfile.js`でタスクを定義するんですが、`typescript-require`を入れたので`gulpfile.ts`にTypeScriptで書いていきます。
-```ts gulpfile.ts
+
+`gulpfile.ts`
+```ts
 import gulp from 'gulp'
 import eslint from 'gulp-eslint'
 import ts from 'gulp-typescript'
@@ -187,7 +192,9 @@ export default () => {
 ## サンプルで実行テスト
 こんな感じで開発環境ができたのでちゃんとできるかやってみましょう。
 `/src`の中に`sample.ts`を作って書いてみます。
-```ts sample.ts
+
+`sample.ts`
+```ts
 ;(() => {
   const title = document.title
   prompt(`title is`, title)
@@ -213,7 +220,9 @@ $ gulp
 が順番に実行されます。
 
 `/dist`を見ると`sample.js`が出力されていて中身は
-```js sample.js
+
+`sample.js`
+```js
 javascript:!function(){var t=document.title;prompt("title is",t)}();
 ```
 となっているでしょう。

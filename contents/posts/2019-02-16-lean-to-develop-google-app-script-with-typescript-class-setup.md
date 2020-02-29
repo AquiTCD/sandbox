@@ -83,14 +83,15 @@ ES6による恩恵が一番大きいので、以前からWebpackでやってい�
 のLintの項目、もしくは[The future of TypeScript on ESLint \- ESLint \- Pluggable JavaScript linter](https://eslint.org/blog/2019/01/future-typescript-eslint)を参照していただければと思います。
 
 #### ESLintでTypeScriptにLintをかける
-```zsh
+```shell
 yarn add --dev eslint
 yarn add --dev @typescript-eslint/eslint-plugin
 yarn add --dev @typescript-eslint/parser
 ```
 で、ESLintとESLint経由でTypeScript対応するプラグインとパーサーを入れます。
 そしたら`.eslintrc.js`というルール設定のファイルを作って、
-```js .eslintrc.js
+`.eslintrc.js`
+```js
 module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
@@ -107,7 +108,7 @@ ESLintの設定のいくつかはJS系の最有力フォーマッタであるPre
 ということで個人的なオススメとして、`eslint --fix`内でPrettierをかける設定にするのが良いと思っています。またVSCodeなどでESLintの`fixOnSave`設定だけでキッチリPrettierもかかります。
 
 具体的には
-```zsh
+```shell
 yarn add --dev prettier
 yarn add --dev eslint-plugin-prettier
 yarn add --dev eslint-config-prettier
@@ -115,7 +116,8 @@ yarn add --dev eslint-config-prettier
 `eslint-plugin-prettier`は`.eslintrc.js`内でPrettierの設定もできるようにするもの、`eslint-config-prettier`はESLint側のPrettierのフォーマットルールとバッティングするルールをオフにするものです。
 
 となると、設定は
-```js .eslintrc.js
+.eslintrc.js`
+```js
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
@@ -157,7 +159,8 @@ yarn add --dev eslint-config-standard eslint-plugin-standard eslint-plugin-promi
 ちなみにオブジェクト操作のライブラリ`Underscore.js`や日付を扱うライブラリ`Moment.js`がGASでも用意されてますが、使う場合は同じようにグローバルな関数になるので、それは`.eslintrc.js`の`globals`で設定していきます。
 
 そうなるとこんな感じになります
-```js .eslintrc.js
+`.eslintrc.js`
+```js
 module.exports = {
   root: true,
   env: {
@@ -200,7 +203,7 @@ module.exports = {
 ### 型定義の導入
 これでようやく環境が整った！　と思いきやまだあるんです。そうです型定義です。
 ありがたいことに公式でGAS関数の型定義が用意されているのでサクっと入れます。
-```zsh
+```shell
 yarn add --dev @types/google-apps-script
 ```
 
@@ -209,7 +212,8 @@ yarn add --dev @types/google-apps-script
 #### GAS用ライブラリの型定義
 GAS用ライブラリを導入した場合、多くはグローバル関数として使えるようになります。しかしローカルで開発するときはそんなことはわからないので、そんな関数の型は定義されてないぜ、っていう警告が出ます。
 それを回避するために`index.d.ts`ファイルを作って、例えばこんな感じに書きます。
-```typescript index.d.ts
+`index.d.ts`
+```ts
 declare const Moment: {
   moment(arg?: any): any
 }
