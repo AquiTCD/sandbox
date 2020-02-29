@@ -5,7 +5,7 @@
       span に関する記事
       span {{ `（${$page.tag.belongsTo.pageInfo.currentPage}/${$page.tag.belongsTo.pageInfo.totalPages}ページ：${$page.tag.belongsTo.totalCount}件）`}}
     g-link.post(v-for="post in $page.tag.belongsTo.edges" :key="post.id" :to="post.node.path")
-      PostCard(:title="post.node.title" :description="post.node.description)" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
+      PostCard(:title="post.node.title" :description="post.node.description" :cover="post.node.cover" :tags="post.node.tags" :date="post.node.date")
     Pager(:info="$page.tag.belongsTo.pageInfo")
 </template>
 
@@ -30,6 +30,7 @@ query($id: ID!, $page: Int) {
               title
               path
             }
+            description
             content
             cover
           }
@@ -43,7 +44,6 @@ query($id: ID!, $page: Int) {
 <script>
 import PostCard from '~/components/organisms/PostCard.vue'
 import { Pager } from 'gridsome'
-const SUMMARY_LENGTH = 140
 export default {
   components: {
     PostCard,
