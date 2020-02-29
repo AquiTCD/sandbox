@@ -7,6 +7,7 @@
 const path = require(`path`)
 const remark = require(`remark`)
 const html = require(`remark-html`)
+// const autoCover = require(`./auto-cover.js`)
 function markdownToHtml(text) {
   let result
   remark()
@@ -28,6 +29,12 @@ function addStyleResource(rule) {
       ],
     })
 }
+// function coverImage(node) {
+//   const relativePath = require(`!!assets-loader!@images/${autoCover.generate(
+//     node
+//   )}`).src
+//   return `https://blog.solunita.net/${relativePath}`
+// }
 
 module.exports = {
   siteName: `Trial and Spiral`,

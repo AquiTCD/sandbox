@@ -3,7 +3,7 @@
     TheHeader.header(:metadata="$static.metadata")
     TheHeaderNav.header_nav
     main.main(role='main')
-      router-view // -> layout
+      router-view
     TheSideNav.side_nav(:metadata="$static.metadata")
     TheFooter.footer
 </template>

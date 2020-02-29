@@ -24,6 +24,12 @@ export default function(
   // head.prefix.push(
   //   `og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#`
   // )
+  head.link.push({
+    rel: `alternate`,
+    type: `application/rss+xml`,
+    title: `RSS2.0`,
+    href: `/feed.xml`,
+  })
   head.link.push({ rel: `icon`, type: `image/png`, href: `/favicon.ico` })
   head.meta.push({ 'http-equiv': `X-UA-Compatible`, content: `IE=edge` })
   head.meta.push({
