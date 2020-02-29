@@ -1,11 +1,11 @@
 ---
 title: 日本語特化のBootstrapテーマ「Ayame」を作ってみた
-date: 2017-05-03T00:00:00.000Z
+slug: developed-ayame-as-a-bootstrap-theme
 tags:
   - カスタマイズ
   - 開発
   - CSS
-image: /images/covers/2017-05-03-developed-ayame-as-a-bootstrap-theme.jpg
+date: 2017-05-03T00:00:00.000Z
 ---
 Bootstrapテーマで日本語特化したものに「Honoka」というのがあって。
 ちょっと最近Bootstrapテーマを使う機会があったため、HonokaをForkしてAyameというのを作ってみた。

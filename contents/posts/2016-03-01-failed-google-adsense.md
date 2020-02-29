@@ -1,9 +1,9 @@
 ---
 title: Google Adsenseに落ちた。よし、じゃあこれまでどおりに行く。
-date: 2016-03-01T00:00:00.000Z
+slug: failed-google-adsense
 tags:
   - 雑記
-image: /images/covers/2016-03-01-failed-google-adsense.jpg
+date: 2016-03-01T00:00:00.000Z
 ---
 お小遣いが欲しいので、GoogleAdsenseを使って小銭をチャリンチャリンしようと思ったよ。申し込んだら審査に落ちたよ。と、そういう話。
 

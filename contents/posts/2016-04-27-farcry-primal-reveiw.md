@@ -1,10 +1,10 @@
 ---
 title: 骨太原始採集狩猟生活 Farcry Primal レビュー
-date: 2016-04-27T00:00:00.000Z
+slug: farcry-primal-reveiw
 tags:
   - ゲーム
   - レビュー
-image: /images/covers/2016-04-27-farcry-primal-reveiw.jpg
+date: 2016-04-27T00:00:00.000Z
 ---
 Farcry Primalを発売日に買ってストーリーを一通りクリアしたのでレビューしていきましょか。ちなみにこれまでのFarcryシリーズは未プレイ。**原始時代、ウィンジャ族の戦士タカールとなって部族を守りながら逞しく生きていくアクションゲーム**。
 

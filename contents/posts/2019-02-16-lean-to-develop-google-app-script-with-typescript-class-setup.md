@@ -1,11 +1,11 @@
 ---
 title: Google App ScriptをTypeScriptとClass構文で書く - 環境導入
+slug: lean-to-develop-google-app-script-with-typescript-class-setup
 tags:
   - 開発
   - GAS
   - TypeScript
 date: 2019-02-16T23:37:17.000Z
-image: /images/covers/2019-02-16-lean-to-develop-google-app-script-with-typescript-class-setup.jpg
 ---
 
 GASは本当に手軽で便利。ほんのちょっと自動化したい、でもDB立てて、サーバー立ててまでやるのもなぁ、ってときにその溝を埋めてくれる良いところに収まってる感じがしますね。特にGoogleスプレッドシートとの連携もしやすいからスプシを簡易DBとして見たててやるとけっこういろいろできちゃう。

@@ -1,10 +1,11 @@
 ---
 title: UXデザインのペーパープロトタイプの講座を受けにいってきました
+slug: report-of-the-paper-prototyping-class
 tags:
   - レポート
   - 勉強会
   - UX
-date: 2019-01-29 23:47:08
+date: 2019-01-29T23:47:08.000Z
 ---
 
 

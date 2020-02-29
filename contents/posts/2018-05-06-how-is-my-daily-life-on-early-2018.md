@@ -1,10 +1,10 @@
 ---
 title: 2018年、最近の僕の暮らしのお話
+slug: how-is-my-daily-life-on-early-2018
 tags:
   - 生活
   - 雑記
 date: 2018-05-06T00:25:40.000Z
-image: /images/covers/2018-05-06-how-is-my-daily-life-on-early-2018.jpg
 ---
 なんとなく日記的なことを書きたい夜なので、最近の暮らしの話を。
 

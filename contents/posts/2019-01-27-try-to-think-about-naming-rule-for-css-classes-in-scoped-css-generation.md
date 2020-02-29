@@ -1,11 +1,11 @@
 ---
 title: コンポーネント時代のCSSの命名ルールを考えてみよう
+slug: try-to-think-about-naming-rule-for-css-classes-in-scoped-css-generation
 tags:
   - 開発
   - Vue.js
   - CSS
 date: 2019-01-27T01:02:34.000Z
-image: /images/covers/2019-01-27-try-to-think-about-naming-rule-for-css-classes-in-scoped-css-generation.jpg
 ---
 
 このブログはHexoというNode.js系の静的サイトジェネレータで作ってる。テーマはイチからフルスクラッチで自分で作った。でも自分で作ったがゆえにまだ手のゆき届いてないところがあったり。そんなこんなで久々にテーマをどう作ってたってところから見なおしてたり。

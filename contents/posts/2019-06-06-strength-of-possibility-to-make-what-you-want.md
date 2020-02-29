@@ -1,10 +1,10 @@
 ---
 title: 欲しいものを作れる強さの楽しさと難しさ
+slug: strength-of-possibility-to-make-what-you-want
 tags:
   - 革工芸
   - 雑記
 date: 2019-06-06T00:10:33.000Z
-image: /images/covers/2019-06-06-strength-of-possibility-to-make-what-you-want.jpg
 ---
 
 久々に革工芸しました。年単位でやってなかったのでだいぶ腕が鈍っていました。でもやっぱり創作趣味はあるといいな、というお話。ちなみに今回は財布を作ってみました。

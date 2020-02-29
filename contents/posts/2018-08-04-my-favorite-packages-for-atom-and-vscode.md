@@ -1,5 +1,6 @@
 ---
 title: AtomからVSCodeに乗り換えたので使ってる拡張パッケージを対応表にしてみた
+slug: my-favorite-packages-for-atom-and-vscode
 tags:
   - アプリ
   - カスタマイズ
@@ -7,7 +8,6 @@ tags:
   - VSCode
   - Atom
 date: 2018-08-04T23:39:01.000Z
-image: /images/covers/2018-08-04-my-favorite-packages-for-atom-and-vscode.jpg
 ---
 
 年末年始にAtomの使ってるプラグインを列挙して棚卸しをしたけども、ちょっと前のMSのGitHubの買収を機に食わず嫌いしてたVSCodeを使ってみた。

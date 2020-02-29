@@ -1,9 +1,9 @@
 ---
 title: 英語でコンピューティングは加速する
-date: 2014-06-05T00:00:05.000Z
+slug: acceleration-computing-by-english
 tags:
   - 雑記
-image: /images/covers/2014-06-05-acceleration-computing-by-english.jpg
+date: 2014-06-05T00:00:05.000Z
 ---
 僕達人間が複数の言語を使えるようになると、コミュニケーションを楽に取れる相手が増えるように、コンピュータもまたその相手の一人になりえます。そう、およそコンピュータというものは英語が母語なんです。
 

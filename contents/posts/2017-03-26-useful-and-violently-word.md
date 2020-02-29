@@ -1,9 +1,9 @@
 ---
 title: 「アフリカでは」の有用性と暴力性、思考停止の怖さ
-date: 2017-03-26T00:00:00.000Z
+slug: useful-and-violently-word
 tags:
   - 雑記
-image: /images/covers/2017-03-26-useful-and-violently-word.jpg
+date: 2017-03-26T00:00:00.000Z
 ---
 今日ネットで見た言葉で
 

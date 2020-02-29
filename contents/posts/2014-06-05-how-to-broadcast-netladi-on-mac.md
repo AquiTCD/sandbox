@@ -1,12 +1,12 @@
 ---
 title: 「ねとらじ」をMacで放送する方法
-date: 2014-06-05T00:00:01.000Z
+slug: how-to-broadcast-netladi-on-mac
 tags:
   - アプリ
   - 配信
   - カスタマイズ
   - Mac
-image: /images/covers/2014-06-05-how-to-broadcast-netladi-on-mac.jpg
+date: 2014-06-05T00:00:01.000Z
 ---
 ![LadioCast+ねとらじ](https://lh3.googleusercontent.com/-ECaQXaQxmW8/TtN0xgaB86I/AAAAAAAAC2E/l85bDhMW7GA/s400/LadioCast_netladi.png "LadioCast+ねとらじ") 
 Macを使用して[ねとらじ](http://www.ladio.net/)（インターネットラジオ）を配信するノウハウ。ここではLadioCastを使用した方法を紹介します。

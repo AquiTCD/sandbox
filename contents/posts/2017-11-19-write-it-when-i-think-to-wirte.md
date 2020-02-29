@@ -1,9 +1,9 @@
 ---
 title: 書こうと思ったときにちゃんと書こう
-date: 2017-11-19T00:00:00.000Z
+slug: write-it-when-i-think-to-wirte
 tags:
   - 雑記
-image: /images/covers/2017-11-19-write-it-when-i-think-to-wirte.jpg
+date: 2017-11-19T00:00:00.000Z
 ---
 そういうわけなのでブログを書く。内容はただの日記です。
 

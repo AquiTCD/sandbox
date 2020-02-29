@@ -1,5 +1,6 @@
 ---
 title: これがないと捗らない、僕のKarabiner設定（late 2017）
+slug: karabiner-customize-late-2017
 tags:
   - アプリ
   - カスタマイズ
@@ -7,7 +8,6 @@ tags:
   - Hack
   - Mac
 date: 2018-02-24T09:04:11.000Z
-image: /images/covers/2018-02-24-karabiner-customize-late-2017.jpg
 ---
 
 昨年末から続いてる極まりつつある入力環境シリーズ、Karabiner編。

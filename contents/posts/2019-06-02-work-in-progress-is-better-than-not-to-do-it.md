@@ -1,9 +1,9 @@
 ---
 title: Work in progress is better than not to do it
+slug: work-in-progress-is-better-than-not-to-do-it
 tags:
   - 雑記
 date: 2019-06-02T01:01:46.000Z
-image: /images/covers/2019-06-02-work-in-progress-is-better-than-not-to-do-it.jpg
 ---
 
 2年半勤めた会社を退職して、月曜日から新天地でのお仕事が始まります。で、今週は有給消化期間でまるまる休みだったんですが、自分が思ってたよりもやりたいことの進捗が芳しくなかったことの分析と気持ちの整理と、これからの取り組みのお話。

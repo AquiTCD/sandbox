@@ -1,12 +1,12 @@
 ---
 title: GoogleフォトからMarkdownの画像リンクをTextExpanderで楽に作る
-date: 2015-06-26T00:00:00.000Z
+slug: make-a-url-of-google-photo-by-textexpander
 tags:
   - アプリ
   - カスタマイズ
   - Hack
   - Mac
-image: /images/covers/2015-06-26-make-a-url-of-google-photo-by-textexpander.jpg
+date: 2015-06-26T00:00:00.000Z
 ---
 僕はGoogleのサービスにブログ用の画像を置いてるのだけど、先日のレザークラフトの記事を書くにあたって久々に画像リンクをあれこれしてたら、Google+からGoogleフォトに代わってたので以前の方法だと上手く行かなくなってた。今回、TextExpanderを使って楽にリンクを貼る方法を模索した。
 

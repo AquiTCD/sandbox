@@ -1,12 +1,12 @@
 ---
 title: 何故僕はTumblrからHexo+Netlifyに移行したのか
+slug: why-i-decide-to-move-my-blog-from-tumblr-to-hexo
 tags:
   - お知らせ
   - 開発
   - Mac
   - 雑記
 date: 2018-02-21T08:09:45.000Z
-image: /images/covers/2018-02-21-why-i-decide-to-move-my-blog-from-tumblr-to-hexo.jpg
 ---
 
 こまごまながらも長らくブログをやってきまして。つい先日しれっとTumblrからHexoというブログ特化型の静的サイトジェネレータをNetlifyでホストする方法に移行しました。

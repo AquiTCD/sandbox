@@ -1,11 +1,11 @@
 ---
 title: VSCodeのSettingSyncで環境ごとに設定をわける方法
+slug: environmental-config-for-vscode
 tags:
   - VSCode
   - 開発
   - カスタマイズ
 date: 2019-07-15T15:01:46.000Z
-image: /images/covers/2019-07-15-environmental-config-for-vscode.jpg
 ---
 VSCodeには異なる端末でも設定を同期する[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)という拡張があって例えば職場と自宅で設定を同期したいときなど便利なんですが、環境ごとに異なる設定に対応する方法にずっと困ってました。
 

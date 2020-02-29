@@ -1,9 +1,9 @@
 ---
 title: 春一番が吹いたので、夏に向かって筋トレだ
-date: 2016-02-16T00:00:00.000Z
+slug: training-muscle-because-its-spring
 tags:
   - 雑記
-image: /images/covers/2016-02-16-training-muscle-because-its-spring.jpg
+date: 2016-02-16T00:00:00.000Z
 ---
 先日の春一番、いやぁ暖かかったですなぁ、春でしたなぁ。そろそろうかうかしてられない季節になってきましたね。
 

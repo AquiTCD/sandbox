@@ -1,9 +1,9 @@
 ---
 title: 「アボ"ガ"ド」と言う料理研究家は信用できない
-date: 2017-06-01T00:00:00.000Z
+slug: i-dont-trust-cooking-expert-who-said-avogado
 tags:
   - 雑記
-image: /images/covers/2017-06-01-i-dont-trust-cooking-expert-who-said-avogado.jpg
+date: 2017-06-01T00:00:00.000Z
 ---
 「アボカド」について。ここ日本ではなぜか「*アボガド*」と呼ばれることが多い。
 一般レベルではなぜか濁音がつく使われ方が多い語の1つだと思う。

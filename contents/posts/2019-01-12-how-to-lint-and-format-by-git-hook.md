@@ -1,10 +1,10 @@
 ---
 title: LintとFormatをGitのコミット時に自動でかける方法
+slug: how-to-lint-and-format-by-git-hook
 tags:
   - 開発
   - Git
 date: 2019-01-12T15:13:28.000Z
-image: /images/covers/2019-01-12-how-to-lint-and-format-by-git-hook.jpg
 ---
 
 前回、LintとFormatをかけるのはもちろんなんだけど、なんでGitHookのタイミングにしたかって話を書いた。今回はそれの具体的な方法を書いていこうと思う。

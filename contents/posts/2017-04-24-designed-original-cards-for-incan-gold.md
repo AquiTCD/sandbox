@@ -1,11 +1,11 @@
 ---
 title: ボドゲ「インカの黄金」のカードデザインが納得行かないので自作した
-date: 2017-04-24T00:00:00.000Z
+slug: designed-original-cards-for-incan-gold
 tags:
   - 自作
   - ゲーム
   - Hack
-image: /images/covers/2017-04-24-designed-original-cards-for-incan-gold.jpg
+date: 2017-04-24T00:00:00.000Z
 ---
 「インカの黄金」という割と定番でとっつきやすく楽しめるチキンレース系のボドゲは知ってるかい？　ボドゲを普段やらない層でも簡単に理解できて楽しめるので重宝してるんだけど、どうしてもカードデザインが納得行かないので自作して改良する話。
 

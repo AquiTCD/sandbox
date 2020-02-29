@@ -1,13 +1,13 @@
 ---
 title: これがないと捗らない、僕がカスタムしてるAtom設定（late 2017）
-date: 2017-12-29T00:00:00.000Z
+slug: atom-customize-late-2017
 tags:
   - アプリ
   - カスタマイズ
   - 開発
   - Atom
   - Mac
-image: /images/covers/2017-12-29-atom-customize-late-2017.jpg
+date: 2017-12-29T00:00:00.000Z
 ---
 <div class="series"><div class="seriesTitle">最近極まりつつある入力環境カスタマイズシリーズ</div><ul class="seriesList"><li class="seriesItem">[これがないと捗らない、僕が使ってるAtomパッケージ（late 2017）](/atom-packages-late-2017)</li><li class="seriesItem">[これがないと捗らない、僕がカスタムしてるAtom設定（late 2017）](/atom-customize-late-2017)</li><li class="seriesItem">[これがないと捗らない、僕のAquaSKKカスタマイズ（late 2017）](/aqua-skk-customize-late-2017)</li><li class="seriesItem">[これがないと捗らない、僕のErgoDoxファームウェア設定（late 2017）](/ergodox-customize-late-2017)</li><li class="seriesItem">[これがないと捗らない、僕のKarabiner-elementsカスタマイズ（late 2017）](/karabiner-customize-late-2017)</li></ul></div>
 

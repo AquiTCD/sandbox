@@ -1,24 +1,12 @@
 ---
 title: LaunchBar マルチリンガルファイルの検索を英語名でできるように戻す
-date: 2014-06-05 00:00:07
+slug: search-in-english-name-on-launchbar
 tags:
-  # - お知らせ
   - アプリ
-  # - 本
-  # - 配信
-  # - 革工芸
   - カスタマイズ
-  # - 開発
-  # - 装備
-  # - ガジェット
-  # - ゲーム
   - Hack
-  # - 旅
-  # - 生活
   - Mac
-  # - 雑記
-  # - 音楽
-  # - レビュー
+date: 2014-06-05T00:00:07.000Z
 ---
 ![LaunchBarIcon](http://lh3.ggpht.com/-_YUD6U4GKwY/T7W1oryf30I/AAAAAAAAEX4/sbwt3ke4dvY/LaunchBarIcon.png?imgmax=256 "LaunchBarIcon.png")  
 ずっと愛用しているLaunchBarがバージョンアップしてから、マルチリンガルな名前を複数持つアプリケーションなど（言語環境によってファイル名が変わるようになってるもの）を英語で検索できなくなってしまいました。

@@ -1,10 +1,10 @@
 ---
 title: ここ最近のレザークラフトは失敗作ばっかりだ
-date: 2016-05-05T00:00:00.000Z
+slug: made-flops-lethercrafting-lately
 tags:
   - 革工芸
   - 雑記
-image: /images/covers/2016-05-05-made-flops-lethercrafting-lately.jpg
+date: 2016-05-05T00:00:00.000Z
 ---
 ここ最近趣味のレザークラフトで作ってきたものが失敗続き。ようやく抜け出せた感はあるけど、その前に失敗作をネタにする。
 

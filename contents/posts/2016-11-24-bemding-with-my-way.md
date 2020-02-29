@@ -1,11 +1,11 @@
 ---
 title: 最近割と上手くいってるオレオレBEMding
-date: 2016-11-24T00:00:00.000Z
+slug: bemding-with-my-way
 tags:
   - 開発
   - CSS
   - Hack
-image: /images/covers/2016-11-24-bemding-with-my-way.jpg
+date: 2016-11-24T00:00:00.000Z
 ---
 HTML/CSSでの開発手法としていろいろあるなかで、もっとも有名ものの1つで命名規則のBEM（MindBEMding）っていうのがありまして。構成の手法としてSMACSSやFLOCSSなんていうのが、あっていったいどれがいいの？　悩んだあげくにFLOCSSベースのオレオレBEMdingに落ちついて、それが割と上手くいってるって話。
 

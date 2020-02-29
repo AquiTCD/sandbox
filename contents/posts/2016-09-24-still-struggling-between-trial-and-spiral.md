@@ -1,9 +1,9 @@
 ---
 title: Still struggling between Trial and Spiral
-date: 2016-09-24T00:00:00.000Z
+slug: still-struggling-between-trial-and-spiral
 tags:
   - 雑記
-image: /images/covers/2016-09-24-still-struggling-between-trial-and-spiral.jpg
+date: 2016-09-24T00:00:00.000Z
 ---
 どうもAquiです。実は仕事を辞めてまして。今はエンジニアに転身すべく勉強してます。
 

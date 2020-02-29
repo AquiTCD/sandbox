@@ -1,12 +1,12 @@
 ---
 title: 僕のMacBookAir、旅カスタム - ユーティリティ編
-date: 2014-07-13T00:00:00.000Z
+slug: my-custom-macbookair-for-journey-with-utilities
 tags:
   - アプリ
   - カスタマイズ
   - 旅
   - Mac
-image: /images/covers/2014-07-13-my-custom-macbookair-for-journey-with-utilities.jpg
+date: 2014-07-13T00:00:00.000Z
 ---
 前回、ブログと日記環境については書いたのだけど、今回はユーティリティ編。ここが僕のMacカスタマイズの真骨頂的な。言うなれば、如何にして僕に使い易くなるようにしてるかの部分
 

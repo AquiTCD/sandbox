@@ -1,13 +1,13 @@
 ---
 title: これがないと捗らない、僕のAquaSKKカスタマイズ（late 2017）
-date: 2018-01-14T00:00:00.000Z
+slug: aqua-skk-customize-late-2017
 tags:
   - アプリ
   - カスタマイズ
   - 開発
   - Hack
   - Mac
-image: /images/covers/2018-01-14-aqua-skk-customize-late-2017.jpg
+date: 2018-01-14T00:00:00.000Z
 ---
 昨年（2017年末）僕がメインで使ってるテキストエディタAtomのカスタマイズ記事を書いたんだけど、付随してAquaSKKの設定も書いておこうと思ってたら年が明けちゃった。
 表題は（early 2018）とすべきかもしれないけど、変わってないので関連製を持たせるために（late 2017)で。

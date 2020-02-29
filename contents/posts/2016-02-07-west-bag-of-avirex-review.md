@@ -1,11 +1,11 @@
 ---
 title: 俺の腰道具。Avirexのウエストバッグ avx342
-date: 2016-02-07T00:00:00.000Z
+slug: west-bag-of-avirex-review
 tags:
   - 装備
   - 生活
   - レビュー
-image: /images/covers/2016-02-07-west-bag-of-avirex-review.jpg
+date: 2016-02-07T00:00:00.000Z
 ---
 **最近買って良かったシリーズ！**  
 

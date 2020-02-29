@@ -1,5 +1,6 @@
 ---
 title: GulpとTypeScriptでブックマークレット開発環境を作ってみた
+slug: setup-developing-environment-for-bookmarklet
 tags:
   - 開発
   - ブックマークレット
@@ -7,7 +8,6 @@ tags:
   - Gulp
   - TypeScript
 date: 2019-06-18T23:43:31.000Z
-image: /images/covers/2019-06-18-setup-developing-environment-for-bookmarklet.jpg
 ---
 
 Bookmarkletってご存じですか？　最近ではあまり聞かないですが、ブラウザのブックマークに登録しておくと選択したらちょっと便利な機能があるやつです。例えば簡単に文字列を整形してコピーしたり、凄く単機能な拡張と思えば近いでしょうか。

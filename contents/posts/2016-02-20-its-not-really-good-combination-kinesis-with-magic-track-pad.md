@@ -1,12 +1,12 @@
 ---
 title: MagicTrackPad2 が出たので喜び勇んで Kinesis に乗っけてみたけど正直微妙だった
-date: 2016-02-20T00:00:00.000Z
+slug: its-not-really-good-combination-kinesis-with-magic-track-pad
 tags:
   - ガジェット
   - Hack
   - Mac
   - レビュー
-image: /images/covers/2016-02-20-its-not-really-good-combination-kinesis-with-magic-track-pad.jpg
+date: 2016-02-20T00:00:00.000Z
 ---
 そういえば全然ブログでは語ってこなかったけど、去年の春ごろ、Kinesisを買っちゃった。「僕の考えた最強のMac環境」を実現するには不可欠な存在。いや、今まで触ったこともないんだけどね。それで、じゃあキーボード部分はOKとしてカーソル操作はどうしようか。お、MagicTrackPadを上に乗っけたら、これ、最強じゃね？　と思ったわけさ。
 

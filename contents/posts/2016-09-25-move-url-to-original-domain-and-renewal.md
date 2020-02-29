@@ -1,9 +1,9 @@
 ---
 title: デザインリニューアルと独自ドメイン移行予定のお知らせ
-date: 2016-09-25T00:00:00.000Z
+slug: move-url-to-original-domain-and-renewal
 tags:
   - お知らせ
-image: /images/covers/2016-09-25-move-url-to-original-domain-and-renewal.jpg
+date: 2016-09-25T00:00:00.000Z
 ---
 駆け出しエンジニアの端くれとして、このブログデザインをイチから作りなおしてみたよ。実はちょうどなんらかの原因でレスポンシブになってなかったり、継ぎ足しCSSが悪い意味で良い感じに醸造されすぎて、管理できなくなってきていたので。
 

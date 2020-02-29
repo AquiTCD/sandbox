@@ -1,12 +1,12 @@
 ---
 title: エクストリームブロギング - まだお風呂でブログ書いてないの？
+slug: extream-blogging-in-a-bath
 tags:
   - blog
   - Kindle
   - Android
   - ガジェット
 date: 2019-12-05T10:00:00.000Z
-image: /images/covers/2019-12-04-extream-blogging-in-a-bath.jpg
 ---
 これは[Write blog every week アドベントカレンダー 2019](https://adventar.org/calendars/3945)、5日目の記事です。
 お風呂で……はちょっと言いすぎ感ありますが、要はどこでも書けるポータブルな執筆環境を作ろうという話です。そしてこの記事は実際に6割が電車の中で書かれ、3割はお風呂の中、Macで書いたのは残りの1割の仕上げだけです。

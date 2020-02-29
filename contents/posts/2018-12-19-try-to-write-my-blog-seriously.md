@@ -1,10 +1,10 @@
 ---
 title: そろそろ本気でちゃんとブログを書こうと思った
-date: 2018-12-19T09:22:02.000Z
+slug: try-to-write-my-blog-seriously
 tags:
   - Hack
   - 雑記
-image: /images/covers/2018-12-19-try-to-write-my-blog-seriously.jpg
+date: 2018-12-19T09:22:02.000Z
 ---
 
 

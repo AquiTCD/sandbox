@@ -1,11 +1,11 @@
 ---
 title: textlintをてんこ盛りカスタマイズした
+slug: fully-customized-textlint
 tags:
   - 開発
   - Hack
   - カスタマイズ
 date: 2019-08-17T11:39:00.000Z
-image: /images/covers/2019-08-17-fully-customized-textlint.jpg
 ---
 日本語を静的解析して校正するツールとしてtextlintというものがあります。プログラミング言語の推奨されない記法などを静的解析して警告、修正するLinterという仕組みをMarkdownやTextファイルの日本語にも利用して校正するツールです。今回はこれをゴリゴリにカスタムした話。
 

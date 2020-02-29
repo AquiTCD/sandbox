@@ -1,12 +1,12 @@
 ---
 title: モンスターハンターワールド モンスター弱点早見システムを作った
+slug: developed-search-system-for-monster-hunter-world
 tags:
   - アプリ
   - 開発
   - ゲーム
   - Vue.js
 date: 2018-03-13T20:41:23.000Z
-image: /images/covers/2018-03-13-developed-search-system-for-monster-hunter-world.jpg
 ---
 
 狩人のみなさまにおかれましては楽しいハンターライフを送っておりますか？

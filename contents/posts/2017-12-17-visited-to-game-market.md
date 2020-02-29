@@ -1,11 +1,11 @@
 ---
 title: ゲムマ作戦記 2017年秋の陣 2日目
-date: 2017-12-17T00:00:00.000Z
+slug: visited-to-game-market
 tags:
   - ゲーム
   - 雑記
   - レビュー
-image: /images/covers/2017-12-17-visited-to-game-market.jpg
+date: 2017-12-17T00:00:00.000Z
 ---
 ![](https://lh3.googleusercontent.com/3ELGHZmhC5O7pHC6Y19YQg0E17fV4khqFVoUWbadInGoiuNt2cRKceDxgDZEGBLDTaDHMceUBnKLANIKx1VRYVTbG3ZZ10dfgNerFnvlXdckK34rHvgiFMacoDr0SWHmu8Y0qvISfA4mP5FjhQXwyquZaUzx3C-74VIyENxZOZq7R5m1BXg4O5YLFZossLDh2opF5_7NiskeL-TU3N0CbMtvTG0HEJZs5vu0w-LVudwxulTOJGK-2O7UcHTuAAIgk-ELmbsai9Z44W2BHRahA_432f8VB-rBMjLbQtwN_Vgzs2rSOKyUjKrnVGt5MA87J16Q_uK00lphyUr3r2TvZ6yJ1wHNMLLKzVPpL-zXkdZFNLWUPwe8oVrPv8JxQsQ2vMg-Rru7CwXJAr6FMPm3E9Uf_Tavi8AUwTA5qSpg_YyC8a3Mb74s3j2M6UQGsgcqnpd0UnuejOCdhYDK2W8S-EkGFUhxDMKFhbxHpD1hBpETrEr0-zrJYrMKqoY1SB8iFR3RTZMkYf1TMa4AtgHpTbpMDZLjS7YXcKoEfZ0LjAHNykWS-NaukJk_vyQcBTPgD_ZZ1lcMEyzBRfAaqD54fC0_dfBZCJPzHdpO9Af91NNXXVjt7rpvc_5Uf6pFYPrKg_auL1aM5I-ef-AdDJo93DvENZ7MtFqS5bU=w2268-h1702-no)
 

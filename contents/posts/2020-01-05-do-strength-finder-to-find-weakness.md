@@ -1,12 +1,12 @@
 ---
 title: 弱点を知るためにストレングスファインダーを実施しました
+slug: do-strength-finder-to-find-weakness
 tags:
   - review
   - book
   - 雑記
   - Self-awareness
 date: 2020-01-05T13:06:33.681Z
-image: /images/covers/2020-01-05-do-strength-finder-to-find-weakness.jpg
 ---
 今年の抱負や目標みたいなものは立ててないんですが、なにか1つ新年らしいことをしたいな、と思いました。去年、自覚がなかった自分の側面がみえた気がして、今いちど「自分を知る」活動をしてみようと思い、その一環としてストレングスファインダーをやりました。
 

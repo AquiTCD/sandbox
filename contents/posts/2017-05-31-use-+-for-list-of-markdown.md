@@ -1,11 +1,11 @@
 ---
 title: Markdownのリスト表記に「+」を使うことにした話
-date: 2017-05-31T00:00:00.000Z
+slug: use-+-for-list-of-markdown
 tags:
   - カスタマイズ
   - 開発
   - Hack
-image: /images/covers/2017-05-31-use-+-for-list-of-markdown.jpg
+date: 2017-05-31T00:00:00.000Z
 ---
 僕は文書は全部Markdownで書けばいいと思ってるクチ（リッチテキストは滅びればいい）なんだけど、記法の中でリスト表記について「+」を使うことに変えたという話。
 

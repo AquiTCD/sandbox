@@ -1,11 +1,11 @@
 ---
 title: Mac でたまにスペイン語入力する時の特殊記号とか
-date: 2014-06-17T00:00:00.000Z
+slug: type-symbol-of-spanish-on-mac
 tags:
   - カスタマイズ
   - Hack
   - Mac
-image: /images/covers/2014-06-17-type-symbol-of-spanish-on-mac.jpg
+date: 2014-06-17T00:00:00.000Z
 ---
 なんかMavericksになってから、入力が変になるなぁと思ってたら、IMにスペイン語を入れると英字入力時にもキーボード配列がUS配列になってしまって、混乱するという状態が起こるようになってしまった。
 

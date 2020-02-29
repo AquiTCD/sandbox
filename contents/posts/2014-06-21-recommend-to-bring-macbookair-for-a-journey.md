@@ -1,12 +1,12 @@
 ---
 title: 長期旅行には、やっぱりMacBookAirが良いと思う
-date: 2014-06-21T00:00:00.000Z
+slug: recommend-to-bring-macbookair-for-a-journey
 tags:
   - ガジェット
   - 旅
   - Mac
   - レビュー
-image: /images/covers/2014-06-21-recommend-to-bring-macbookair-for-a-journey.jpg
+date: 2014-06-21T00:00:00.000Z
 ---
 個人的には長期旅行、かっこつけるといわゆる旅にはPCが必須だと思う。最近はスマフォやタブレットだけという旅行者も増えた気がするけど、僕は何がなんでもMacを持っていきたい。
 

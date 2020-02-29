@@ -1,10 +1,10 @@
 ---
 title: ちゃんとしたGitコミットメッセージをCommitzenを日本語で使って楽に書く
+slug: write-easy-neat-git-commit-message
 tags:
   - 開発
   - Git
 date: 2018-07-29T12:03:01.000Z
-image: /images/covers/2018-07-29-write-easy-neat-git-commit-message.jpg
 ---
 
 Gitを使うようになって以来、使えば使うほどこれは良いバージョン管理だなぁと関心する。その反面、コミットに対しての悩みはつきない。コミットメッセージ、粒度。そのへんをどうしたら良いのか決定打が無いまま、ちゃんとしてるっぽいようにできてはいるけど今イチ自信がないままだった。

@@ -1,12 +1,12 @@
 ---
 title: RuboCopのオプションを再入門したら、pre-commitフック経由の問題も解決した
+slug: relean-rubocop-options
 tags:
   - 開発
   - Ruby
   - Rubocop
   - Git
 date: 2019-08-04T14:20:00.000Z
-image: /images/covers/2019-08-04-relean-rubocop-options.jpg
 ---
 RuboCopというRuby用のリントライブラリがあります。コードを静的解析して良くない書き方を検知したり、フォーマットにも対応しています。今回はコーディングのルールの設定の話ではなく、実行するときのオプションまわりの話。
 

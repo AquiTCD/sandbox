@@ -1,10 +1,10 @@
 ---
 title: Git 初回コミットのメッセージをちゃんと決めてみる作戦
+slug: what-is-the-your-favorite-message-at-first-commit
 tags:
   - 開発
   - Git
 date: 2019-02-10T13:52:52.000Z
-image: /images/covers/2019-02-10-what-is-the-your-favorite-message-at-first-commit.jpg
 ---
 
 新しいことをいろいろやろうとすると、それがSandboxであれ`git init`することはそこそこあると思う。で、毎度毎度うっすら「初回のコミットメッセージって何か決まりあるんかな」と思うけど、まあわかればいいか、と思って適当にやるっていう感じだった。今回はそれをちゃんの決めてみようというお話。

@@ -1,11 +1,11 @@
 ---
 title: Monster Hunter Worldに想いを寄せて
+slug: let-me-play-monster-hunter-world
 tags:
   - ゲーム
   - 雑記
   - レビュー
 date: 2018-01-31T00:00:00.000Z
-image: /images/covers/2018-01-31-let-me-play-monster-hunter-world.jpg
 ---
 先日、MonsterHunterWorld、いわゆるモンハンと称されるシリーズの最新作が発売されまして。僕は2作目であるDOS以来、十数年ぶりにプレイする運びとなりました。
 

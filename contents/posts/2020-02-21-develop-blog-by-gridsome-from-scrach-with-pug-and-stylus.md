@@ -9,7 +9,6 @@ tags:
   - Pug
   - Stylus
 date: 2020-02-20T22:09:46.260Z
-image: /images/covers/2020-02-21-develop-blog-by-gridsome-from-scrach-with-pug-and-stylus.jpg
 ---
 さて今回も前回に引き続き、Vue.jsベースのSSG（静的サイトジェネレータ）であるGridsomeを使ってブログを作っていきます。今回は、HTMLにPug、CSSにStylusを使えるように設定していきます。つまりまだ環境構築です。
 

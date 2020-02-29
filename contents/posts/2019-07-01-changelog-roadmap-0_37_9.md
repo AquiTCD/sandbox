@@ -1,11 +1,11 @@
 ---
 title: 'My ChangeLog[0.37.8] & Roadmap'
+slug: changelog-roadmap-0_37_9
 tags:
   - 雑記
   - 生活
   - ふりかえり
 date: 2019-07-01T06:01:46.000Z
-image: /images/covers/2019-07-01-changelog-roadmap-0_37_9.jpg
 ---
 自分リリースノートならぬ、自分ChangeLogとRoadmap。前月のふりかえりと今月の目標。
 

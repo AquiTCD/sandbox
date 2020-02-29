@@ -1,10 +1,10 @@
 ---
 title: 日々の回復力を最大化するささやかな抵抗
+slug: maximization-restoration-power-for-daily-life
 tags:
   - 雑記
   - 体
 date: 2019-03-10T13:32:35.000Z
-image: /images/covers/2019-03-10-maximization-restoration-power-for-daily-life.jpg
 ---
 
 始めに言っておきますが、最近テック系の話ばかり書いてきましたが、このブログはテック系寄りの雑記ブログなので今日はあまりテックと関係ないことを書きます。久々です。

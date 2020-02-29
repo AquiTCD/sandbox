@@ -1,11 +1,11 @@
 ---
 title: 初めてSlackAppを作ってみた - 帰宅予定確認Bot
+slug: develop-first-slack-app
 tags:
   - Slack
   - 開発
   - カスタマイズ
 date: 2019-08-24T20:10:00.000Z
-image: /images/covers/2019-08-24-develop-first-slack-app.jpg
 ---
 うちの家族チャットツールはSlackを使っています。家族連絡用にもっといろいろ上手いことやろうと、今回初めてSlackApp作ってみました。解説やドキュメントはしっかりあるものの実際の流れがよくわからなくて苦戦しましたので解説を交えて書いてみたいと思います。
 

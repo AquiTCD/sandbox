@@ -1,11 +1,11 @@
 ---
 title: Firestoreを使うためにVuexFireを使ってちょっぴり悩んだ話
+slug: how-to-use-vuexfire-with-nuxt
 tags:
   - 開発
   - Firestore
   - Vue.js
 date: 2018-12-25T22:47:03.000Z
-image: /images/covers/2018-12-25-how-to-use-vuexfire-with-nuxt.jpg
 ---
 
 ちょっと業務でFirestore使ってみようかーみたいな話がでたもんで、おっじゃあちょっと使ってみようと思いまして。で実際使ってみたらアイデアが湧いてきたのでFirestoreを使った趣味Webアプリを作ってみてます。

@@ -1,11 +1,11 @@
 ---
 title: ブログシステムをVuePressに移行しました
+slug: replace-blog-system-to-vuepress
 tags:
   - 開発
   - Blog
   - Vue.js
 date: 2019-06-30T10:00:00.000Z
-image: /images/covers/2019-06-30-replace-blog-system-to-vuepress.jpg
 ---
 以前、VuePressを使ってみたという記事を書きましたがその続編というか実際にブログをリプレイスしてみた所感です。結論から言えば、VuePressで本格的にブログをやるのはまだちょっと早い、という印象でした。
 

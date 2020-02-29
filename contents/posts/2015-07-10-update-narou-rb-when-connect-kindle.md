@@ -1,12 +1,12 @@
 ---
 title: Kindleを接続したら自動でNarou.rbを回すと良い感じ
-date: 2015-07-10T00:00:00.000Z
+slug: update-narou-rb-when-connect-kindle
 tags:
   - カスタマイズ
   - ガジェット
   - Hack
   - Mac
-image: /images/covers/2015-07-10-update-narou-rb-when-connect-kindle.jpg
+date: 2015-07-10T00:00:00.000Z
 ---
 以前からKindlePaperwhiteを使ってて、それと共に『小説家になろう』とかのWeb小説もそちらで読んでる。それらを便利にしてくれてるのも『Narou.rb』というスクリプトのお陰なんだけど、それをもうちょっと使いやすくしてみたお話。
 <div class="cstmreba"> <div class="link-card-box"> <div class="link-card-image"> <a href="http://whiteleaf.hatenablog.com/entry/2013/03/07/%E3%80%8C%E5%B0%8F%E8%AA%AC%E5%AE%B6%E3%81%AB%E3%81%AA%E3%82%8D%E3%81%86%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%EF%BC%86%E5%A4%89%E6%8F%9B%E3%82%A2%E3%83%97%E3%83%AA%E3%80%8DNarou.rb" target="_blank"> <img src="http://capture.heartrails.com/128x128?http://whiteleaf.hatenablog.com/entry/2013/03/07/%E3%80%8C%E5%B0%8F%E8%AA%AC%E5%AE%B6%E3%81%AB%E3%81%AA%E3%82%8D%E3%81%86%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%EF%BC%86%E5%A4%89%E6%8F%9B%E3%82%A2%E3%83%97%E3%83%AA%E3%80%8DNarou.rb"> </a> </div><div class="link-card-info"> <div class="link-card-name"> <a href="http://whiteleaf.hatenablog.com/entry/2013/03/07/%E3%80%8C%E5%B0%8F%E8%AA%AC%E5%AE%B6%E3%81%AB%E3%81%AA%E3%82%8D%E3%81%86%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%EF%BC%86%E5%A4%89%E6%8F%9B%E3%82%A2%E3%83%97%E3%83%AA%E3%80%8DNarou.rb" target="_blank"> 「小説家になろうダウンローダ＆変換アプリ」Narou.rbをリリースしました - WHITELEAF：Kindle応援サイト</a> </div><div class="link-card-detail"> <div class="link-card-detail-select"> このアプリは小説家になろうで公開されている小説の管理、及び電子書籍データへの 変換を支援します。 ...</div><div class="link-card-detail-memo"> </div></div><div class="link-card-footer"> </div></div></div></div>

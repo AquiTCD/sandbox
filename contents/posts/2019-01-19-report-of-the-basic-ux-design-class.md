@@ -1,11 +1,11 @@
 ---
 title: UXデザインの基礎知識の講義を受けにいってきました
+slug: report-of-the-basic-ux-design-class
 tags:
   - レポート
   - 勉強会
   - UX
 date: 2019-01-19T14:10:26.000Z
-image: /images/covers/2019-01-19-report-of-the-basic-ux-design-class.jpg
 ---
 
 昨日、[ユーリカ株式会社](https://www.ureka.co.jp/)が催行している[UXトライアウト・2時間で学ぶUXデザインの基礎知識](https://techplay.jp/event/713434?utm_source=713434&utm_medium=email&utm_campaign=own_newevent)にブログ書く枠として参加させていただいたのでそのレポートです。

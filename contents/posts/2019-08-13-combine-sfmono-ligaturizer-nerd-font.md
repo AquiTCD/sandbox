@@ -1,12 +1,12 @@
 ---
 title: SFMono + FiraCode記号リガチャ + NerdFont化 したらイイ感じのプログラミングフォントが爆誕した
+slug: combine-sfmono-ligaturizer-nerd-font
 tags:
   - 開発
   - カスタマイズ
   - Hack
   - フォント
 date: 2019-08-13T23:20:00.000Z
-image: /images/covers/2019-08-13-combine-sfmono-ligaturizer-nerd-font.jpg
 ---
 MacにはSFMonoというシュっとした等幅フォントがあります。
 FiraCodeというフリーフォントは特定の文字の組み合わせで文字が変化するリガチャを利用したプログラミング特化の記号があります。

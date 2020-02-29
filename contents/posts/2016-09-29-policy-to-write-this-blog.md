@@ -1,9 +1,9 @@
 ---
 title: 僕のブログを書くにあたってのポリシー
-date: 2016-09-29T00:00:00.000Z
+slug: policy-to-write-this-blog
 tags:
   - 雑記
-image: /images/covers/2016-09-29-policy-to-write-this-blog.jpg
+date: 2016-09-29T00:00:00.000Z
 ---
 リニューアルもほぼ終えて、どうやら無事にドメイン移行も完了したようなので今日はブログポリシーについて考えてみよう。ちなみにどのような感じで移行したのかというと
 

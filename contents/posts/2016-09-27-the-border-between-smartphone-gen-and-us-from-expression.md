@@ -1,9 +1,9 @@
 ---
 title: 言語表現に見るスマホ世代と我らの境界線
-date: 2016-09-27T00:00:00.000Z
+slug: the-border-between-smartphone-gen-and-us-from-expression
 tags:
   - 雑記
-image: /images/covers/2016-09-27-the-border-between-smartphone-gen-and-us-from-expression.jpg
+date: 2016-09-27T00:00:00.000Z
 ---
 ここ1,2年前からふと気になる言葉を聞く。なぜだか僕はそれを耳にすると強烈にジェネレーションギャップに隔絶された感をつきつけられる。
 

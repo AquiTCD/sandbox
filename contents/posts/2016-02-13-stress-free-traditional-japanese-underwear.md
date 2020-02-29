@@ -1,11 +1,11 @@
 ---
 title: ストレスフリーの下着術 -ふんどし回帰録-
-date: 2016-02-13T00:00:00.000Z
+slug: stress-free-traditional-japanese-underwear
 tags:
   - 装備
   - 生活
   - レビュー
-image: /images/covers/2016-02-13-stress-free-traditional-japanese-underwear.jpg
+date: 2016-02-13T00:00:00.000Z
 ---
 2月14日はふんどしの日だそうだ。2（ふぅん）1（どぉ）4（し）みたいな。まぁそれはさておき、かくいう僕もふんどしユーザー。なにを隠そう、ふんどシストだ。隠すのはキンなんだけど。
 

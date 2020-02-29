@@ -1,10 +1,10 @@
 ---
 title: KindlePaperwhiteケースをレザークラフトで作った
-date: 2015-06-23T00:00:00.000Z
+slug: made-kindle-case-leathercrafting
 tags:
   - 革工芸
   - 装備
-image: /images/covers/2015-06-23-made-kindle-case-leathercrafting.jpg
+date: 2015-06-23T00:00:00.000Z
 ---
 KindlePaperwhiteを買ってからずっと愛用してる。実は購入と同時にケースを買ったのだけど、イマイチな感じだった。久々に無いなら作ってやろう魂が動き出したのでレザークラフトで作ることにした。  
 ちなみにこれが完成品。  

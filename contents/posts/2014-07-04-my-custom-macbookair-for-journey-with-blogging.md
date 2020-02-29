@@ -1,12 +1,12 @@
 ---
 title: 僕のMacBookAir、旅カスタム - 日記とブログ編
-date: 2014-07-04T00:00:00.000Z
+slug: my-custom-macbookair-for-journey-with-blogging
 tags:
   - アプリ
   - カスタマイズ
   - 旅
   - Mac
-image: /images/covers/2014-07-04-my-custom-macbookair-for-journey-with-blogging.jpg
+date: 2014-07-04T00:00:00.000Z
 ---
 僕の旅カスタムは、旅中に使うこと最小限になってること。これは最少構成に近いけど、少しだけ旅に便利なように寄ってるかもしれない。せっかくなので他の人の構成に役立つかもしれないので、明かしてみよう。
 

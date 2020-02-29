@@ -1,12 +1,12 @@
 ---
 title: Alfredの同期がDropboxのAppsディレクトリだとできなかった件
-date: 2017-03-23T00:00:00.000Z
+slug: alfred-can-not-sync-in-apps-directly-of-dropbox
 tags:
   - アプリ
   - カスタマイズ
   - Hack
   - Mac
-image: /images/covers/2017-03-23-alfred-can-not-sync-in-apps-directly-of-dropbox.jpg
+date: 2017-03-23T00:00:00.000Z
 ---
 長らくこれまでLaunchBar使いとして頑張ってきましたが、環境が変わったのをきっかけに僕もついにAlfredの軍門に下りまして。
 

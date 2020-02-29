@@ -1,12 +1,12 @@
 ---
 title: 複数ブラウザを便利に使うためのChoosy
+slug: use-choosy-for-multiple-browsers
 tags:
   - Mac
   - アプリ
   - 開発
   - カスタマイズ
 date: 2019-07-22T21:55:00.000Z
-image: /images/covers/2019-07-22-use-choosy-for-multiple-browsers.jpg
 ---
 Web開発をしていると複数ブラウザを使う人も珍しくないと思います。そこで複数ブラウザを便利に使うためのMac用ユーティリティ「Choosy」を紹介します。最近上手く動かなかったことがあったのでその解決方法とともに
 

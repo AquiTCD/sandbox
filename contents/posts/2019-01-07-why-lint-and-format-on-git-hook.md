@@ -1,10 +1,10 @@
 ---
 title: LintとFormatをGitHook時にかけてる理由
+slug: why-lint-and-format-on-git-hook
 tags:
   - 開発
   - Git
 date: 2019-01-07T23:23:41.000Z
-image: /images/covers/2019-01-07-why-lint-and-format-on-git-hook.jpg
 ---
 
 LinterとFormatterをかけないコーディングはツラくて個人的にはちょっと悲しくなるんだけど、問題はどのタイミングでやるかってこと。個人的にやっていたものを昨年なかごろから業務にも取り入れてみてそこそこ上手く回っているので書き残しておきたい。

@@ -1,10 +1,10 @@
 ---
 title: 金（ゴールデン）LTを聴きに行ってきました
-date: 2016-05-02T00:00:00.000Z
+slug: listened-to-golden-lt
 tags:
   - 雑記
   - レビュー
-image: /images/covers/2016-05-02-listened-to-golden-lt.jpg
+date: 2016-05-02T00:00:00.000Z
 ---
 このTumblrのカスタマイズ前のテーマでも一方的にお世話になってる[佐野章核さん](http://www.sanographix.net/)が以前から**「大LTまつり」**と称してノンジャンルのLT（ライトニングトーク - 5分間でなんか喋るプレゼン）をみんなでやろうってイベントをしてたので、楽しそうだから行ってきた。
 

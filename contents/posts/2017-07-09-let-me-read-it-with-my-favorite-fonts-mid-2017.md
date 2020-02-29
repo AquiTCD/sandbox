@@ -1,13 +1,13 @@
 ---
 title: 俺の好きなフォントで読ませろ2017年夏決定版
-date: 2017-07-09T00:00:00.000Z
+slug: let-me-read-it-with-my-favorite-fonts-mid-2017
 tags:
   - カスタマイズ
   - 開発
   - Hack
   - CSS
   - Mac
-image: /images/covers/2017-07-09-let-me-read-it-with-my-favorite-fonts-mid-2017.jpg
+date: 2017-07-09T00:00:00.000Z
 ---
 俺の好きなフォントで読ませろ2017年夏決定版
 ------------------------------------------------------------

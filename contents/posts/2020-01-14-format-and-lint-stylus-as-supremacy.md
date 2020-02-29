@@ -1,5 +1,6 @@
 ---
 title: StylusをlintとformatでSupremacyにしよう
+slug: format-and-lint-stylus-as-supremacy
 tags:
   - 開発
   - フロントエンド
@@ -7,7 +8,6 @@ tags:
   - Stylus
   - VSCode
 date: 2020-01-14T01:30:00.000Z
-image: /images/covers/2020-01-14-format-and-lint-stylus-as-supremacy.jpg
 ---
 CSSメタ言語（CSSプリプロセッサ）といえばSass(SCSS)がデファクトスタンダードですが、個人的にはStylusが大好きです。Stylusは高機能であると同時に記法に自由度があるのが良くもあり、逆に言えばカオスを作りやすいです。
 そんなStylusにlinterとformatterを用いて秩序を持ちこみSupremacy（至高）にしようというお話です。

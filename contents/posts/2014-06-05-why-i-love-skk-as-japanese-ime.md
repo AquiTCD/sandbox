@@ -1,12 +1,12 @@
 ---
 title: 僕が日本語 IM「SKK」に憑かれた訳
-date: 2014-06-05T00:00:03.000Z
+slug: why-i-love-skk-as-japanese-ime
 tags:
   - アプリ
   - カスタマイズ
   - Hack
   - Mac
-image: /images/covers/2014-06-05-why-i-love-skk-as-japanese-ime.jpg
+date: 2014-06-05T00:00:03.000Z
 ---
 通常の日本語IMとは違い、クセのある日本語IM「SKK」。それに慣れてからというものの、快適すぎて今さら後戻りが出来ません。
 

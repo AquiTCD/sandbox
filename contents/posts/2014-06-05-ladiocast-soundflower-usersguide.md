@@ -1,13 +1,13 @@
 ---
 title: LadioCast と Soundflower の解説書
-date: 2014-06-05T00:00:02.000Z
+slug: ladiocast-soundflower-usersguide
 tags:
   - アプリ
   - 配信
   - カスタマイズ
   - Hack
   - Mac
-image: /images/covers/2014-06-05-ladiocast-soundflower-usersguide.jpg
+date: 2014-06-05T00:00:02.000Z
 ---
 ![Ladiocast soundflower icon](http://lh5.ggpht.com/-ujzUu12Rv4o/TtOMBfBc0fI/AAAAAAAAC3M/qGuwe-CdIvg/ladiocast_soundflower.png?imgmax=800 "ladiocast_soundflower_icon.png")  
 LadioCastは以前紹介した[「ねとらじ」を Mac で放送する方法](http://trial-and-spiral.tumblr.com/post/87804252145)のみならず、音声ミキサー（ルーティング）としても優秀なソフトです。このミキシングについて、ねとらじや他の配信（ex. Ustream.TV、JustinTV.、ニコニコ生放送）を例にして、いくつか挙げて解説してみます。

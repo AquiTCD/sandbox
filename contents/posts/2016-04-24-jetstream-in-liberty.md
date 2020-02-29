@@ -1,11 +1,11 @@
 ---
 title: ジェストにリバティ、そして下敷きへ
-date: 2016-04-24T00:00:00.000Z
+slug: jetstream-in-liberty
 tags:
   - 装備
   - Hack
   - レビュー
-image: /images/covers/2016-04-24-jetstream-in-liberty.jpg
+date: 2016-04-24T00:00:00.000Z
 ---
 ジェットストリームの書き味が心地良いのは周知の事実だけど、さらに軸を良いものに変えて、下敷にも気を使うと最高になるよ、って話
 

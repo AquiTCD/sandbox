@@ -1,10 +1,10 @@
 ---
 title: 二年たっても買って正解だったと思える新生活グッズ
+slug: good-things-i-bought-after-moved-home-for-new-life
 tags:
   - 生活
   - レビュー
 date: 2018-04-02T23:40:51.000Z
-image: /images/covers/2018-04-02-good-things-i-bought-after-moved-home-for-new-life.jpg
 ---
 
 新生活シーズンですね。僕等夫婦は今のところに引っ越してきて約2年半。それまで実家暮しだったのでいろいろと買いそろえた中でこれは買って良かったと思うのを書いていこうと思う。だいたいの家にあるだろうものは除いて。

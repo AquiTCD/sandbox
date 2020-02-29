@@ -1,9 +1,9 @@
 ---
 title: 最近ちょっとだけ、ちょっとだけイラっとすること
-date: 2016-02-10T00:00:00.000Z
+slug: annoying-things-recently
 tags:
   - 雑記
-image: /images/covers/2016-02-10-annoying-things-recently.jpg
+date: 2016-02-10T00:00:00.000Z
 ---
 別に声を大にして言いたいわけじゃないけど、少しイラっと来ること書いちゃう
 

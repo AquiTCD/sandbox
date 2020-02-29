@@ -1,10 +1,10 @@
 ---
 title: モンスターハンターワールド 弱点早見表
+slug: made-a-sheet-for-mhw-weekpoints-of-enemies
 tags:
   - ゲーム
   - Hack
 date: 2018-02-18T15:53:25.000Z
-image: /images/covers/2018-02-18-made-a-sheet-for-mhw-weekpoints-of-enemies.jpg
 ---
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ5o6yDUQDkzm65zDzxg831UR1Lzz_JBoo-sTndYOCYlffAAQhn3lGHLQS6fHUTawOyQm50fcVX_kET/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp;chrome=false" width="100%" height="800" frameborder="0"></iframe>

@@ -1,12 +1,12 @@
 ---
 title: 新しいタブがお好みの背景画像のMarkdownメモになるGoogleChrome拡張を作っている
+slug: develop-chrome-extention-yantan
 tags:
   - アプリ
   - 開発
   - 雑記
   - Vue.js
 date: 2018-07-22T10:37:19.000Z
-image: /images/covers/2018-07-22-develop-chrome-extention-yantan.jpg
 ---
 
 実は最初のバージョンを公開してからけっこうたつんだけど、つい最近いろいろとアップデートしてみたので、ちゃんとお知らせしようと思います。こういうやつ。

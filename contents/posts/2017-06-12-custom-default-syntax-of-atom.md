@@ -1,13 +1,13 @@
 ---
 title: Atomで新規ファイルのデフォルトのSyntaxをなんとかする
-date: 2017-06-12T00:00:00.000Z
+slug: custom-default-syntax-of-atom
 tags:
   - アプリ
   - カスタマイズ
   - 開発
   - Atom
   - Mac
-image: /images/covers/2017-06-12-custom-default-syntax-of-atom.jpg
+date: 2017-06-12T00:00:00.000Z
 ---
 どうも。通常の文書はなんでもMarkdown、そして気にいったテキストエディタで書ければいいのに、と思ってる僕です。
 Markdownエディタがそれなりにあるけど、やっぱり慣れ親しんだというか、Packageいろいろ積んで自分好みに最高になったAtom君で何でも書きたいわけですよ、僕は。

@@ -1,12 +1,12 @@
 ---
 title: Mac周りをいろいろと物理的にアップデートした
-date: 2017-06-18T00:00:00.000Z
+slug: update-my-environment-around-mac
 tags:
   - カスタマイズ
   - ガジェット
   - Hack
   - Mac
-image: /images/covers/2017-06-18-update-my-environment-around-mac.jpg
+date: 2017-06-18T00:00:00.000Z
 ---
 + 7/2解像度まわりに関してちょっと誤解があったため追記
 

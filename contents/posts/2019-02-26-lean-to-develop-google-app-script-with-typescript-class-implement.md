@@ -1,11 +1,11 @@
 ---
 title: Google App ScriptをTypeScriptとClass構文で書く - 実装
+slug: lean-to-develop-google-app-script-with-typescript-class-implement
 tags:
   - 開発
   - GAS
   - TypeScript
 date: 2019-02-26T15:42:51.000Z
-image: /images/covers/2019-02-26-lean-to-develop-google-app-script-with-typescript-class-implement.jpg
 ---
 前回は「[Google App ScriptをTypeScriptとClass構文で書く \- 環境導入](https://blog.solunita.net/lean-to-develop-google-app-script-with-typescript-class-setup/)」ということでClaspでローカル開発した場合の恩恵と、どう環境を設定したらいいかという話を書きました。
 

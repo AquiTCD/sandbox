@@ -1,5 +1,6 @@
 ---
 title: ブックマークレットをテスト駆動開発する
+slug: test-driven-develop-bookmarklet
 tags:
   - 開発
   - ブックマークレット
@@ -8,7 +9,6 @@ tags:
   - TypeScript
   - Puppeteer
 date: 2019-06-23T00:26:28.000Z
-image: /images/covers/2019-06-23-test-driven-develop-bookmarklet.jpg
 ---
 
 前回、TypeScriptとGulpで無駄にモダンなブックマークレット開発環境を作ってみました。せっかくそこまで環境を作ったので、今回はテスト駆動開発できるようにしてみました。

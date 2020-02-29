@@ -1,10 +1,10 @@
 ---
 title: 実務に活かす観点から見た Ruby Silver 合格記
+slug: practical-use-ruby-silver
 tags:
   - Ruby
   - 資格
 date: 2020-02-04T22:33:39.349Z
-image: /images/covers/2020-02-05-practical-use-ruby-silver.jpg
 ---
 日常的に業務でRubyを書くようになって早3年。今さら感がありますが先日、Ruby Silverに合格しました。資格のレベルとしては簡単なほうと言われますが、実務に活かす視点で考えてみました。
 

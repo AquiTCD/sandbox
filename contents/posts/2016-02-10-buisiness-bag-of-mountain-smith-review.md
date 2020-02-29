@@ -1,11 +1,11 @@
 ---
 title: MountainSmithのビジネスリュック、めっちゃ良いよ
-date: 2016-02-10T00:00:00.000Z
+slug: buisiness-bag-of-mountain-smith-review
 tags:
   - 装備
   - 生活
   - レビュー
-image: /images/covers/2016-02-10-buisiness-bag-of-mountain-smith-review.jpg
+date: 2016-02-10T00:00:00.000Z
 ---
 **最近買って良かったシリーズ！** 
 今日はマウンテンスミスのビジネスリュック、「ダブルアプローチブリーフ」について語ろうと思う。なんか今までビジネスバッグって使い勝手悪くて嫌いだったけど、これはマジで良いよ。

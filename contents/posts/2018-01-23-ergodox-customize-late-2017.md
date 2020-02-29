@@ -1,12 +1,12 @@
 ---
 title: これがないと捗らない、僕のErgoDoxファームウェア（late 2017）
-date: 2018-01-23T00:00:00.000Z
+slug: ergodox-customize-late-2017
 tags:
   - カスタマイズ
   - 開発
   - Hack
   - Mac
-image: /images/covers/2018-01-23-ergodox-customize-late-2017.jpg
+date: 2018-01-23T00:00:00.000Z
 ---
 昨年末から続いてる極まりつつある入力環境シリーズ、今回はソフト的な設定ではなく外付けキーボードのハードウェア的な設定の話。普段家でも職場でもMacBookProを使っていて持ち運ばないときはErgoDoxEZという外付けキーボードを使っている。これがいろいろ柔軟に設定できるのでその話。
 

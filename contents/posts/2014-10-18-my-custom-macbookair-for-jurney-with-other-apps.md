@@ -1,12 +1,12 @@
 ---
 title: 僕のMacBookAir、旅カスタム - その他のアプリ編
-date: 2014-10-18T00:00:00.000Z
+slug: my-custom-macbookair-for-jurney-with-other-apps
 tags:
   - アプリ
   - カスタマイズ
   - 旅
   - Mac
-image: /images/covers/2014-10-18-my-custom-macbookair-for-jurney-with-other-apps.jpg
+date: 2014-10-18T00:00:00.000Z
 ---
 僕のMacBookAir、旅カスタムシリーズも一応最終編、前回からかなり時間が空いちゃったけど今回はこれまでで紹介できなかったアプリ達。無くても良いけど僕は重宝してますよ、的なもの。ちなみに僕は有料でも優秀なアプリは喜んで買う派。
 

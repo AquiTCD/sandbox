@@ -1,12 +1,12 @@
 ---
 title: ねとらじや Ustream 配信を工夫する Tips
-date: 2014-06-05T00:00:01.000Z
+slug: tips-for-broadcasting
 tags:
   - アプリ
   - 配信
   - Hack
   - Mac
-image: /images/covers/2014-06-05-tips-for-broadcasting.jpg
+date: 2014-06-05T00:00:01.000Z
 ---
 普通に配信放送をしても楽しいものですが、SE（音響効果）などを使うことでいろんな演出ができるようになります。
 

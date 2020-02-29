@@ -1,10 +1,10 @@
 ---
 title: Vertical Rhythm インスパイア Vertical InRitsuをSASSで書いたよ
-date: 2016-10-28T00:00:00.000Z
+slug: vertical-inritsu-with-sass
 tags:
   - 開発
   - CSS
-image: /images/covers/2016-10-28-vertical-inritsu-with-sass.jpg
+date: 2016-10-28T00:00:00.000Z
 ---
 VERTICAL INRITSU（バーチカル韻律）！　NINJITSU！　的なノリです。どうも。
 

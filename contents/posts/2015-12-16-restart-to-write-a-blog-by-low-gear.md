@@ -1,9 +1,9 @@
 ---
 title: ローギアでブログを再スタートするための記事
-date: 2015-12-16T00:00:00.000Z
+slug: restart-to-write-a-blog-by-low-gear
 tags:
   - 雑記
-image: /images/covers/2015-12-16-restart-to-write-a-blog-by-low-gear.jpg
+date: 2015-12-16T00:00:00.000Z
 ---
 前回ブログを書いたのが7月の終わり。実にもう半年近くも空いてしまった。それまでの更新ペースは月に4、5本と僕にとってはかなり良いペースで書けてたんだけど、一気に書かなくなってしまった。
 

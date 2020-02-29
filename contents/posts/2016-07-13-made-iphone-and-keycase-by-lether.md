@@ -1,12 +1,12 @@
 ---
 title: 失敗を糧に作ったキーケース兼iPhoneケースが調子良い
-date: 2016-07-13T00:00:00.000Z
+slug: made-iphone-and-keycase-by-lether
 tags:
   - 革工芸
   - 装備
   - ガジェット
   - Hack
-image: /images/covers/2016-07-13-made-iphone-and-keycase-by-lether.jpg
+date: 2016-07-13T00:00:00.000Z
 ---
 ちょっと前まで失敗続きだったレザークラフトだけど、会社から仕事用携帯としてiPhoneを支給されたのを機にキーケースとカードケース機能も追加したケースを作ってみたら思いのほか使い勝手が良く大満足。
 

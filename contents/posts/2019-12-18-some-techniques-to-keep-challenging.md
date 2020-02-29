@@ -1,12 +1,12 @@
 ---
 title: 僕のチャレンジしつづける技術 2019
+slug: some-techniques-to-keep-challenging
 tags:
   - 雑記
   - Hack
   - 挑戦
   - ふりかえり
 date: 2019-12-17T15:33:08.867Z
-image: /images/covers/2019-12-18-some-techniques-to-keep-challenging.jpg
 ---
 この記事は[Challenge Every Month アドベントカレンダー 2019](https://adventar.org/calendars/3926)、18日目の記事です。
 月イチで目標を立て、チャレンジし、ふりかえりをする、という流れを実行するなかで目標を立てること、こなすことについて学びなおしたので自分なりに咀嚼して、1つのプラクティスとしてまとめてみました。

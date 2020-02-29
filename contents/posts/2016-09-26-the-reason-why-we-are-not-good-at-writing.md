@@ -1,9 +1,9 @@
 ---
 title: 伝わる文章が下手なのはノルマ型の制限が問題なんじゃないか
-date: 2016-09-26T00:00:00.000Z
+slug: the-reason-why-we-are-not-good-at-writing
 tags:
   - 雑記
-image: /images/covers/2016-09-26-the-reason-why-we-are-not-good-at-writing.jpg
+date: 2016-09-26T00:00:00.000Z
 ---
 週末、友人の家でピザパしてた。ピザパーティ。楽しかった。その友人は比較的低年齢相手の教育関係者なんだけど、国語が難しいって話をしたところから、読書感想文の話題になった。
 

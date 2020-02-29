@@ -7,7 +7,6 @@ tags:
   - Gridsome
   - Vue.js
 date: 2020-02-16T01:54:56.249Z
-image: /images/covers/2020-02-16-develop-blog-by-gridsome-from-scrach-with-typescript.jpg
 ---
 静的サイトジェネレータの1つにGridsomeがあります。Vue.jsベースですが、ReactベースのGatsby.jsというフレームワークに強くインスパイアを受け開発されています。
 
